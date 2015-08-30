@@ -761,13 +761,32 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             exploradores y nobles, debido al espacio que ocupan en los barcos.
             Rápidamente sopesas tus opciones.</p>
             ''',
-            opciones:{"Apresuras la marcha.":"121", #/121/
+            opciones:{"Apresuras la marcha.":"huida-desesperada-121", #/121/-
                       "Te escondes en el margen del camino.":"escondes-camino", #/141/
-                      "Te internas en el bosque.":"internas-bosque", #/99/]
+                      "Te internas en el bosque.":"internas-bosque", #/99/
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "huida-desesperada-121":{
+            titulo:"Huida Desesperada",
+            texto:'''
+            <p>Das a tus piernas todas las fuerzas que puedes hasta que vas
+            dejando atrás los cascos de los caballos. Entonces, obligado por el
+            cansancio, bajas un poco el ritmo hasta que vuelves a escuchar el
+            ominoso sonido. Desfallecido, te apresuras ahora a buscar refugio,
+            pero esta parte del camino es más rala de árboles y matorral y tu
+            vista solo encuentras la ruinas de una alquería, que se yergue
+            solitaria en medio del campo.</p>
+            ''',
+            opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/
+                      "Te escondes como puedes tras un arbusto cercano.":"escondes-arbusto", #/181/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:"hut.png"
             },
 
         "buscamos-conde":{#105
@@ -783,8 +802,8 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             parte no puedes evitar pensar en los niños y los ancianos, cuyo
             destino es más que incierto.</p>
             ''',
-            opciones:{"Si vas con los guerreros.":"vas-con-guerreros", #35
-                      "Si decides guiar a los refugiados.":"vas-con-refugiados", #/37/
+            opciones:{"Si vas con los guerreros.":"vas-con-guerreros", #35-
+                      "Si decides guiar a los refugiados.":"vas-con-refugiados", #/37/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -818,9 +837,6 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_arriba:False,
             imagen_abajo:"escudo.png"
             },
-
-
-
 
         "milicia-filas":{
             titulo:"Muro de Escudos",
@@ -869,7 +885,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             escudo, intentando ganar tiempo para dar una nueva orden, o decidir
             si eres tú quién debe hacerlo.</p>
             ''',
-            opciones:{"Peleas como un león y Esperas una orden del Conde":"183", #,/183/]
+            opciones:{"Peleas como un león y Esperas una orden del Conde":"183", #,/183/?
                         "Haces que la milicia se retire peleando lentamente hacia el monte que tienes a tu espalda, esperando que los thengs tengan el mismo sentido común.":"digno-posible", #/131-
                         },
             prueba:False,
