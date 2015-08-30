@@ -607,7 +607,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             texto:'''
             <p>Ahora eres un ratón. Esas palabras fueron de tu abuelo, un viejo
             cincuentón y tú entonces un niño de diez. Te las susurró mientras
-            esperabas agazapado a que la _señora liebre_ se acercara hasta donde
+            esperabas agazapado a que la <em>señora liebre</em> se acercara hasta donde
             no pudiste fallar. Esas mismas palabras te han venido ahora mientras
             esperas agazapado a que los ojos que han mirado en tu dirección se
             aparten hasta donde no puedan verte. Tardan el tiempo de rezar diez
@@ -632,6 +632,47 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             prueba:False,
             imagen_arriba:"mousy.png",
             imagen_abajo:False
+            },
+
+        "avisar-ian-62":{
+            titulo:"En la fortaleza del Conde Ian",
+            texto:'''
+            <p>Solo te preocupas en correr, primero entre los árboles, más tarde
+            en el camino, hasta casi desfallecer y luego descender a una marcha
+            larga. Por fin, cuatro horas más tarde, alcanzas la corte del Conde
+            Ian: una ciudadela de piedra, superviviente de un fuerte imperial,
+            rodeada por un laberinto de cabañas protegidas por un foso y una
+            empalizada.</p>
+            <p>Al llegar al portón, los guardias te reciben con la cortesía
+            habitual; pero los cortas inmediatamente. --Traigo noticias
+            urgentes. He de ver al conde. --dices. Tu cuerpo cubierto de sudor
+            y polvo y tu dura mirada les convence de la seriedad de tu misión,
+            sin que sea necesaria ni una palabra más. Pronto estás en el Gran
+            Salón de la Torre Alta, donde el Conde recibe a sus vasallos
+            cubierto de de cuero y hierro.</p>
+            <p>&mdash;Han quemado San Brenan.</p>
+            <p>&mdash;¿Qué son esta vez? ¿Bandidos?</p>
+            <p>&mdash;No, Señor, Vikingos, un ejército.</p>
+            <p>&mdash;¿Cómo qué un ejército? ¿Qué quieres decir?</p>
+            <p>&mdash;Señor, sus barcos cubrían las playas hasta donde pude ver.</p>
+            <p>&mdash;¿Cómo eran sus guerreros? Pudiste verlos.</p>
+            <p>&mdash;Sí, vienen con sus nobles, sus hombres de armas, las levas
+            de granjeros, todo, también sus mujeres y hasta sus niños.</p>
+            <p>&mdash;Lo que dices, significa que...</p>
+            <p>Las manos del conde van desde su barbilla al pomo de su espada.
+            Sus pensamientos le atraviesan el cuerpo hasta hacer derribarle en
+            su asiento, debatiéndose en una decisión fatal:</p>
+            ''',
+            opciones:{"Descubre la decisión del Conde":"p-avisar-ian-62"},
+            prueba:False,
+            imagen_arriba:"mousy.png",
+            imagen_abajo:False
+            },
+
+        "p-avisar-ian-62":{
+            prueba:True,
+            r:3,
+            s:["conde-lucha","conde-huye"] # hechos los dos
             },
 
 
