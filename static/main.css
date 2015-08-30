@@ -1,0 +1,48 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: Alegreya, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.25rem;
+    background: #f1e9d2;
+}
+
+h1{font-size: 3.0em;}
+
+.pure-form legend {font-size:1.5em;
+                   color:#B22222;
+                   border-bottom: 0.1em solid #B22222;
+                   width:55%;
+}
+
+p + p {text-indent: 1rem;}
+
+li a {text-decoration: none;}
+
+ul.salidas li {font-weight: 900;}
+
+hr {margin-top: 3em;
+	border: solid thick black;}
+
+p:first-of-type {
+	margin-top: 5.5em;
+}
+
+p:first-of-type:first-letter
+{
+   float:left;
+   color:#B22222;
+   font-size:4.5em;
+   line-height:0.5em;
+   padding:2px;
+   margin-right: 5px;
+}
+
+.pure-form label {margin-left:1em;}
+
+em
+{
+  color:#B22222;
+  font-size: 1.1em
+}
+
+img { max-width:100%;}
