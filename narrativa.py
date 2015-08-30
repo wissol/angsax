@@ -49,7 +49,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
            ¿Qué deberías hacer?
            ''',
 
-           opciones: {"Puedes ir ahora mismo a avisar al Conde Ian":"deliberacion", #-
+           opciones: {"Puedes ir ahora mismo a avisar al Conde Ian":"deliberacion", #7-
                         "Decides ir a avisar a tu familia":"avisar-familia", #16-
                         "O podrías primero ir a investigar entre los abetos para saber exactamente a qué se enfrenta tu pueblo":"investigar-abetos" #-
                         },
@@ -60,7 +60,8 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
 
             },
 
-        "deliberacion":{titulo: "La Deliberación del Conde Ian",
+        "deliberacion":{#7
+         titulo: "La Deliberación del Conde Ian",
          texto:
          '''
          <p>Crees que la gran hilera de barcos no puede mentir. Angsax no se
@@ -729,7 +730,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             primero.</p>
             <p>Y tú solo puedes mirar y responderles:</p>
             ''',
-            opciones:{"— Haced lo que queráis, yo ya he cumplido avisando.":"cumpli-avisando", #/169/
+            opciones:{"— Haced lo que queráis, yo ya he cumplido avisando.":"cumpli-avisando", #/169/-
                         "— No, debemos huir al norte, todos juntos.":"al-norte", #/42/
                         "— Está bien, trataremos de encontrar al conde y unirnos a su ejército.":"buscamos-conde" #/105/
                         },
@@ -768,6 +769,28 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "buscamos-conde":{#105
+            titulo:"¡Iremos!",
+            texto:'''
+            <p>Un bramido colectivo de asentimiento silencia todas las dudas que
+            puedas tener. El entusiasmo incendia todo el pueblo y hasta las
+            viejas buscan lanzas con las que unirse a la <em>fyrd</em>. Tarda un
+            cuarto de hora para que se imponga un poco de razón y otras dos
+            horas más para que el pueblo se organicen en dos grupos, lo que van
+            a luchar y los que van a huir. Tu primera reacción como guerrero, y
+            lo que todos esperan, es que lideres a los guerreros, pero por otra
+            parte no puedes evitar pensar en los niños y los ancianos, cuyo
+            destino es más que incierto.</p>
+            ''',
+            opciones:{"Si vas con los guerreros.":"vas-con-guerreros", #35
+                      "Si decides guiar a los refugiados.":"vas-con-refugiados", #/37/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
         "milicia-filas":{
             titulo:"Muro de Escudos",
