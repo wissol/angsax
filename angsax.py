@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from random import randint, choice
 from narrativa import x
-
+#1
 app = Flask(__name__)
 
 def imagen_aleatoria(y):
