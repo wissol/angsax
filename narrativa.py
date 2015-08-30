@@ -732,7 +732,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             ''',
             opciones:{"— Haced lo que queráis, yo ya he cumplido avisando.":"cumpli-avisando", #/169/-
                         "— No, debemos huir al norte, todos juntos.":"al-norte", #/42/
-                        "— Está bien, trataremos de encontrar al conde y unirnos a su ejército.":"buscamos-conde" #/105/
+                        "— Está bien, trataremos de encontrar al conde y unirnos a su ejército.":"buscamos-conde" #/105/-
                         },
             prueba:False,
             imagen_arriba:False,
@@ -790,6 +790,36 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "vas-con-guerreros":{#35
+            titulo:"Guerreros",
+            texto:'''
+            <p>Conduces a la columna de la <em>fyrd</em> al camino. Dispones de
+            doscientos lanceros con viejos escudos y unos ochenta adolescentes
+            con hondas y arcos. Además de eso, dos carros de provisiones y la
+            vaga idea de que debes dirigirte a la corte del Conde Ian en Offing
+            para tratar de encontrar su ejército. En cuanto a los refugiados,
+            confías que vuestra victoria les dé la oportunidad que
+            necesiten.</p>
+            <p>Piensas, no sin cierta emoción, que esta es la primera vez en tu
+            vida que diriges a una especie de ejército y supones que sería bueno
+            que empezaras a dar un par de órdenes para organizar todo esto. En
+            tu cabeza bullen dos preocupaciones que parecen pelear entre ellas:
+            seguridad y velocidad. Lo que te han enseñado es que las tropas
+            ligeras deberían adelantarse para explorar, pero los tuyos no son
+            sino campesinos adolescentes y para que hicieran algo de provecho
+            tendrías que estar tú entre ellos, abandonando la fuerza principal.
+            Lo más rápido, aunque a riesgo de caer en una emboscada, sería
+            formar todo en una columna, forzar la marcha y rezar.</p>
+            ''',
+            opciones:{"Si vas con los exploradores.":"guerreros-exploradores", #/43/
+                      "Si fuerzas la marcha con una sola formación.":"guerreros-forzar-marcha", #/44/
+                      },
+            imagen_arriba:False,
+            imagen_abajo:"escudo.png"
+            },
+
+
 
 
         "milicia-filas":{
