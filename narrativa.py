@@ -851,7 +851,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             descubrir más detalles o hablar, se salen del camino y se abren
             hacia el oeste. ¿Quiénes serán y cuáles serán sus intenciones?</p>
             ''',
-            opciones:{"Si intentas interceptarlos con tus jóvenes.":"interceptar-jovenes", #/45/
+            opciones:{"Si intentas interceptarlos con tus jóvenes.":"interceptar-jovenes", #/45/-
                       "Si corréis para agruparos al grupo principal.":"agruparos-principal", #/46/
                         },
             prueba:False,
@@ -869,6 +869,28 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             ''',
             opciones:{"Sigues tu camino":"cumpli-avisando", #/169/-
                       "Les das la razón y vas con ellos a buscar al conde":"buscamos-conde" #/105/-
+                        },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "interceptar-jovenes":{#45
+            titulo:"Liebre y Caracol",
+            texto:'''
+            <p>Ochenta contra seis parecen buenos números cuando das la orden de
+            empezar la carrera. Pero los jinetes, montados en sus veloces
+            caballos, no tienen problemas en dejaros atrás muy rapidamente.
+            Lo único que habéis conseguido es cansaros y dejar a tu gente
+            dispersa por la llanura. Peor, antes de los vieras desaparecer,
+            los jinetes habían vuelto a girar al norte, con un poco de mala
+            suerte llegarán a donde están las mujeres y los niños a eso de la
+            noche.</p>
+            <p>Con el corazón temblando por la carrera, apenas ahora empiezas a
+            pensar y a recordar la situación antes de tomar una decisión.</p>
+            ''',
+            opciones:{"Si corres hacia los civiles, dejando a tu gente descansar.":"corres-a-civiles", #/48/
+                      "Si mandas un mensajero a la <em>fyrd</em>.":"mensajero-a-fyrd", #/49/
                         },
             prueba:False,
             imagen_arriba:False,
