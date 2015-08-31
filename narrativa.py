@@ -993,6 +993,44 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_abajo:False
             },
 
+        "investigar-con-vigia":{
+            titulo:"",
+            texto:'''
+            <p>Vuelves con el vigía hasta el lugar donde vió <em>algo:</em> una
+            hilera de árboles en la margen de una charca.</p>
+            <p>&mdash; Allí, allí, ¿no lo ve señor?</p>
+            <p>Tardas en reconocerlo y no puedes estar muy seguro por la
+            oscuridad, pero casi dirías que sobre el agua hay unos resplandores
+            con forma de sapo. Notas al miedo sepulcral y ctónico infiltrándose
+            en tus entrañas, corrompiendo pensamientos y emociones hasta que,
+            rebelde ante todo, estallas en carcajas. Ríes y tus risas dispan el
+            fantasma que tu propia mente había formado sobre el agua.</p>
+            <p>Bueno, eso o puede que sea también cierta esa superstición que
+            dice que los monstruos temen la risa de los niños. Y tengas la edad
+            que tengas, mi querido Dever, tu joven acompañante no ha podido
+            evitar unirse a tus carcajadas.</p>
+            <p>...</p>
+            <p>Despertáis y andáis antes del día. Casi os tropezáis con la
+            milicia a la que, más amodorrada debéis azuzar para que se dé prisa.
+            Ellos a su vez hacen lo mismo con los civiles hasta que toda la
+            columna vuelve a su marcha. Es entonces cuando vuelves a la
+            retaguardia y entonces también cuando temores peores que los de la
+            noche te alcanzan. Son los ominosos sonidos de profundos pasos de
+            gente de hierro y fuego. El estandarte del cuervo les precede y lo
+            enarbola un garrido gigantón medio desnudo, que precede a una
+            columna de cientos; quizás tantos como los tuyos, quizás más pero
+            desde luego no la fuerza principal. Desde aquí, entre las brumas de
+            la mañana, resulta demasiado difícil contarlos. Y de nuevo la eterna
+            pregunta, ¿qué hacer?</p>
+            ''',
+            opciones:{"Reunes todas tus tropas y presentas batalla.":"reunes-tropas-batalla", #/57/-
+                      "Los retrasas con tus jóvenes, para ganar tiempo a que escapen los civiles.":"operacion-dilatoria", #/58/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:"hut.png"
+            },
+
         "huida-desesperada-121":{
             titulo:"Huida Desesperada",
             texto:'''
