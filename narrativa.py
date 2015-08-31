@@ -890,10 +890,38 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             pensar y a recordar la situación antes de tomar una decisión.</p>
             ''',
             opciones:{"Si corres hacia los civiles, dejando a tu gente descansar.":"corres-a-civiles", #/48/
-                      "Si mandas un mensajero a la <em>fyrd</em>.":"mensajero-a-fyrd", #/49/
+                      "Si mandas un mensajero a la fyrd.":"mensajero-a-fyrd", #/49/-
                         },
             prueba:False,
             imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "mensajero-a-fyrd":{#49
+            titulo:"Noche de Miedo",
+            texto:'''
+            <p>Tras una breve selección escoges a uno de los muchachos como
+            mensajero y lo dejas marchar con la mejor de tus bendiciones. Justo
+            después reorganizas tus hombres y los agrupas para pasar la noche.
+            Con tanta sangre joven esperarías tener complicaciones de
+            disciplina, pero el cansancio se sobrepone a todos: ni siquiera
+            levantáis refugios, con mantas y la compañía de unos con otros
+            tenéis suficiente.</p>
+            <p>Solo te enfrentas al monstruo de los rumores. Hedrig, uno de los
+            más jóvenes, no ha tenido más ocurrencia que preguntarte sobre el
+            <em>devorador de reyes</em>, según las leyendas, un monstruo
+            gigante, con forma de salamandra gigante, de carne "como el agua",
+            y dientes de espadas. Por supuesto que tú no crees en tales cosas,
+            pero antes de irte a dormir, notaste cierta expresión de miedo en
+            los ojos de uno de los vigías de la primera guardia. Curiosamente el
+            mismo que dos horas después te despierta contándote que ha visto
+            algo.</p>
+            ''',
+            opciones:{"Vas a investigar tú solo con el vigía.":"investigar-con-vigia", #/55/
+                      "Alertas a toda la tropa.":"alerta-toda-tropa", #/56/
+                      },
+            prueba:False,
+            imagen_arriba:"bosque.png",
             imagen_abajo:False
             },
 
