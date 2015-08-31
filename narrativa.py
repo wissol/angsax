@@ -889,13 +889,46 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             <p>Con el corazón temblando por la carrera, apenas ahora empiezas a
             pensar y a recordar la situación antes de tomar una decisión.</p>
             ''',
-            opciones:{"Si corres hacia los civiles, dejando a tu gente descansar.":"corres-a-civiles", #/48/
+            opciones:{"Si corres hacia los civiles, dejando a tu gente descansar.":"corres-a-civiles", #/48/-
                       "Si mandas un mensajero a la fyrd.":"mensajero-a-fyrd", #/49/-
                         },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "corres-a-civiles":{#48
+            titulo:"",
+            texto:'''
+            <p>Persigues a la noche y la oscuridad corre más que tu. Atrás has
+            dejado a los jóvenes y ni siquiera has avisado a los guerreros. Tu
+            mente fabrica pesadillas de emboscadas y hombres muerto y esa
+            angustia acumulada te mantiene corriendo.</p>
+            <p>Cuando llegas a los civiles, todos se giran desconcertados.
+            ¿Quién es ese guerrero que nos persigue? Cuando te reconocen no
+            acaban sus inquietudes. ¿Por qué está solo? ¿Por qué ha dejado a los
+            demás? Sus preguntas se cruzan con las tuyas y al final parece ser
+            que tus preocupaciones eran exageradas. Los seis jinetes ni siquiera
+            han sido vistos por esta muchedumbre. Después la oscuridad os vence
+            a todos y el cansancio te lleva a dormir.</p>
+            <p>...</p>
+            <p>Te despiertan poco después de la madrugada. Es uno de los chicos,
+            cubierto de barro y sudor, la cara desencajada por el miedo.</p>
+            <p>&mdash;Señor, nos alcanzan, nos alcanzan.</p>
+            <p>&mdash;¿Cuántos son?</p>
+            <p>&mdash;No lo sé, hay un gigante y Athrel dice que mil, pero
+            Eodriwic dice que no pueden ser más que cien, y...</p>
+            <p>&mdash;¿Dónde están? &mdash;Antes de que te pueda responder el
+            cuerno vikingo hiela tus entrañas.</p>
+            ''',
+            opciones:{"Reunes todas tus tropa y presentas batalla.":"reunes-tropas-batalla", #/57/
+                      "Ordenas una huida inmediata.":"ordenas-huida-inmediata", #/61/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
         "mensajero-a-fyrd":{#49
             titulo:"Noche de Miedo",
