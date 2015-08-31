@@ -994,7 +994,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             },
 
         "investigar-con-vigia":{
-            titulo:"",
+            titulo:"Alivio y Peligro",
             texto:'''
             <p>Vuelves con el vigía hasta el lugar donde vió <em>algo:</em> una
             hilera de árboles en la margen de una charca.</p>
