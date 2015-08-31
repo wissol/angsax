@@ -703,7 +703,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             </p>
             ''',
             opciones:{"Avisas al pueblo":"avisar-pueblo", #/128/-
-                        "Sigues tu camino":"sigues-camino" #/179/]
+                        "Sigues tu camino":"sigues-camino" #/179/-
                         },
             prueba:False,
             imagen_arriba:"kidsplay.png",
@@ -731,7 +731,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             <p>Y tú solo puedes mirar y responderles:</p>
             ''',
             opciones:{"— Haced lo que queráis, yo ya he cumplido avisando.":"cumpli-avisando", #/169/-
-                        "— No, debemos huir al norte, todos juntos.":"al-norte", #/42/
+                        "— No, debemos huir al norte, todos juntos.":"p-al-norte-42", #/42/-
                         "— Está bien, trataremos de encontrar al conde y unirnos a su ejército.":"buscamos-conde" #/105/-
                         },
             prueba:False,
@@ -821,6 +821,55 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
                       "Te escondes en el margen del camino.":"escondes-camino", #/141/?
                       "Te internas en el bosque.":"internas-bosque", #/99/?
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-al-norte-42":{
+            prueba:True,
+            r:4,
+            s:["convences-al-norte","no-convences-al-norte"]
+            },
+
+        "convences-al-norte":{#28
+            titulo:"Te creen",
+            texto:'''
+            <p>Finalmente tus palabras tienen el resultado que buscabas, pero
+            te ha llevado horas de debate; un tiempo que quizás tendréis que
+            pagar con sangre más tarde. Tus órdenes vuelan aguijonando a diestro
+            y siniestros pero ni tú ni el pueblo tenéis demasiada práctica en
+            evacuaciones. Con todo al final tienes organizada la columna en tres
+            grupos: ochenta con arcos y hondas, de entre trece y veinte años,
+            la <em>fyrd</em>, de doscientos hombres y alguna mujer disfrazada
+            con lanza y escudo, y otros cuatrocientos de gente desarmada.
+            Mandas que estos últimos partan primero, con la <em>fyrd</em>
+            detrás y, cerrando el paso a una milla del grupo principal,
+            los más jóvenes, a los que acompañas.</p>
+            <p>No pasa ni una hora en el camino que vislumbráis las siluetas de
+            seis jinetes, que, en cuanto os ven, mucho antes de que podáis
+            descubrir más detalles o hablar, se salen del camino y se abren
+            hacia el oeste. ¿Quiénes serán y cuáles serán sus intenciones?</p>
+            ''',
+            opciones:{"Si intentas interceptarlos con tus jóvenes.":"interceptar-jovenes", #/45/
+                      "Si corréis para agruparos al grupo principal.":"agruparos-principal", #/46/
+                        },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:"escudo.png"
+            },
+
+        "no-convences-al-norte":{
+            titulo:"No quieren escucharte",
+            texto:'''
+            <p>Tus palabras no logran hacerles entrar en razón. Tú solo eres un
+            guerrero joven y desconocido y ellos, después de su familia, se
+            deben a su señor, y no quieren dejarlo abandonado en estas horas
+            trágicas.</p>
+            ''',
+            opciones:{"Sigues tu camino":"cumpli-avisando", #/169/-
+                      "Les das la razón y vas con ellos a buscar al conde":"buscamos-conde" #/105/-
+                        },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
