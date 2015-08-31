@@ -739,6 +739,62 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_abajo:False
             },
 
+        "sigues-camino":{#179
+            titulo:"Conde Dever",
+            texto:'''
+            <p>No te hace muy feliz tomar este tipo de decisiones; pero sabes
+            que cada momento cuenta. Solo piensas en salvar a tu familia y a
+            ti mismo. Eso es en lo que crees, aunque la conciencia te remuerde
+            un poco, la verdad es que no lo puedes todo. En fin, tampoco tienes
+            tiempo para lamentarte ni para compadecerte de ti mismo. Así que
+            sigues en el camino con la mayor de las energías.</p>
+            <p>Los días se van sucediendo sin que nada turbe tu tranquilidad.
+            Sabes que solo es una ilusión pasajera, pero es una ilusión con la
+            que engañas el cansancio y un hambre mal engañado con una comida
+            cada vez más seca y pobre. Lluvia, sol y viento son tus compañeros
+            durante el día, y el frío se pega cruelmente a tus huesos durante
+            la noche.</p>
+            <p>La alegría no llega hasta que divisas la Piedra de las Urracas,
+            un monolito tallado en memoria de las tres reinas que en tiempos
+            remotos ganaron aquí el respeto del Emperador de Roma y quizás algo
+            más. Según tu abuela, tú mismo desciendes de una de estas tres, lo
+            que supondría que tu estirpe tiene sangre antigua y, si has de creer
+            a las leyendas, también del mismo emperador. Pero más allá de todo
+            eso, lo único cierto es que estás en casa.</p>
+            <p>Desde la Piedra de las Urracas, un corto camino te lleva ante la
+            fortaleza de tu familia. De niño, antes de que vieras mundo, te
+            impresionaba. Se trata de una colina artificial, rodeada por un foso
+            y rodeada de estacas y dos anillos de empalizadas y atalayas. En el
+            centro de todo, un pequeño fuerte romano que una vez alojó a una
+            cohorte, y que ahora ha sido transformado en una torre de piedra.
+            Ahí naciste, junto al fuego de la chimenea.</p>
+            <p>Tu llegada provoca una revolución de alegría. A pesar de tu
+            estado todos están impacientes por las noticias que traigas,
+            esperando escuchar historias de tus viajes, los chismes de los
+            condes y las nuevas maravillas que hayan traído los mercaderes del
+            sur desde oriente.</p>
+            <p>Cuando finalmente tienes el valor de compartir la terrible
+            invasión, todo el mundo se queda frío. Miran hacia tu padre
+            esperando que tome una decisión, pero éste, ante tus ojos cae
+            privado del conocimiento, como alcanzado por un rayo invisible, para
+            convulsionar en el suelo ante la desdicha de todos y luego
+            morir.</p>
+            <p>Los pesares y las lamentaciones duran toda la noche, y solo son
+            interrumpidos por la fórmula tradicional: &mdash;Larga vida al conde
+            Dever.</p>
+            <p>Hablan de ti. Ahora tienes una responsabilidad. Lo primero es
+            atender al funeral y entierro de tu padre; a quien llevaréis al
+            monasterio para que lo cuiden los monjes. Pero incluso ahora tu
+            cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
+            ''',
+            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
         "cumpli-avisando":{ # 169
             titulo:"Camino Solitario",
             texto:'''
@@ -762,8 +818,8 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             Rápidamente sopesas tus opciones.</p>
             ''',
             opciones:{"Apresuras la marcha.":"huida-desesperada-121", #/121/-
-                      "Te escondes en el margen del camino.":"escondes-camino", #/141/
-                      "Te internas en el bosque.":"internas-bosque", #/99/
+                      "Te escondes en el margen del camino.":"escondes-camino", #/141/?
+                      "Te internas en el bosque.":"internas-bosque", #/99/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -782,7 +838,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             solitaria en medio del campo.</p>
             ''',
             opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/
-                      "Te escondes como puedes tras un arbusto cercano.":"escondes-arbusto", #/181/
+                      "Te escondes como puedes tras un arbusto cercano.":"escondes-arbusto", #/181/?
                       },
             prueba:False,
             imagen_arriba:False,
