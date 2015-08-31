@@ -595,10 +595,35 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             todos tienen escudos; cuando otro par de ojos miran fuertemente en
             tu dirección.</p>
             ''',
-            opciones:{"Corres.":"corres-serpiente-carne-hierro", #/12/
+            opciones:{"Corres.":"corres-serpiente-carne-hierro", #/12/-
                       "Te quedas quieto.":"quieto-serpiente-carne-hierro", #/22/
                       },
             prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "corres-serpiente-carne-hierro":{#12
+            titulo:"Oriente",
+            texto:'''
+            <p>Saltas de tu escondite y corres. Eres más rápido que la mayoría y
+            al principio lo pruebas arañando distancia a tus perseguidores. Pero
+            entonces llega el sonido más amenazador que hayas escuchado en tu
+            vida: los cascos de los caballos nórdicos sobre el manto del bosque.
+            Los pocos jinetes que viste, no podían ser más de veinte, muy pocos
+            para un ejército, demasiados para un fugitivo.</p>
+            <p>Pero sigues corriendo hasta que tu corazón se rinde y tienes que
+            sostenerte contra un árbol mientras tus pulmones tratan de devorar
+            el aire. Apenas recuperas tu alma te das cuenta que estás rodeado.
+            Delante tuya y a los lados, la veintena de jinetes; detrás todo un
+            ejército de vikingos.</p>
+            <p>Quizás con tu arco podrías matar a alguno, pero sabes que estás
+            perdido y alzas las manos vacías en rendición. Te espera una vida de
+            esclavo. No lo sabrás hasta dentro de tres, pero tras muchos viajes
+            y sufrimientos, acabarás como guardia de la corte de un príncipe
+            oriental y nunca volverás a ver tu tierra.</p>
+            ''',
+            opciones:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
