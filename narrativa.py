@@ -921,8 +921,43 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             <p>&mdash;¿Dónde están? &mdash;Antes de que te pueda responder el
             cuerno vikingo hiela tus entrañas.</p>
             ''',
-            opciones:{"Reunes todas tus tropa y presentas batalla.":"reunes-tropas-batalla", #/57/
+            opciones:{"Reunes todas tus tropa y presentas batalla.":"reunes-tropas-batalla", #/57/-
                       "Ordenas una huida inmediata.":"ordenas-huida-inmediata", #/61/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "reunes-tropas-batalla":{#57
+            titulo:"Plan de Batalla",
+            texto:'''
+            <p>La decisión de presentar batalla ha sido dura. Todo puede
+            terminar en este momento para los tuyos pues lucháis por la
+            supervivencia. Lamentablemente no tienes tiempo para grandes
+            preparativos, a lo más que puedes llegar es a establecer un plan de
+            combate.</p>
+            <p>Por lo que has podido ver todas sus tropas son guerreros que
+            están formando en cuña, con el pagano estandarte en su vértice y los
+            escudos como muros en sus lados. No pasará mucho tiempo antes de que
+            carguen sobre vosotros. Entre ellos y vosotros el campo está limpio,
+            nada hay que entorpezca sus pies ni retrase vuestras fuerzas.</p>
+            <p>Consideras tus opciones. Podrías formar tu ejército en dos líneas
+            separadas, con los escaramuceadores en vanguardia y la <em>fyrd</em>
+            detrás, conforme a la tradición. La idea es que los escaramuceadores
+            agoten y debiliten a la fuerza enemiga para que la fuerza principal
+            pueda rematar la fanea.</p>
+            <p>La segunda opción es más radical y solo la puedes recordar en
+            leyendas antiguas. Consiste en disponer la <em>fyrd</em> en tres
+            grupos, uno a cada flanco y otro más en retaguardia, dejando el
+            centro para los escaramuceadores. Éstos no podrán resistir a los
+            vikingos para siempre, pero cuando esto ocurra los tres grupos de la
+            <em>fyrd</em> caerán sobre el enemigo, encerrándolo en un muro de
+            escudos y lanzas.</p>
+            ''',
+            opciones:{"El plan tradicional.":"plan-batalla-tradicional", #/68/
+                      "El plan radical.":"plan-batalla-radical", #/74/
+                      "Si no sabes qué decisión tomar.":"no-decision", #/85/
                       },
             prueba:False,
             imagen_arriba:False,
