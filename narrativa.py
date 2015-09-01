@@ -596,7 +596,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             tu dirección.</p>
             ''',
             opciones:{"Corres.":"corres-serpiente-carne-hierro", #/12/-
-                      "Te quedas quieto.":"quieto-serpiente-carne-hierro", #/22/
+                      "Te quedas quieto.":"quieto-serpiente-carne-hierro", #/22/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -628,7 +628,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_abajo:False
             },
 
-        "quieto-serpiente-carne-hierro":{
+        "quieto-serpiente-carne-hierro":{#22
             titulo:"Eres un Ratón",
             texto:'''
             <p>Ahora eres un ratón. Esas palabras fueron de tu abuelo, un viejo
@@ -652,7 +652,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             <p>Esos son tus pensamientos mientras sales del bosque y tomas una
             decisión de la que penderá tu aventura.</p>
             ''',
-            opciones:{"Puedes ir ahora mismo a avisar al Conde Ian.":"avisar-ian-62", #/62/
+            opciones:{"Puedes ir ahora mismo a avisar al Conde Ian.":"avisar-ian-62", #/62/-
                       "Viajas a avisar a tu familia.":"avisar-familia-110", #/110/
                         },
             prueba:False,
@@ -947,7 +947,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             cuerno vikingo hiela tus entrañas.</p>
             ''',
             opciones:{"Reunes todas tus tropa y presentas batalla.":"reunes-tropas-batalla", #/57/-
-                      "Ordenas una huida inmediata.":"ordenas-huida-inmediata", #/61/
+                      "Ordenas una huida inmediata.":"ordenas-huida-inmediata", #/61/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -989,6 +989,92 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             imagen_abajo:False
             },
 
+        "ordenas-huida-inmediata":{#61
+            titulo:"Todo parece perdido",
+            texto:'''
+            <p>No puedes evitar que tu voz contenga un timpre de pánico.
+            &mdash;Rápido, tenemos que huir. Que nadie pierda un segundo.
+            &mdash;Así comienzan tus órdenes y desde luego que nadie remolonea
+            en cumplirlas. El aire vibra de angustia con los chillidos y lloros
+            de los niños, los gritos impacientes de los hombres y la respiración
+            entrecortada de todos.</p>
+            <blockquote>Protégenos, Señor, de la furia de los hombres del norte.
+            </blockquote>
+            <p>Así comienza la oración que expresa esa angustia, pero nadie
+            tiene el valor de rezarla hoy. El andar se transforma en carreras y
+            las carreras en un caos conforme unas tropiezan con otros. Ya
+            vienen, ya vienen, ya os alcanza la furia de los hombres del norte.
+            En la retaguardia se cruzan flechas con lanzas y algunos de los
+            jóvenes más valientes caen mientras los demás los abandona.
+            La <em>fyrd</em> se disuelve, cada cual va a buscar a su familia o,
+            los más cobardes, a desaparecer en el monte, a huir, a no ser nada.
+            En este instante todo parece perdido.</p>
+            ''',
+            opciones:{"Descubre tu destino":"p-ordenas-huida-inmediata"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-ordenas-huida-inmediata":{
+            prueba:True,
+            r:3,
+            s:["lanza-cuello","superviviente-cruz"] # 86 88-
+            },
+
+        "lanza-cuello":{#86
+            titulo:"Lanzas",
+            texto:'''
+            <p>La huida se transforma en un caos ensordecedor en el que te ves
+            atrapado. Intentas correr, pero en vano, porque la gente se
+            apelotona a tu alrededor. Una de los carneros de los campesinos,
+            asustado como todos tropieza contigo y te derriba. Al levantarte
+            crees estar en medio de un mar embravecido de personas, enseres y
+            bestias, que te arrastran sin rumbo. Treinta segundos dura eso,
+            después llueven lanzas.</p>
+            <p>Comienzan los ayes, te das la vuelta, espada y escudo en mano,
+            pero entonces, antes de que puedas ver la hueste pagana, una de las
+            lanzas atraviesa tu cuello. Caes sobre el suelo inconsciente y
+            comienzas a morir.</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "superviviente-cruz":{#88
+            titulo:"Superviviente",
+            texto:'''
+            <p>El caos en el que se transforma la huida te empuja fuera del
+            grupo perseguido y antes de que te des cuenta te encuentras
+            corriendo solo entre los matojos que surgen de un pantano. Por la
+            sangre que te cae descubres una ceja rota. El agua te cubre hasta
+            los tobillos, el sol ha llegado ya al mediodía y a tu alrededor ni
+            se vislumbra un alma ni se escucha más que el silencio.</p>
+            <p>Paras. Solo estás seguro de haberte perdido. Podrías desde luego
+            intentar volver al camino, pero francamente ni tienes idea de en qué
+            dirección estás, ni tienes ganas de tropezarte con más vikingos. Por
+            otro lado y considerando la lejanía, tu familia tiene que estar
+            vagamente al norte. Hacia allí te encaminas.</p>
+            <p>El frío de las aguas te hiela el cuerpo comenzando por los pies.
+            El barro te cansa, los cuervos son tu única compañía, quizás sueñen
+            golosos con tu carne. El cielo va cubriéndose de nubes y estas
+            descienden rapidamente hasta invadir la tierra. La niebla y la
+            lluvia lo entreteje todo con lana de agua. Y es entonces, cayendo ya
+            la tarde, que descubres, en medio de todo esto, clavada en el suelo,
+            una cruz de ruda madera tan alta como un hombre, cubierta de letras
+            formadas por los líquenes.</p>
+            <p>Intrigado por tal prodigio, pero al mismo tiempo lleno de
+            espanto, te aproximas y lees.</p>
+            <blockquote>Toma tu cruz.</blockquote>
+            ''',
+            opciones:{"Tratas de sacar la cruz de su sitio":"tomar-mi-cruz-literal", #/89/
+                      "Rezas":"mi-cruz-rezar", #/91/
+                      },
+            prueba:False,
+            imagen_arriba:"bosque.png",
+            imagen_abajo:False
+            },
 
         "mensajero-a-fyrd":{#49
             titulo:"Noche de Miedo",
