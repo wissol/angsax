@@ -1019,7 +1019,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
         "p-ordenas-huida-inmediata":{
             prueba:True,
             r:3,
-            s:["lanza-cuello","superviviente-cruz"] # 86 88-
+            s:["lanza-cuello","superviviente-cruz"] # 86- 88-
             },
 
         "lanza-cuello":{#86
@@ -1073,6 +1073,71 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
                       },
             prueba:False,
             imagen_arriba:"bosque.png",
+            imagen_abajo:False
+            },
+
+        "mi-cruz-rezar":{#91
+            titulo:"",
+            texto:'''
+            <blockquote>Sálvame, Dios mío,<br>
+            porque estoy a punto de ahogarme;<br>
+            me estoy hundiendo en un pantano profundo<br>
+            y no tengo dónde apoyar los pies.<br>
+            He llegado a lo más hondo del agua<br>
+            y me arrastra la corriente.<br>
+            Ya estoy ronco de tanto gritar;<br>
+            la garganta me duele;<br>
+            ¡mis ojos están cansados<br>
+            de tanto esperar a mi Dios!<br>
+            <p>...</p><p>Apenas terminas de rezar el salmo la lluvia se seca y
+            entre las nubes se abre un surco de cielo y luz. Enseguida te das
+            cuenta de que está orientada al norte, a tu hogar. Dever, por ser
+            quién eres y por lo que has vivido no puedes interpretar esto sino
+            como un mensaje de Dios. El surco de cielo te indica un camino, como
+            la columna de fuego guió a los israelitas en el éxodo. Este es Dever
+            y este es el camino que debe seguir.</p>
+            <p>Los días se van sucediendo sin que nada turbe tu tranquilidad.
+            Sabes que solo es una ilusión pasajera, pero es una ilusión con la
+            que engañas el cansancio y un hambre mal engañado con una comida
+            cada vez más seca y pobre. Lluvia, sol y viento son tus compañeros
+            durante el día, y el frío se pega cruelmente a tus huesos durante
+            la noche.</p>
+            <p>La alegría no llega hasta que divisas la Piedra de las Urracas,
+            un monolito tallado en memoria de las tres reinas que en tiempos
+            remotos ganaron aquí el respeto del Emperador de Roma y quizás algo
+            más. Según tu abuela, tú mismo desciendes de una de estas tres, lo
+            que supondría que tu estirpe tiene sangre antigua y, si has de creer
+            a las leyendas, también del mismo emperador. Pero más allá de todo
+            eso, lo único cierto es que estás en casa.</p>
+            <p>Desde la Piedra de las Urracas, un corto camino te lleva ante la
+            fortaleza de tu familia. De niño, antes de que vieras mundo, te
+            impresionaba. Se trata de una colina artificial, rodeada por un foso
+            y rodeada de estacas y dos anillos de empalizadas y atalayas. En el
+            centro de todo, un pequeño fuerte romano que una vez alojó a una
+            cohorte, y que ahora ha sido transformado en una torre de piedra.
+            Ahí naciste, junto al fuego de la chimenea.</p>
+            <p>Tu llegada provoca una revolución de alegría. A pesar de tu
+            estado todos están impacientes por las noticias que traigas,
+            esperando escuchar historias de tus viajes, los chismes de los
+            condes y las nuevas maravillas que hayan traído los mercaderes
+            del sur desde oriente.</p>
+            <p>Cuando finalmente tienes el valor de compartir la terrible
+            invasión, todo el mundo se queda frío. Miran hacia tu padre
+            esperando que tome una decisión, pero éste, ante tus ojos cae
+            privado del conocimiento, como alcanzado por un rayo invisible, para
+            convulsionar en el suelo ante la desdicha de todos y luego
+            morir.</p>
+            <p>&mdash;Larga vida al conde Dever.</p>
+            <p>Hablan de ti. Ahora tienes una responsabilidad. Lo primero es
+            atender al funeral y entierro de tu padre; a quien llevaréis al
+            monasterio para que lo cuiden los monjes. Pero incluso ahora tu
+            cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
+            ''',
+            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/
+                      },
+            prueba:False,
+            imagen_arriba:False,
             imagen_abajo:False
             },
 
