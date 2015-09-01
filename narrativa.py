@@ -570,7 +570,58 @@ secciones = {
         "p-fuerza-principal":{
             prueba:True,
             r:7,
-            s:["escapas-90","te-pillan-100"] # 90 - 100
+            s:["escapas-90","te-pillan-100"] # 90-  100-
+            },
+
+        "escapas-90":{
+            titulo:"Escapas",
+            texto:'''
+            <p>Estorbados por sus escudos los fieros guerreros vikingos no
+            pueden sobreponerse a tu agilidad al sortear los obstáculos del
+            bosque. Tras una hora de carrera y marcha decides que los has
+            dejado atrás y te paras un momento a consolidar en tu cerebro la
+            información adquirida.</p>
+            <p>La primera pista es la inmensa hilera de barcos, la segunda es la
+            presencia de varias clases de guerreros. Durante toda tu infancia
+            has vivido con el miedo a los saqueos y asaltos de los bárbaros,
+            pero esta vez han venido para conquistar la tierra y, quizás, para
+            exterminar al pueblo de Angsax.</p>
+            <p>Tu mente y tu corazón se revuelven con las imágenes que la
+            memoria mezcla con la imaginación. Tus padres muertos, tus primos
+            pequeños sirviendo de esclavos con cadena al cuello y tu pueblo
+            quemado hasta los cimientos. Sabes que en dos semanas este podría
+            ser el futuro.</p>
+            ''',
+            opciones:{
+                "Avisas al Conde para que convoque a los guerreros.":"avisar-ian-62", #/62/-
+                "Emprendes camino hasta el fuerte de tu familia, en el lejano norte.":"avisar-familia-110", #/110/-
+                },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "te-pillan-100":{
+            titulo:"Segundos Fatales",
+            texto:'''
+            <p>Corres con todas tus fuerzas, esquivando los troncos y las raíces
+            que salen a tu paso. Crees que lo estás consiguiendo y de hecho, al
+            principio consigues dejar atrás a los guerreros que tienen
+            dificultades para seguirte enarbolando sus largos escudos. Sin
+            embargo la mala suerte se topa contigo en la forma de un viejo lobo,
+            que demasiado asustado para ignorarte y demasiado cansado para huir
+            se cruza en tu camino enseñando sus colmillos.</p>
+            <p>Te paras solo diez segundos para mostrarle tus armas y dejar que
+            se vaya; pero son diez segundos fatales. Antes de que puedas volver
+            a emprender la carrera el filo de una espada se hunde entre tus
+            costillas.</p>
+            <p>Caes al suelo, te falta el aire y los ojos se te llenan de
+            oscuridad y muerte.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
             },
 
 
