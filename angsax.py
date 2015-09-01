@@ -4,15 +4,16 @@ from narrativa import secciones
 
 app = Flask(__name__)
 
-def annade_imagen_aleatoria(y):
+def annade_imagen_aleatoria(seccion):
     ''' elige una imagen aleatoria de una lista si no se ha establecido ninguna
     '''
-    if (not y['imagen-arriba'] ) and (not y['imagen-abajo']):
+    z = seccion
+    if (not z['imagen-arriba'] ) and (not z['imagen-abajo']):
         ilustraciones = ["ancient_nordic_borre_beasts", "bosque", "doll", "escudo", "hut", "kidsplay", "lira",
                         "mousy", "oak_leaf_illustration", "sceata", "viking_shield_style_brooch_by_eveyd-d38na6a"]
         lugar = ["imagen-abajo", "imagen-arriba"]
-        y[choice(lugar)] = choice(ilustraciones) + ".png"
-    return y
+        z[choice(lugar)] = choice(ilustraciones) + ".png"
+    return z
 
 def prueba(y):
     ''' devuelve la sección que debe ir a continuación de acuerdo a la
