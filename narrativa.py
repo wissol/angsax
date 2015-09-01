@@ -1069,7 +1069,7 @@ x = {   "0":{titulo:"El Primer Rey de Angsax",
             <blockquote>Toma tu cruz.</blockquote>
             ''',
             opciones:{"Tratas de sacar la cruz de su sitio":"tomar-mi-cruz-literal", #/89/
-                      "Rezas":"mi-cruz-rezar", #/91/
+                      "Rezas":"mi-cruz-rezar", #/91/-
                       },
             prueba:False,
             imagen_arriba:"bosque.png",
