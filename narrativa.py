@@ -273,8 +273,8 @@ secciones = {
             está contigo. Y ahora, que sabes eso, ¿necesitas saber algo más?</p>
             <p>¿Qué respondes al ángel?</p>
             ''',
-            opciones:{"Sí":"angel-saber-mas", #/47/
-                      "No":"angel-no-saber-mas", #/133/]
+            opciones:{"Sí":"angel-saber-mas", #/47/?
+                      "No":"angel-no-saber-mas", #/133/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -520,7 +520,7 @@ secciones = {
         "p-disparas-arco":{
             prueba:True,
             r:5,
-            s:["disparas-arco-victoria","disparas-arco-fallo"] # 60- 70
+            s:["disparas-arco-victoria","disparas-arco-fallo"] # 60- 70?
             },
 
         "disparas-arco-victoria":{
@@ -543,6 +543,36 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "fuerza-principal":{#80
+            titulo:"Te internas en la espesura",
+            texto:'''
+            <p>Convencido de que ese grupo de botarates son lo peor de los
+            vikingos, te internas en el bosque para descubrir a sus verdaderos
+            guerreros; primero apartándote de su dirección para luego tratar de
+            adivinar dónde podría moverse el grupo.</p>
+            <p>El breve silencio de tus pasos queda pronto interrumpido por los
+            crujidos de las carretas. Tienen que estar cerca, pero hasta un
+            ejército puede ser invisible en medio de esta espesura.</p>
+            <!-- Descripción con niños, hombres, mujeres, etc -->
+            <p>Ahora mismo descubres dos grupos de guerreros, armados con
+            espadas y grandes escudos que intentan cazarte como a un conejo.</p>
+            <p>Ya te han visto, están demasiado cerca para disparar y no podrías
+            sobrevivir a un combate contra tantos enemigos. Tus opciones se
+            reducen a una, huir.</p>
+            ''',
+            opciones:{"¡Intenta escapar!":"p-fuerza-principal"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-fuerza-principal":{
+            prueba:True,
+            r:7,
+            s:["escapas-90","te-pillan-100"] # 90 - 100
+            },
+
 
         "avisar-conde-40":{#40
             titulo:"La Decisión de un Conde",
