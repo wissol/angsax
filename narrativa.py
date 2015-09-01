@@ -7,7 +7,23 @@ imagen_arriba = "imagen-arriba"
 r = "r"
 s = "s"
 
-x = {   "0":{titulo:"El Primer Rey de Angsax",
+secciones = {
+
+        "error":{
+            titulo:"Error :(",
+            texto:'''
+            <p>Lo siento mucho, pero se ha generado un error en esta página. Lo
+            más probable es que me haya olvidado de algo, o tenga un punto y
+            coma donde no debería o que simplemente no hay todavía escrito la
+            sección que habías elegido para continuar la aventura.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_abajo:False,
+            imagen_arriba:"sceata.png"
+        },
+
+        "0":{titulo:"El Primer Rey de Angsax",
         texto:
             '''
             <p>Te llamaré Dever.</p>
