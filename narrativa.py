@@ -1030,8 +1030,19 @@ secciones = {
             imagen_abajo:False
             },
 
-
-
+        "derrota-119":{
+            titulo:"Derrota",
+            texto:'''
+            <p>Cuando la lucha termina hace tiempo que yaces muerto. Tu
+            sacrificio y el de los <em>husecarls</em> ha servido para permitir
+            escapar a la mitad de vuestra hueste desde una esclavitud cierta a
+            la desesperada vida de un animal acosado en el bosque. En cualquier
+            caso ya no te queda nada de lo que preocuparte.</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
 
 
         "batalla-bosques-103":{
