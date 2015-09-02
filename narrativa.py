@@ -1006,8 +1006,31 @@ secciones = {
         "p-atacar-inmediato-109":{
             prueba:True,
             r:3,
-            s:["117","119"] # 117 119
+            s:["ruptura-117","119"] # 117 119
             },
+
+        "ruptura-117":{
+            titulo:"Ruptura",
+            texto:'''
+            <p>Tras un furioso combate tus guerreros se abren paso entre los
+            enemigos rompiendo sus filas, obligando a los vikingos a retirarse
+            para no verse atacados por la espalda. Te das cuenta de que has
+            llegado a un momento crítico; podrías huir y asegurarte la
+            salvación, si quiera temporal de tu ejército, tu gente y tu familia,
+            o podrías atreverte a intentar dar un golpe decisivo con tu milicia
+            antes que los guerreros profesionales de los vikingos se recuperen,
+            aprovechando la brecha para atacar a su espalda.</p>
+            <p>Tuya es la decisión, Conde Dever.</p>
+            ''',
+            opciones:{"Ordenas seguir avanzando hacia el monte":"avanzar-al-monte-120", #/120/
+                      "¡A la carga!":"a-la-carga-126", #/126/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+
 
 
 
