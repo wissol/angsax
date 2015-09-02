@@ -934,7 +934,37 @@ secciones = {
             En cualquier caso interesa saber lo que vas a ordenar tú.</p>
             ''',
             opciones:{"Defender la fortaleza.":"defender-fortaleza-101", #/101/
-                      "Presentar batalla en los bosques.":"batalla-bosques-103", #/103/
+                      "Presentar batalla en los bosques.":"batalla-bosques-103", #/103/-
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "defender-fortaleza-101":{
+            titulo:"Defender la Fortaleza",
+            texto:'''
+            <p>Sabes perfectamente que tus tropas, por numerosas que sean, no
+            están preparadas para enfrentarse a un ejército de la gloria y
+            envergadura del ejército vikingo. Tampoco puedes confiar
+            demasiado en tus habilidades de general; después de todo eres
+            completamente novato en liderar una batalla de esta envergadura.
+            Quizás por esto optas por encerrarte en la fortaleza.</p>
+            <p>Todo va bien los primeros cuatro días. Los vikingos se estrellan
+            contra las murallas del fuerte familiar y los muros dan la
+            suficiente confianza a tus soldados como para rechazar al enemigo.
+            Sin embargo las cosas se ponen más difíciles al amanecer del quinto
+            día. Tal como se te advirtió las provisiones empiezan a ser escasas.
+            No durarán más de un día, dos como mucho y después tendrás que
+            enfrentarte a cientos de hombres, mujeres y niños hambrientos.</p>
+            <p>Sabes que rodeado como estás, y teniendo que pasar tus tropas por
+            un portón, no puedes maniobrar fácilmente. Un ataque ahora será
+            incluso más difícil que a campo abierto y tu única esperanza
+            puede que sea...</p>
+            ''',
+            opciones:{"Empiezas a racionar la comida":"racionar-comida-107", #/107/
+                      "Atacas inmediatamente":"atacar-inmediato-109", #/109/
+                      "Esperas a la noche para intentar una salida":"salida-noturna-113", #/113/
                       },
             prueba:False,
             imagen_arriba:False,
@@ -959,9 +989,9 @@ secciones = {
             bosque oculta gran parte de vuestras líneas.</p>
             <p>¿Cuáles son tus órdenes?</p>
             ''',
-            opciones:{"Ordenas un ataque inmediato":"ataque-132", #/132/
-                      "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/
-                      "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/
+            opciones:{"Ordenas un ataque inmediato":"ataque-132", #/132/?
+                      "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/?
+                      "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/?
                       },
             prueba:False,
             imagen_arriba:False,
