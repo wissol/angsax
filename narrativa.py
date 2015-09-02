@@ -933,7 +933,7 @@ secciones = {
             números; por lo que o se han separado o han perdido alguna batalla.
             En cualquier caso interesa saber lo que vas a ordenar tú.</p>
             ''',
-            opciones:{"Defender la fortaleza.":"defender-fortaleza-101", #/101/
+            opciones:{"Defender la fortaleza.":"defender-fortaleza-101", #/101/-
                       "Presentar batalla en los bosques.":"batalla-bosques-103", #/103/-
                       },
             prueba:False,
@@ -970,6 +970,22 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "racionar-comida-107":{
+            titulo:"Hambruna",
+            texto:'''
+            <p>Racionando la comida consigues estirarla para que dure dos
+            semanas más, aunque lo comido sea tan minúsculo que no sirve para
+            acallar el dolor de los estómagos. Los vikingos, por su parte siguen
+            fuertes afuera y tienes que resignarte a la idea de la
+            rendición. Tu futuro está entre los esclavos.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
         "batalla-bosques-103":{
             titulo:"Batalla en el Bosque",
