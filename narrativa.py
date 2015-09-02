@@ -20,7 +20,7 @@ secciones = {
             opciones:False,
             prueba:False,
             imagen_abajo:False,
-            imagen_arriba:"sceata.png"
+            imagen_arriba:'404.png',
         },
 
         "0":{titulo:"El Primer Rey de Angsax",
