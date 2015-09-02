@@ -594,7 +594,7 @@ secciones = {
             ''',
             opciones:{
                 "Avisas al Conde para que convoque a los guerreros.":"avisar-ian-62", #/62/-
-                "Emprendes camino hasta el fuerte de tu familia, en el lejano norte.":"avisar-familia-110", #/110/-
+                "Emprendes camino hasta el fuerte de tu familia, en el lejano norte.":"avisar-familia", #/16/-
                 },
             prueba:False,
             imagen_arriba:False,
@@ -750,7 +750,7 @@ secciones = {
             decisión de la que penderá tu aventura.</p>
             ''',
             opciones:{"Puedes ir ahora mismo a avisar al Conde Ian.":"avisar-ian-62", #/62/-
-                      "Viajas a avisar a tu familia.":"avisar-familia-110", #/110/
+                      "Viajas a avisar a tu familia.":"avisar-familia-16", #/16/
                         },
             prueba:False,
             imagen_arriba:"mousy.png",
@@ -909,8 +909,59 @@ secciones = {
             monasterio para que lo cuiden los monjes. Pero incluso ahora tu
             cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
             ''',
-            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/
-                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/
+            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/?
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "preparar-fortaleza-conde-dever":{#27
+            titulo:"Reclutas",
+            texto:'''
+            <p>Pasáis una semana de frenética actividad mandando mensajeros a
+            los cuatro puntos cardinales para convocar a cualquiera que pueda
+            empuñar un arma. Jóvenes, viejos, hombres, mujeres, extranjeros, os
+            da igual siempre que sepan que extremo de la lanza pincha. El
+            resultado es una hueste impresionante, en tamaño similar al del
+            ejército vikingo que se os acerca, pero mucho peor entrenado. Peor
+            aún, no tenéis suministros si quiera para alimentarlos más allá de
+            un mes, y en esos pensamientos estás cuando uno de los exploradores
+            te anuncia que la horda enemiga se acerca.</p>
+            <p>Por lo que te cuenta, solo os ha alcanzado la mitad de sus
+            números; por lo que o se han separado o han perdido alguna batalla.
+            En cualquier caso interesa saber lo que vas a ordenar tú.</p>
+            ''',
+            opciones:{"Defender la fortaleza.":"defender-fortaleza-101", #/101/
+                      "Presentar batalla en los bosques.":"batalla-bosques-103", #/103/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "batalla-bosques-103":{
+            titulo:"Batalla en el Bosque",
+            texto:'''
+            <p>Con suministros insuficientes lo último que quieres es encerrarte
+            en una fortaleza a esperar al hambre. Por eso, aún sabiendo que tus
+            soldados tienen pocas posibilidades contra los vikingos, decides
+            encontrarles en los bosques. Tu ejército forma a la manera
+            tradicional, con los jóvenes y los adolescentes delante, armados con
+            arcos, jabalinas y hondas y el grupo principal detrás, un muro de
+            escudos y lanzas. En el centro de todo estás tú y tus husecarles,
+            los hombres escogidos de tu padre, los únicos protegidos por
+            armaduras y con experiencia en batalla.</p>
+            <p>No mucho después de que lográis formar llegan los vikingos, que
+            despliegan sus tropas de forma similar. Ni ellos ni vosotros pueden
+            ver hasta donde llegan vuestros respectivos ejércitos, porque el
+            bosque oculta gran parte de vuestras líneas.</p>
+            <p>¿Cuáles son tus órdenes?</p>
+            ''',
+            opciones:{"Ordenas un ataque inmediato":"ataque-132", #/132/
+                      "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/
+                      "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1230,8 +1281,8 @@ secciones = {
             monasterio para que lo cuiden los monjes. Pero incluso ahora tu
             cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
             ''',
-            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/
-                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/
+            opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/?
                       },
             prueba:False,
             imagen_arriba:False,
