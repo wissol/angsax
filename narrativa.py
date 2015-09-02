@@ -962,8 +962,8 @@ secciones = {
             incluso más difícil que a campo abierto y tu única esperanza
             puede que sea...</p>
             ''',
-            opciones:{"Empiezas a racionar la comida":"racionar-comida-107", #/107/
-                      "Atacas inmediatamente":"atacar-inmediato-109", #/109/
+            opciones:{"Empiezas a racionar la comida":"racionar-comida-107", #/107/-
+                      "Atacas inmediatamente":"atacar-inmediato-109", #/109/-
                       "Esperas a la noche para intentar una salida":"salida-noturna-113", #/113/
                       },
             prueba:False,
@@ -985,6 +985,30 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "atacar-inmediato-109":{
+            titulo:"Ataque Desesperado",
+            texto:'''
+            <p>Consciente de lo desesperado de vuestra situación, reúnes a los
+            <em>husecarls</em>, las tropas de élite de tu padre ante la puerta
+            magna. Junto a ti encabezarán la carga final en la que precederán a
+            todo la hueste.</p>
+            <p>Vuestros cuernos rompen el silencio, las puertas se abren y una
+            avalancha de furia se estrella contra la línea vikinga. Solo tenéis
+            una mínima oportunidad.</p>
+            ''',
+            opciones:{"Descubre el resultado de la batalla":"p-atacar-inmediato-109"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-atacar-inmediato-109":{
+            prueba:True,
+            r:3,
+            s:["117","119"] # 117 119
+            },
+
 
 
         "batalla-bosques-103":{
