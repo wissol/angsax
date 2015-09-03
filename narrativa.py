@@ -1453,8 +1453,8 @@ secciones = {
             puedas evitarlo un fuerte temor se apodera de tu alma mientras al
             mismo tiempo te atrapa una inexplicable fascinación.</p>
             ''',
-            opciones:{"Le sigues":"sigues-angel-93", #/93/
-                      "Vuelves a tu plan de volver a casa":"volver-casa-95", #/95/
+            opciones:{"Le sigues":"sigues-angel-93", #/93/?
+                      "Vuelves a tu plan de volver a casa":"volver-casa-95", #/95/?
                       },
             prueba:False,
             imagen_arriba:"bosque.png",
@@ -1546,15 +1546,15 @@ secciones = {
             mismo que dos horas después te despierta contándote que ha visto
             algo.</p>
             ''',
-            opciones:{"Vas a investigar tú solo con el vigía.":"investigar-con-vigia", #/55/
-                      "Alertas a toda la tropa.":"alerta-toda-tropa", #/56/
+            opciones:{"Vas a investigar tú solo con el vigía.":"investigar-con-vigia", #/55/-
+                      "Alertas a toda la tropa.":"alerta-toda-tropa", #/56/?
                       },
             prueba:False,
             imagen_arriba:"bosque.png",
             imagen_abajo:False
             },
 
-        "investigar-con-vigia":{
+        "investigar-con-vigia":{#55
             titulo:"Alivio y Peligro",
             texto:'''
             <p>Vuelves con el vigía hasta el lugar donde vió <em>algo:</em> una
@@ -1585,7 +1585,7 @@ secciones = {
             pregunta, ¿qué hacer?</p>
             ''',
             opciones:{"Reunes todas tus tropas y presentas batalla.":"reunes-tropas-batalla", #/57/-
-                      "Los retrasas con tus jóvenes, para ganar tiempo a que escapen los civiles.":"operacion-dilatoria", #/58/
+                      "Los retrasas con tus jóvenes, para ganar tiempo a que escapen los civiles.":"operacion-dilatoria", #/58/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1603,12 +1603,18 @@ secciones = {
             vista solo encuentras la ruinas de una alquería, que se yergue
             solitaria en medio del campo.</p>
             ''',
-            opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/
+            opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/?
                       "Te escondes como puedes tras un arbusto cercano.":"escondes-arbusto", #/181/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:"hut.png"
+            },
+
+        "p-ultimas-fuerzas-122":{
+            prueba:True,
+            r:5,
+            s:["153","179"] # 153 179
             },
 
         "buscamos-conde":{#105
