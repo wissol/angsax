@@ -991,6 +991,12 @@ secciones = {
             imagen_abajo:False
             },
 
+        "p-salida-nocturna-113":{
+            prueba:True,
+            r:5,
+            s:["119","117"] # 119 117
+            },
+
         "racionar-comida-107":{
             titulo:"Hambruna",
             texto:'''
