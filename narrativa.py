@@ -1121,7 +1121,26 @@ secciones = {
         "p-a-la-carga-126" :{
             prueba:True,
             r:8,
-            s:["victoria-127","derrota-129"] # 127 129
+            s:["victoria-127","victoria-muerte-129"] # 127- 129
+            },
+
+        "victoria-127":{
+            titulo:"Victoria",
+            texto:'''
+            <p>Tras una furiosa batalla tus fuerzas ponen en fuga a la mitad de
+            los vikingos, aplastando contra los muros a los supervivientes.
+            Habéis triunfado y la fama de vuestra victoria se extiende por toda
+            la tierra, alcanzando a todos aquellos que buscan una esperanza
+            contra la opresión.</p>
+            <p>De todas partes llegan refugiados, aumentando vuestros números.
+            Poco a poco váis constituyendo lo que con el tiempo acabará por
+            llamarse el Reino del Norte, del que tú serás coronado como primer
+            Rey.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
             },
 
         "cumpli-avisando":{ # 169
