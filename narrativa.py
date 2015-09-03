@@ -964,8 +964,28 @@ secciones = {
             ''',
             opciones:{"Empiezas a racionar la comida":"racionar-comida-107", #/107/-
                       "Atacas inmediatamente":"atacar-inmediato-109", #/109/-
-                      "Esperas a la noche para intentar una salida":"salida-noturna-113", #/113/
+                      "Esperas a la noche para intentar una salida":"salida-nocturna-113", #/113/
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "salida-nocturna-113":{
+            titulo:"Salida Nocturna",
+            texto:'''
+            <p>No dejas pasar ociosamente las horas cuando ordenas dormir a la
+            mayoría de tu gente. Disfrazas a adolescentes y ancianos para que
+            con un puñado de hombres guarden las murallas.</p>
+            <p>Despertáis silencionsamente, al abrigo de la noche. Mediante
+            susurros y gestos se transmiten tus órdenes y pronto toda la hueste
+            está formada junto a la puerta magna. Solo vuestras respiraciones y
+            el rumor de las puertas al abrirse rompe la calma de la noche.</p>
+            <p>Gritos de alarma; los retenes vikingos han detectado vuestra
+            salida y los paganos, como avispas, corren a formar en sus cuadros.
+            Corréis, no les dejarás tiempo para ganar cohesión.</p>
+            ''',
+            opciones:{"aquí comienza vuestra única y última oportunidad":"p-salida-nocturna-113"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1121,7 +1141,7 @@ secciones = {
         "p-a-la-carga-126" :{
             prueba:True,
             r:8,
-            s:["victoria-127","victoria-muerte-129"] # 127- 129
+            s:["victoria-127","victoria-muerte-129"] # 127- 129-
             },
 
         "victoria-127":{

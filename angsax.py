@@ -9,8 +9,10 @@ def annade_imagen_aleatoria(seccion):
     '''
     z = seccion
     if (not z['imagen-arriba'] ) and (not z['imagen-abajo']):
-        ilustraciones = ["ancient_nordic_borre_beasts", "bosque", "doll", "escudo", "hut", "kidsplay", "lira",
-                        "mousy", "oak_leaf_illustration", "sceata", "viking_shield_style_brooch_by_eveyd-d38na6a"]
+        ilustraciones = ["ancient_nordic_borre_beasts", "bosque", "doll",
+                         "escudo", "hut", "kidsplay", "lira", "mousy",
+                         "oak_leaf_illustration", "sceata",
+                         "viking_shield_style_brooch_by_eveyd-d38na6a"]
         lugar = ["imagen-abajo", "imagen-arriba"]
         z[choice(lugar)] = choice(ilustraciones) + ".png"
     return z
