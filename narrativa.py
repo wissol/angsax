@@ -994,7 +994,7 @@ secciones = {
         "p-salida-nocturna-113":{
             prueba:True,
             r:5,
-            s:["119","117"] # 119 117
+            s:["ruptura-117","derrota-119"] # 119 - 117 -
             },
 
         "racionar-comida-107":{
@@ -1245,7 +1245,7 @@ secciones = {
             hacia el oeste. ¿Quiénes serán y cuáles serán sus intenciones?</p>
             ''',
             opciones:{"Si intentas interceptarlos con tus jóvenes.":"interceptar-jovenes", #/45/-
-                      "Si corréis para agruparos al grupo principal.":"agruparos-principal", #/46/
+                      "Si corréis para agruparos al grupo principal.":"agruparos-principal", #/46/?
                         },
             prueba:False,
             imagen_arriba:False,
@@ -1348,9 +1348,9 @@ secciones = {
             <em>fyrd</em> caerán sobre el enemigo, encerrándolo en un muro de
             escudos y lanzas.</p>
             ''',
-            opciones:{"El plan tradicional.":"plan-batalla-tradicional", #/68/
-                      "El plan radical.":"plan-batalla-radical", #/74/
-                      "Si no sabes qué decisión tomar.":"no-decision", #/85/
+            opciones:{"El plan tradicional.":"plan-batalla-tradicional", #/68/?
+                      "El plan radical.":"plan-batalla-radical", #/74/?
+                      "Si no sabes qué decisión tomar.":"no-decision", #/85/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1436,8 +1436,25 @@ secciones = {
             espanto, te aproximas y lees.</p>
             <blockquote>Toma tu cruz.</blockquote>
             ''',
-            opciones:{"Tratas de sacar la cruz de su sitio":"tomar-mi-cruz-literal", #/89/
+            opciones:{"Tratas de sacar la cruz de su sitio":"tomar-mi-cruz-literal", #/89/-
                       "Rezas":"mi-cruz-rezar", #/91/-
+                      },
+            prueba:False,
+            imagen_arriba:"bosque.png",
+            imagen_abajo:False
+            },
+
+        "tomar-mi-cruz-literal":{#89
+            titulo:"Ángel de Luz y Majestad",
+            texto:'''
+            <p>Hinchas todos tus músculos para sacar la cruz que sale con
+            inaudita facilidad. La carga en tus hombros y entonces desde el
+            Cielo ves descender a un ángel vestido de luz y majestad. Sin que
+            puedas evitarlo un fuerte temor se apodera de tu alma mientras al
+            mismo tiempo te atrapa una inexplicable fascinación.</p>
+            ''',
+            opciones:{"Le sigues":"sigues-angel-93", #/93/
+                      "Vuelves a tu plan de volver a casa":"volver-casa-95", #/95/
                       },
             prueba:False,
             imagen_arriba:"bosque.png",
