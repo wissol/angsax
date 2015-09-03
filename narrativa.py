@@ -1143,6 +1143,25 @@ secciones = {
             imagen_abajo:False
             },
 
+        "victoria-muerte-129":{
+            titulo:"Victoria y Muerte",
+            texto:'''
+            <p>Vuestra victoria, sí, victoria es absoluta e incontestable.
+            Esta batalla será recordada el resto de la historia del pueblo de
+            Angsax. Tú no vivirás para verlo, pero el eco de vuestra victoria
+            resonará en todo el país atrayendo a todos los que anhelaban una
+            esperanza.</p>
+            <p>Con el tiempo la situación se estabilizará y nacerá un reino de
+            Angsax independiente, y tú, el Conde Dever, formarás parte de sus
+            leyendas, con el jefe guerrero que en las horas tan amargas pagó con
+            su dolor y su vida la libertad de un pueblo.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
         "cumpli-avisando":{ # 169
             titulo:"Camino Solitario",
             texto:'''
