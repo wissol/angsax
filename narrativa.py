@@ -1614,8 +1614,46 @@ secciones = {
         "p-ultimas-fuerzas-122":{
             prueba:True,
             r:5,
-            s:["153","179"] # 153 179
+            s:["153","679"] # 153- 679
             },
+
+        "153":{
+            titulo:"En la alquería",
+            texto:'''
+            <p>Tras una agotadora carrera llegas a las ruinas de una alquería
+            romana. Apenas tres edificios, de los cuales ninguno conserva el
+            tejado y solo uno, el mayor, sus cuatro paredes. Te metes en ese y
+            esperas, oteando desde un agujero. Tienes que esperar muy poco y en
+            cuanto los ves te das cuenta de lo cercana que has tenido a la
+            muerte.</p>
+            <p>Porque lo que ves son seis jinetes vikingos, las calzas
+            enrojecidas por lo que desde esta distancia se te antoja que es
+            sangre. Llevan espada al cinto, sus grandes escudos colgados de la
+            silla, demasiado grandes para usarse con efectividad. Por
+            angustiosos momentos temes que se vuelvan a investigar las ruinas
+            hasta que los ves alejarse por el camino.</p>
+            <p>Pero una nueva angustia se une a la anterior.</p>
+            <p>¿Y ahora qué? No puedes adelantar a gentes montadas y aunque por
+            algún milagro o descuido de ellos lo hicieras, ¿cómo podrías
+            enfrentarte a seis guerreros? Si todo sigue como hasta ahora los
+            exploradores llegarán antes que tú hasta las tierras de tu familia.
+            Afortunadamente son demasiado pocos como para representar una
+            amenaza inmediata.</p>
+            <p>Lo más sencillo, piensas, es seguir por el camino, dejándoles una
+            saludable ventaja, para desviarte por el bosque cuando ya estés
+            cerca de casa, confiando en que ellos estén ocupados con su tarea de
+            exploración. Si eso no te convence, quizás lo más prudente sea
+            internarte en el monte ahora mismo, buscando la protección de la
+            naturaleza.</p>
+            ''',
+            opciones:{"Vuelves al camino, a buena distancia de los jinetes.":"camino-sin-jinetes", #35-
+                      "Te internas en el bosque.":"internas-bosque-a", #a?
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
         "buscamos-conde":{#105
             titulo:"¡Iremos!",
