@@ -1022,7 +1022,7 @@ secciones = {
             aprovechando la brecha para atacar a su espalda.</p>
             <p>Tuya es la decisión, Conde Dever.</p>
             ''',
-            opciones:{"Ordenas seguir avanzando hacia el monte":"avanzar-al-monte-120", #/120/
+            opciones:{"Ordenas seguir avanzando hacia el monte":"avanzar-al-monte-120", #/120/-
                       "¡A la carga!":"a-la-carga-126", #/126/
                       },
             prueba:False,
@@ -1044,6 +1044,29 @@ secciones = {
             imagen_abajo:False
             },
 
+        "avanzar-al-monte-120":{
+            titulo:"Al monte",
+            texto:'''
+            <p>Decides que la vida de tu gente es demasiado importante como para
+            arriesgarlo todo jugando a ser Alejandro Magno. Aprovechas la brecha
+            para dejar que todo el mundo huya mientras tú y tus husecarles la
+            mantienen abierta, conteniendo a la feroz bestia que más que un
+            fuerte o las tierras ansía esclavos.</p>
+            <p>Al final conseguís vuestra pequeña victoria y escapáis todos a
+            las tierras salvajes. Desde allí, durante los años siguientes,
+            observáis a los vikingos imponer su ley en todo Angsax. Los años y
+            la necesidad de establecer su reino vuelve práctico al rey de los
+            vikingos, con quienes firmáis la paz. Tú te conviertes en su
+            vasallo, otro conde más al servicio del señor y a cambio mantenéis
+            vuestra libertad y vuestras tierras. No es ciertamente la mejor de
+            las suertes, pero mucho mejor que la mayoría de tus compatriotas han
+            podido conseguir.</p>
+            <p>Tu gente recordará tus esfuerzos durante generaciones.</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
 
         "batalla-bosques-103":{
             titulo:"Batalla en el Bosque",
