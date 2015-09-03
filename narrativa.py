@@ -1006,7 +1006,7 @@ secciones = {
         "p-atacar-inmediato-109":{
             prueba:True,
             r:3,
-            s:["ruptura-117","119"] # 117 119
+            s:["ruptura-117","derrota-119"] # 117- 119-
             },
 
         "ruptura-117":{
@@ -1023,7 +1023,7 @@ secciones = {
             <p>Tuya es la decisión, Conde Dever.</p>
             ''',
             opciones:{"Ordenas seguir avanzando hacia el monte":"avanzar-al-monte-120", #/120/-
-                      "¡A la carga!":"a-la-carga-126", #/126/
+                      "¡A la carga!":"a-la-carga-126", #/126/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1093,6 +1093,35 @@ secciones = {
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "a-la-carga-126":{
+            titulo:"A la Carga",
+            texto:'''
+            <p>Aprovechas el momento para dar la orden; tu hueste victoriosa se
+            divide en dos grupos, a derecha e izquierda, y cae sobre la
+            retaguardia enemiga. Sorprendidos ante tu inesperada victoria al
+            salir del castillo, los vikingos reaccionan cada uno por su cuenta,
+            permitiéndote ganar segundos preciosos.</p>
+            <p>Corres y gritas con tus hombres, en el puesto de honor, al frente
+            de todo, junto al estandarte. Tu espada surge entre un bosque de
+            brillante acero y cae envuelta y sangre. Adelante, adelante, no
+            puedes dejar al enemigo recomponerse. Ahora todo es una pantomima;
+            durante tres minutos tus campesinos van a creerse soldados y los
+            vikingos no van a creer lo que están viendo. Si algo se retrasa,
+            el enemigo se recomprondará y será el fin de está última y cara
+            esperanza.</p>
+            ''',
+            opciones:{"Nunca lo permitirás.":"p-a-la-carga-126"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-a-la-carga-126" :{
+            prueba:True,
+            r:8,
+            s:["victoria-127","derrota-129"] # 127 129
             },
 
         "cumpli-avisando":{ # 169
