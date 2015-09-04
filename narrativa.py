@@ -447,6 +447,56 @@ secciones = {
             imagen_abajo:False
             },
 
+        "respondes-angeles":{ #11
+            titulo:"Tu Luz",
+            texto:'''
+            <p>Gritas desesperado, pero la voz se te corta entre estertores de
+            sangre. Enseguida se te va la vista y ya, pronto, duermes hasta que
+            una dulce voz te despierta.</p>
+            <p>&mdash;Levántate y resplandece, porque ha llegado tu luz. La
+            gloria de Dios brilla sobre ti.</p>
+            <p>Abres los ojos. Amanece. Trescientos cuervos levantan el vuelo
+            entre graznidos. Un halcón, que da vueltas en el cielo, los ha
+            espantado. Te incorporas temblando de cansancio y una onza de dolor.
+            Seiscientos cuerpos cubiertos solo de sangre y rocío yacen ante ti.
+            Tu estás igual, descalzo y sin más ropa que los calzones; vuestros
+            conquistadores os han robado a conciencia.</p>
+            <p>Pero estás vivo.</p>
+            <p>&mdash;No tengas miedo.</p>
+            <p>Te das la vuelta. Quien te habla es un niño moreno, vestido con
+            una leve túnica egipcia que crees egipcia, el pelo cortado a la
+            manera de los esclavos, sus pies descalzos.</p>
+            <p>&mdash;No... ¿puedes ayudarme? &mdash;Todavía no piensas con
+            claridad.</p>
+            <p>&mdash;Quien me envía ya te ha ayudado, Devir. Ahora debes ir a
+            la abadía de San Cuthbert. Le pedirás a su abad que te confiese y él
+            te recibirá y te ungirá y tú servirás a Dios, como mejor puedas.</p>
+            <p>&mdash;¿Quién eres?</p>
+            <p>El dolor de la herida te sobrecoge de nuevo y caes de rodillas y
+            brazos sobre la tierra. Cuando te levantas, el chico ha desaparecido
+            y en su lugar aparece el caballo del conde caminando tranquilamente
+            hacia ti. Esperas, lo coges de la brida y andas junto a él, pasando
+            entre las filas de muertos que te llenan de lágrimas. Solo cuando
+            los dejas te atreves a afrontar el dolor que te trae subir a la
+            grupa del caballo.</p>
+            <p>Ya montado, te concentras en mantenerte erguido sobre la silla,
+            agradeciendo al viento que te aviva los sentidos. Luchas contra la
+            tentación de seguir el viejo camino romano y te adentras por una
+            senda de cazadores, difícil pero discreta y te dejas llegar.</p>
+            <p>Y va llegando, tras horas eternas la primera noche, al monte
+            solitario donde te encuentras, un animal entre animales, fatigado y
+            herido, hambriento, descalzo y casi desnudo, vivo solo por un
+            milagro o, tal vez, un sueño. Quisieras seguir, abandonar estos
+            parajes, pero desconfías de tu resistencia.</p>
+            ''',
+            opciones:{"Sigues Adelante.":"sigues-adelante-31", #/31/
+                      "Buscas un refugio para la noche.":"refugio-noche-21", #/21/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
         "conservas-fuerzas-200":{
             titulo:"Horrible Hora",
             texto:'''

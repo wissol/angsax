@@ -56,3 +56,8 @@ def section():
             siguiente_seccion(secciones, request.form['opciones'])
         )
     )
+"""
+@app.errorhandler(404)
+def no_econtrada(e):
+    return render_template('404.html'), 404
+"""
