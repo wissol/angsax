@@ -416,10 +416,33 @@ secciones = {
             está huyendo vuestra milicia, vuestros thengs tratan de formar un
             círculo con sus escudos.  Y tú, ¿qué vas a hacer?</p>
             ''',
-            'opciones':{"Luchas entre los thengs.":"thengs", #170?
+            'opciones':{"Luchas entre los thengs.":"thengs", #170-
                         "Corres a recuperar la milicia.":"milicia",  #180-
                         "Huyes.":"huyes-batalla-conde-ian"}, #190-
-            'prueba':False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "thengs":{#170
+            titulo:"¿Ángeles?",
+            texto:'''
+            <p>Cuando los vikingos llegan a vuestras líneas todavía no habéis
+            podido cerrar las filas con un muro de escudos. Ya nunca tendréis
+            otra oportunidad. Aún lucháis con desesperado valor, alejando la
+            hora de muerte, haciendo pagar cada vida con sangre.</p>
+            <p>Enfrascado en defenderte de un bruto cubierto de una piel de oso
+            que enarbola un hacha gigantesca, una lanza de dolor se introduce en
+            un costado. Caes, casi sin vida, regando sangre, mientras la horda
+            pasa sobre ti. La muerte te trata con desprecio, entregándote a una
+            angustia que no termina, pero en el último momento, los oscuros
+            cielos parecen abrirse al azul y crees ver ángeles, que te llaman
+            por tu nombre. ¿Podría ser esto cierto?</p>
+            ''',
+            opciones:{"Respondes a los ángeles.":"respondes-angeles", #/11/
+                      "Ignoras la visión y te concentras en conservar tus pocas fuerzas.":"conservas-fuerzas-200", #/200/
+                      },
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
@@ -2336,7 +2359,7 @@ secciones = {
             vida. La cerveza que antes robaran te ha ayudado en esta victoria.
             </p>
             ''',
-            opciones:{"Sigue Adelante":"39"}, #Sigue adelante, /39/
+            opciones:{"Sigue Adelante":"39"}, #Sigue adelante, /39/?
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
