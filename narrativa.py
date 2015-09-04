@@ -2318,7 +2318,28 @@ secciones = {
         "p-borrachos-con-espadas-124":{
             prueba:True,
             r:8,
-            s:["134","143"] #134 143
+            s:["borrachos-victoria-134","143"] #134- 143
+            },
+
+        "borrachos-victoria-134":{
+            titulo:"Vences",
+            texto:'''
+            <p>No esperan ni a que te desprendan del niño. Uno de los vikingos
+            lo arriesga todo a lanzarte su espada que, como cabría esperarse,
+            llega casi sin fuerza a tu armadura. Toses del golpe, pero ríes
+            también. Sin arredrarse su compañero ataca, mientras el otro se
+            acerca a tu espalda, haciendo ver que pretende arrebatarte el
+            escudo. Lo ignoras por un instante y es todo lo que necesitas para
+            que tu acero beba sangre, rajando de lado a lado la cara de su
+            amigo. Contra toda razón no huye sino que te lanza piedras, pero te
+            basca con una carga y una corta carrera para acabar también con su
+            vida. La cerveza que antes robaran te ha ayudado en esta victoria.
+            </p>
+            ''',
+            opciones:{"Sigue Adelante":"39"}, #Sigue adelante, /39/
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
             },
 
         "fallas-p-extrano-animal-arco":{ #171
