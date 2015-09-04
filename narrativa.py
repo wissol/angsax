@@ -2230,6 +2230,54 @@ secciones = {
             imagen_abajo:False
             },
 
+        "atender-nino-herido":{#98
+            titulo:"Acechante Dama",
+            texto:'''
+            <p>Requiere una clase de valor especial acercarse a quien has
+            herido, aunque sea por error y más aún cuando la víctima es tan
+            pequeña. Este es el valor que has logrado agrupar en tu corazón,
+            que ahora late con fuerza. Te has arrastrado entre las sombras,
+            esquivando los ojos de quienes pudieran estar cerca y, a decir
+            verdad, también de los ojos del chico. Quisieras que fuera
+            ciego.</p>
+            <p>Pero no va a poder ser; cuando llegas junto a él, sus ojos se
+            retuercen de miedo y de dolor y te ofrece sus manos en señal de
+            rendición. Tú, sin una palabra, —¿qué podrías decir?—, vas al muslo
+            donde se clavó la flecha que ahora yace entre hojarasca
+            ensagrentada. Sangra, pero no lo suficiente para llevarle a la
+            muerte esta noche. Solo estaría en peligro si se lo llevara la
+            fiebre.</p>
+            <p>Tus manos van a buscar vendas, que empapas en la poca miel que te
+            queda. Después recuestas al niño en tu cuerpo y mientras vendas
+            cantas en susurros el conjuro de tu madre, de tu abuela y de tus
+            antepasados hasta los tiempos de los gigantes.</p>
+            <p>Aquí llega acechando la dama,</p>
+            <p>Con vendas mágicas en su mano,</p>
+            <p>Dijo que eras su hijo,</p>
+            <p>Con ellas viste tu muslo</p>
+            <p>Con mi mano cura tu muslo</p>
+            <p>Ahora tu vida a su vida fijo,</p>
+            <p>Aquí el frío llega a su mano,</p>
+            <p>Allá se va llorando la dama,</p>
+            <p>Pues tu dolor, suyo es</p>
+            <p>Y también el mío,</p>
+            <p>Así fué,</p>
+            <p>Así es,</p>
+            <p>Así será.</p>
+            <p>Amén</p>
+            <p>—Dilo tú también.</p>
+            <p>—Amén.</p>
+            <p>Nunca has creído demasiado en esas cosas antiguas, pero lo cierto
+            es que tu propio muslo te empieza a doler y eso se interpreta como
+            una buena señal. En cualquier caso, todavía estáis en peligro.</p>
+            ''',
+            opciones:{"Intentas escabullirte entre las sombras, con el niño entre tus brazos.":"escabullirte-106", #106
+                      "Te quedas aquí, con el arco preparado.":"arco-listo-115"
+                      },
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
         "fallas-p-extrano-animal-arco":{ #171
             titulo:"Feliz Error",
             texto:'''
