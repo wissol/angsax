@@ -2288,8 +2288,15 @@ secciones = {
             mejor.</p>
             ''',
             opciones:{"Sé sigiloso":"p-escabullirte-106"},
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "p-escabullirte-106":{
+            prueba:True,
+            r:5,
+            s:["116","124"] #116 124
             },
 
         "fallas-p-extrano-animal-arco":{ #171
