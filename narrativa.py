@@ -439,7 +439,7 @@ secciones = {
             cielos parecen abrirse al azul y crees ver ángeles, que te llaman
             por tu nombre. ¿Podría ser esto cierto?</p>
             ''',
-            opciones:{"Respondes a los ángeles.":"respondes-angeles", #/11/
+            opciones:{"Respondes a los ángeles.":"respondes-angeles", #/11/-
                       "Ignoras la visión y te concentras en conservar tus pocas fuerzas.":"conservas-fuerzas-200", #/200/-
                       },
             prueba:False,
@@ -490,7 +490,55 @@ secciones = {
             parajes, pero desconfías de tu resistencia.</p>
             ''',
             opciones:{"Sigues Adelante.":"sigues-adelante-31", #/31/
-                      "Buscas un refugio para la noche.":"refugio-noche-21", #/21/
+                      "Buscas un refugio para la noche.":"refugio-noche-21", #/21/-
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "refugio-noche-21":
+            titulo:"El Carro",
+            texto:'''
+            <p>Apresuras los ojos, mirando a lo lejos, buscando cualquier cosa
+            que pueda servirte de abrigo. Con una pala podrías excavar un
+            refugio, con una hacha pequeña hacerte una cabaña, pero estás
+            demasiado cansado y herido para conseguirte construirte algo antes
+            de que caiga la noche. Pronto se va a hacer el invierno para ti;
+            casi desnudo y si no tiemblas ya de frío, es por miedo. A momentos
+            te pegas a la piel de tu caballo, buscando su calor y a momentos
+            vuelves a erguirte, con las pocas fuerzas que te quedan.</p>
+            <p>Es entonces cuando vislumbras a lo lejos una luz ambarina
+            tambaleándose por el camino. Te paras, te apresuras, dudas y en
+            medio de todo el dolor que te revienta el cuerpo. ¿Quién llevará esa
+            luz solitaria? La sigues por esperanza y desesperación; si Dios
+            hubiera querido tu aliento, ya lo habría tomado. Al poco comienzas a
+            escuchar una embriagadora música de liras y cantos en una lengua que
+            te parece tan lejana a tu idioma como a la jerga de los vikingos.
+            ¿Serán monjes cantando en Latín? ¿Pero qué harían unos monjes en
+            medio del campo y, sobre todo, en este día de tristezas?</p>
+            <p>Por fin los ves, sobre las primeras oscuridades de la noche.
+            Cuatro ciervos, con herrajes de bronce, tiran de un largo carro azul
+            cubierto con una lona blanca, ambarina ahora por la acción de un
+            farol. Un niño de pelo verde, abrigado de cabeza a tobillos con
+            ropas de plumas, da el so a las bestias. Desde el carro salen otras
+            diez personas, de niños a viejas, empuñando instrumentos de música y
+            cuernos de vino.</p>
+            <p>&mdash; Madre, madre, un pobre. &mdash;Dice el niño. &mdash;¿Nos
+            dejas ayudarle?</p>
+            <p>&mdash;Ese permiso lo tendrá que dar el señor pobre.</p>
+            <p>&mdash;Señor pobre, si nos deja ayudarle se lo agradeceríamos
+            mucho. ¿Quiere quedarse con nosotros? Pronto dormiremos; nos queda
+            pan caliente, hidromiel y pastel de chirivías. Pero si no quiere
+            quedarse con nosotros también podemos darle ropa, comida y un beso.
+            Déjenos, señor pobre por favor.</p>
+            <p>Dudas, estás tentado de huir ante lo estrafalario de la
+            situación. Hasta te preguntas si no serán duendes, de esos que
+            engañan a los viajeros para matarlos, comerlos y hervir sus huesos
+            en caldos mágicos.</p>
+            ''',
+            opciones:{"Te quedas con ellos en el carro.":"carro-41", #/41/
+                      "Aceptas la comida y la ropa, pero te vas.":"comida-ropa-adios-51", #/51/
                       },
             prueba:False,
             imagen_arriba:False,
