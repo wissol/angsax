@@ -440,8 +440,25 @@ secciones = {
             por tu nombre. ¿Podría ser esto cierto?</p>
             ''',
             opciones:{"Respondes a los ángeles.":"respondes-angeles", #/11/
-                      "Ignoras la visión y te concentras en conservar tus pocas fuerzas.":"conservas-fuerzas-200", #/200/
+                      "Ignoras la visión y te concentras en conservar tus pocas fuerzas.":"conservas-fuerzas-200", #/200/-
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "conservas-fuerzas-200":{
+            titulo:"Horrible Hora",
+            texto:'''
+            <p>Todavía aguantas dolores durante una horrible hora de siglos.
+            Después un minuto de angustia luchando en agonía contra la oscuridad
+            hasta que por fin duermes.</p>
+            <p>Cuando despiertas vistes de túnica blanca y estás entre una
+            multitud inmensa que proclama: Santo, Santo, Santo es el Señor, Rey
+            del Universo...</p>
+            <p>Desde entonces todo es felicidad.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
