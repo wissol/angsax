@@ -2296,7 +2296,29 @@ secciones = {
         "p-escabullirte-106":{
             prueba:True,
             r:5,
-            s:["116","124"] #116 124
+            s:["116","borrachos-con-espadas-124"] #116? 124-
+            },
+
+        "borrachos-con-espadas-124":{
+            titulo:"Borrachos con Espadas",
+            texto:'''
+            <p>Os han escuchado. Este bosque desconocido te ha engañado hasta
+            que has perdido tu dirección para caer casi en poder del enemigo.
+            Son dos hombres los que salen a por vosotros, vikingos, borrachos de
+            algo más que de victoria y armados solo con viejas espadas y joven
+            bravuconería. Aún así, son dos contra uno y tu tienes a un niño que
+            proteger.</p>
+            ''',
+            opciones:{"Defiéndete":"p-borrachos-con-espadas-124"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "p-borrachos-con-espadas-124":{
+            prueba:True,
+            r:8,
+            s:["134","143"] #134 143
             },
 
         "fallas-p-extrano-animal-arco":{ #171
