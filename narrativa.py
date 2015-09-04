@@ -2223,14 +2223,14 @@ secciones = {
             pudieran estar cerca. De ninguno de esos dos grupos puedes esperar
             ayuda, precisamente…</p>
             ''',
-            opciones:{"Si corres a atender al chico":"atender-nino-herido", #/98/?
+            opciones:{"Si corres a atender al chico":"atender-nino-herido", #/98/-
                       "Si prefieres escapar":"huir-nino-herido" #/43/?
                       },
             imagen_arriba:False,
             imagen_abajo:False
             },
 
-        "atender-nino-herido":{#98
+        "atender-nino-herido":{#98-
             titulo:"Acechante Dama",
             texto:'''
             <p>Requiere una clase de valor especial acercarse a quien has
@@ -2274,6 +2274,20 @@ secciones = {
             opciones:{"Intentas escabullirte entre las sombras, con el niño entre tus brazos.":"escabullirte-106", #106
                       "Te quedas aquí, con el arco preparado.":"arco-listo-115"
                       },
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "escabullirte-106":{
+            "titulo":"Recoges al Niño",
+            "texto":'''
+            <p>Recoges al niño con delicadeza y te sumerges de nuevo en las
+            sombras del bosque. ¿Te han visto? No lo sabes. ¿Se atreverán a
+            atacar a un guerrero quienes antes perseguían a un niño? Tampoco. Lo
+            único que te concierne es caminar rápido y suavemente, y esperar lo
+            mejor.</p>
+            ''',
+            opciones:{"Sé sigiloso":"p-escabullirte-106"},
             imagen_arriba:False,
             imagen_abajo:False
             },
