@@ -1971,9 +1971,9 @@ secciones = {
             que la que le están haciendo ahora los pájaros que se posan en
             ella.</p>
             ''',
-            opciones:{"Intentas buscar a su propietario.":"propietario-carreta", #/58/
-                      "Te escondes.":"te-escondes-136", #/136/
-                      "Sigues adelante.":"sigues-adelante-164", #/164/
+            opciones:{"Intentas buscar a su propietario.":"propietario-carreta", #/58/?
+                      "Te escondes.":"te-escondes-136", #/136/?
+                      "Sigues adelante.":"sigues-adelante-164", #/164/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -2050,8 +2050,8 @@ secciones = {
             Lo más rápido, aunque a riesgo de caer en una emboscada, sería
             formar todo en una columna, forzar la marcha y rezar.</p>
             ''',
-            opciones:{"Si vas con los exploradores.":"guerreros-exploradores", #/43/
-                      "Si fuerzas la marcha con una sola formación.":"guerreros-forzar-marcha", #/44/
+            opciones:{"Si vas con los exploradores.":"guerreros-exploradores", #/43/?
+                      "Si fuerzas la marcha con una sola formación.":"guerreros-forzar-marcha", #/44/?
                       },
             imagen_arriba:False,
             imagen_abajo:"escudo.png"
@@ -2236,7 +2236,7 @@ secciones = {
             y maravillas vives.</p>
             <p>Y dicho eso desaparece ante tus ojos.</p>
             ''',
-            opciones:{"Sigue adelante":"oscuridad"}, #/82/
+            opciones:{"Sigue adelante":"oscuridad"}, #/82/-
             prueba:False,
             imagen_arriba:"bosque.png",
             imagen_abajo:False
@@ -2250,7 +2250,7 @@ secciones = {
             perplejo, desaparece de tu vista sin dejar el más remoto de los
             recuerdos.</p>
             ''',
-            opciones:{"Sigue adelante":"oscuridad"}, #/82/
+            opciones:{"Sigue adelante":"oscuridad"}, #/82/-
             prueba:False,
             imagen_arriba:"bosque.png",
             imagen_abajo:False
@@ -2329,10 +2329,33 @@ secciones = {
             cosecha. Con lo que tenemos no llegamos, habrá que conseguir más.</p>
             <p>¿Qué le respondes?</p>
             ''',
-            opciones:{"Saquearemos a los vikingos.":"14", #/14/
-                      "Primero tenemos que reconstruir el fuerte.":"reconstruir-fuerte", #/114/
-                      "Tenemos que explorar esta tierra. Quién sabe, igual haya caza.":"explorar-caza", #/162/
+            opciones:{"Saquearemos a los vikingos.":"14", #/14/?
+                      "Primero tenemos que reconstruir el fuerte.":"reconstruir-fuerte", #/114/?
+                      "Tenemos que explorar esta tierra. Quién sabe, igual haya caza.":"explorar-caza", #/162/-
                       },
+            prueba:False,
+            imagen_arriba:"hut.png",
+            imagen_abajo:False
+            },
+
+        "explorar-caza":{#162
+            titulo:"Barro y Frío",
+            texto:'''
+            <p>Tomas un pequeño grupo y os adentráis en el pantano hasta que se
+            hace de noche. El ambiente se torna de repente en insufriblemente
+            frío; el aire os araña el cuello y el barro congela vuestros pies.
+            La Luna apenas se atreve a asomarse entre retales de niebla y
+            lluvia. Pronto todo es oscuridad y frío.</p>
+            <p>Decepcionados, volvéis al fuerte, dando por bastante no haberos
+            perdido, cuando os sorprende un extraño chapoteo. Alzas la mano,
+            pero no hace falta, ya han parado los tres campesinos y han erguido
+            lanzas y escudos. Tiemblan, pero no es momento de palabras. Aguzas
+            el oído y crees saber que se os acerca lo que se os acerque.</p>
+            <p>Dudas, estáis completamente al descubierto, en terreno malo y
+            embarrado y no tienes ni a los mejores guerreros, ni a los más
+            valientes.</p>
+            ''',
+            opciones:{"Huís":"142","Esperáis":"32"},
             prueba:False,
             imagen_arriba:"hut.png",
             imagen_abajo:False
