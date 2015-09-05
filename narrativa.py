@@ -1900,7 +1900,25 @@ secciones = {
             imagen_abajo:False
             },
 
-
+        "luchar-alqueria-18":{
+            titulo:'Desafío Final',
+            texto:'''
+            <p>Sean cuales sean las posibilidades, decides vender tu vida tan
+            cara como sea posible. Y si tienes suerte de vencer a alguno, será
+            uno menos contra los que tu pueblo tendrá que luchar. Animado por
+            estos pensamientos, haces chocar en desafío espada contra escudo,
+            finges una sonrisa y les esperas cantando ante el vano de la
+            entrada. Si esta ha de ser tú última batalla al menos estás
+            decidido a disfrutarla.</p>
+            <p>Los vikingos no se arredran y optan por el asalto frontal,
+            corriendo hacia ti mientras invocan a sus dioses paganos. Alzas tu
+            espada, enarbola tu escudo y respondes a su choque.</p>
+            ''',
+            opciones:{"Vas a luchar contra tres vikingos, uno por uno, debido a lo estrecho de la puerta.":"p-luchar-alqueria-18",
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
 
         "buscamos-conde":{#105
             titulo:"¡Iremos!",
