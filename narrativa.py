@@ -2355,7 +2355,37 @@ secciones = {
             embarrado y no tienes ni a los mejores guerreros, ni a los más
             valientes.</p>
             ''',
-            opciones:{"Huís":"142","Esperáis":"32"},
+            opciones:{"Huís":"142","Esperáis":"32"}, #142- 32?
+            prueba:False,
+            imagen_arriba:"hut.png",
+            imagen_abajo:False
+            },
+
+        "142":{
+            titulo:"Combate en el barro",
+            texto:'''
+            <p>Desconcertado por el ruido, das la orden de huir. Os cuesta
+            arrancar sobre el barro, y cuando lo hacéis destruís el silencio de
+            la noche. Corréis con todas vuestras fuerzas, hundiéndoos en el
+            barro; mientras la oscuridad os va separando unos de otros sin daros
+            cuenta. Un mal paso te hace caer sobre la charca que llena tu cuerpo
+            de frío y humedad. Luchas hasta levantarte y emprender de nuevo la
+            huída, ahora más lentamente. Cuando te recuperas ya no distingues a
+            tus compañeros. A tu alrededor la oscuridad solo se ve interrumpida
+            por gritos, ayes y tres pares de pisadas. Te vuelves, apenas atinas
+            a vislumbrar tres formas que adivinas que no son de tus hombres.
+            Buscas las fuerzas para correr otra vez hasta que las nudosas raíces
+            de la vegetación del pantano te hacen frenar. Tus perseguidores
+            comparten tus dificultades, resultando en una persecución extraña,
+            lenta, a trompicones y llena de fríos.</p>
+            <p>De bruces tropiezas con un tronco. El golpe te hierve en los ojos
+            y un pulso de dolor se instala en tu nariz. Con todo no es grave,
+            salvo por el hecho de que has perdido toda esperanza de poder
+            escapar. Desenvainas para desafiar a tu destino y los tres
+            guerreros, que armados de hachas y escudos, se despliegan ante
+            ti.</p>
+            ''',
+            opciones:{"Este va a ser un combate muy difícil.":"p-142"},
             prueba:False,
             imagen_arriba:"hut.png",
             imagen_abajo:False
