@@ -585,8 +585,8 @@ secciones = {
             piedra: la hospedería, sus dos iglesias, la residencia de novicios
             y el gran salón, inmenso con sus dos plantas. Por lo demás, salvo
             por la ausencia de mujeres, que no de niños, el lugar se parece a
-            cualquier otro pueblo: los mismos campos de avena, los mismos c
-            ercados de ovejas y cerdos y la misma empalizada.</p>
+            cualquier otro pueblo: los mismos campos de avena, los mismos
+            cercados de ovejas y cerdos y la misma empalizada.</p>
             <p>Uno de los siete guardias te conduce desde la puerta a la
             hospedería. No quiere saber nada de tus asuntos, le basta con tener
             tu espada y saber que no eres un bandido. &mdash;Los afanes que traigas
@@ -621,8 +621,8 @@ secciones = {
             mis manos el encargo que Dios te hace de regir y proteger al pueblo
             de Angsax? ¿Aceptar ser su rey en sus horas más oscuras?</p>
             ''',
-            opciones:{"Sí.":"si-rey", #/53/
-                      "No.":"no-rey", #/83/
+            opciones:{"Sí.":"si-rey", #/53/?
+                      "No.":"no-rey", #/83/?
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1875,6 +1875,31 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "679":{
+            titulo:'',
+            texto:'''
+            <p>Corres con todas tus fuerzas, pero resultan escasas tras todas
+            las fatigas por las que has pasado desde la llega de los vikingos.
+            Consigues llegar a la alquería, pero te han visto. Son seis
+            guerreros vikingos a caballo, con espadas, cota de malla, cascos y
+            escudos y han concentrado todo su interés sobre ti. Sin prisa, se
+            despliegan en forma de media luna, con los cuernos apuntando hacia
+            ti, para que no tengas manera de escapar.</p>
+            <p>Crees que la situación es desesperada. De los tres edificios que
+            formaban la alquería, ninguno conserva el tejado y solo uno, el
+            mayor, sus cuatro paredes. Quizás desde su interior pudieras
+            rechazarlo a todos, pero te ríes de ti mismo ante tal ocurrencia.
+            En cualquier caso ya cabalgan hacia ti. Decide rápido.</p>
+            ''',
+            opciones:{"Si decides luchar desde el interior del edificio mayor":"luchar-alqueria-18", #/18/
+                      "Si te rindes":"te-rindes-123", #123
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
 
         "buscamos-conde":{#105
