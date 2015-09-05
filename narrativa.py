@@ -1461,6 +1461,23 @@ secciones = {
             imagen_abajo: False,
             },
 
+        "al-interior-del-bosque-i":{
+                titulo:"En el interior",
+                texto:'''
+                <p>No est&aacute;s dispuesto a guardar los miedos de la muerte
+                hasta que te alcancen los jinetes. Antes si quiera de poder verlos
+                surges de un salto y echas a correr.</p>
+                <p>¡Justo a tiempo! El ruido de los cascos sigue acerc&acute;ndose
+                y ahora sabes que van a por ti. Giras tu cabeza por medio segundo
+                y los ves, a los siete, son vikingos, cargados de hierro y ansias
+                de matar.</p>
+                ''',
+                opciones:{"¡Corre!":"p-al-interior-del-bosque-i"},
+                prueba: False,
+                imagen_arriba: False,
+                imagen_abajo: False,
+                },
+
         "p-al-norte-42":{
             prueba:True,
             r:4,
