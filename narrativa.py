@@ -2394,7 +2394,23 @@ secciones = {
         "p-142":{
             prueba:True,
             r:5,
-            s:["vences-84","derrota-175"]
+            s:["vences-84","derrota-175"] #84? 175-
+            },
+
+        "derrota-175":{
+            titulo:"Ferocidad",
+            texto:'''
+            <p>Te defiendes con ferocidad; es lo único que haces porque se te
+            hace imposible atacar a ninguno, en cuanto intentas arremeter con tu
+            espada, otras dos te rechazan. El combate prosigue durante treinta
+            segundos eternos hasta que una de las espadas muerde tu hombro, el
+            dolor solo dura un instante, porque antes de caer al suelo descubres
+            la guardia de tu escudo…</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
             },
 
         "al-fuerte":{#13
