@@ -1920,6 +1920,12 @@ secciones = {
             imagen_abajo:False
             },
 
+        "p-luchar-alqueria-18":{
+            prueba:True,
+            r:4,
+            s:["65","144"] #65 144-
+            },
+
         "buscamos-conde":{#105
             titulo:"¡Iremos!",
             texto:'''
