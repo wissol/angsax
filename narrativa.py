@@ -1914,7 +1914,7 @@ secciones = {
             corriendo hacia ti mientras invocan a sus dioses paganos. Alzas tu
             espada, enarbola tu escudo y respondes a su choque.</p>
             ''',
-            opciones:{"Vas a luchar contra tres vikingos, uno por uno, debido a lo estrecho de la puerta.":"p-luchar-alqueria-18",
+            opciones:{"Vas a luchar contra tres vikingos, uno por uno, debido a lo estrecho de la puerta.":"p-luchar-alqueria-18"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1924,6 +1924,34 @@ secciones = {
             prueba:True,
             r:4,
             s:["65","144"] #65 144-
+            },
+
+        "144":{
+            titulo:"Sagas",
+            texto:'''
+            <p>Resistes los primeros embates del enemigos e incluso devuelves
+            algún corte a sus espadas. Tres veces vienen a por ti y dos los
+            rechazas; hasta que finalmente consiguen herirte y obligarte a
+            retroceder. Contra-atacas, obligándoles a salir cuando ya tenían un
+            pie dentro de las ruinas.</p>
+            <p>Y otra vez empiezas el combate, más fatigado y con un hilo de
+            sangre caliente bajándote por la pierna. ¿Dolor? No sientes nada.
+            Tu espada se cruza con sus espadas, deteniéndolos una y otra vez
+            durante una eternidad de gloria hasta que se apagan las fuerzas.
+            Solo entonces consiguen empujarte otra vez al interior de las
+            ruinas. Allí te rodean y esperan a que desfallezcas; pero la
+            impaciencia se interpone en sus planes, y el primero que arremete
+            contra ti, encuentra su fin en tu espada. Contra los otros cinco no
+            tienes defensa y sus espadas hieren tu carne hasta que todo es
+            primero oscuridad y después, y para siempre, luz.</p>
+            <p>Has luchado con el valor de cien héroes y los vikingos te
+            incluirán en sus sagas; pero tu cuerpo, incapaz de seguir de
+            combatiendo, se desploma.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
             },
 
         "buscamos-conde":{#105
