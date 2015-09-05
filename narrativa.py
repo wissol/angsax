@@ -1441,6 +1441,26 @@ secciones = {
             imagen_abajo:False
             },
 
+        "escondes-camino":{#141
+            titulo:"Escondido en el camino",
+            texto:'''
+            <p>Rodeas unos &aacute;rboles y te tumbas entre troncos, junto a
+            las flores. Extiendes tu capa, cubres tu cabeza y hasta esparces
+            tierra porencima. Con ello esperas desaparecer de tus enemigos.</p>
+            <p>Poca es tu espera, en seguida escuchas a los cascos de los
+            caballos avanzando al trote haci&eacute;ndose cada vez m&aacute;s
+            fuertes mientras toda la naturaleza a tu alrededor se calla en un
+            suspiro. Falta ya muy poco, Dever, en un segundo estar&aacute;n
+            junto a ti, listos para degollar.
+            ''',
+            opciones:{"Corres al interior del bosque":"al-interior-del-bosque-i",
+                      "Te mantienes en tu escondite":"sigues-escondido-i",
+                      },
+            prueba:False,
+            imagen_arriba: False,
+            imagen_abajo: False,
+            },
+
         "p-al-norte-42":{
             prueba:True,
             r:4,
