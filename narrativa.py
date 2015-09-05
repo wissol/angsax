@@ -2391,6 +2391,12 @@ secciones = {
             imagen_abajo:False
             },
 
+        "p-142":{
+            prueba:True,
+            r:5,
+            s:["vences-84","derrota-175"]
+            },
+
         "al-fuerte":{#13
             titulo:"Palabras Bonitas",
             texto:'''
