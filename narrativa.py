@@ -1947,14 +1947,38 @@ secciones = {
             internarte en el monte ahora mismo, buscando la protección de la
             naturaleza.</p>
             ''',
-            opciones:{"Si pruebas a ir por el camino.":"camino-94", #/94/
-                      "Si te internas ya mismo en el bosque.":"internar-bosque-172", #/172/
+            opciones:{"Si pruebas a ir por el camino.":"camino-94", #/94/-
+                      "Si te internas ya mismo en el bosque.":"internar-bosque-172", #/172/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
 
+        "camino-94":{
+            titulo:"La Carreta",
+            texto:'''
+            <p>Decides arriesgarte a seguir por el camino considerando que la
+            velocidad es tu primera consideración. Desde ahora tendrás que estar
+            atento a dos peligros: que por cualquier causa se retrasen o que en
+            cualquier momento decidan regresar a informar de cualquier cosa que
+            hayan encontrado.</p>
+            <p>Sin embargo, de momento, solo encuentras soledad. Durante otros
+            dos días seguidos no pasa nada de interés, salvo que estás aún más
+            cansado, sucio y hambriento; pero al atardecer del siguiente día,
+            según reemprendes la marcha encuentras una carreta abandonada en
+            medio del camino, con su carga de grano aún intacta; sin más merma
+            que la que le están haciendo ahora los pájaros que se posan en
+            ella.</p>
+            ''',
+            opciones:{"Intentas buscar a su propietario.":"propietario-carreta", #/58/
+                      "Te escondes.":"te-escondes-136", #/136/
+                      "Sigues adelante.":"sigues-adelante-164", #/164/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
 
         "144":{
             titulo:"Sagas",
