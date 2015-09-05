@@ -1900,6 +1900,29 @@ secciones = {
             imagen_abajo:False
             },
 
+        "te-rindes-123":{
+            titulo:'Malo Suerte',
+            texto:'''
+            <p>No te gusta tomar esta decisión, pero crees que luchar no tiene
+            sentido. Son demasiados y nunca conseguirías vencerlos. Aún así
+            odias tener que lanzar tus armas al suelo, ponerte de rodillas y
+            levantar los brazos.</p>
+            <p>Complacidos los vikingos desmontan y se te acercan, cuatro
+            enarbolando sus espadas, los dos restantes asiendo hachas,
+            preparados para lanzarlas a la mínima sospecha de una trampa.
+            Pero tú no haces nada, comprendiendo que ya está todo perdido y les
+            dejas acercarse. Cuando están junto a ti, dos de ellos te
+            inmovilizan los brazos, un tercero te cierra los ojos con tu
+            mano.</p>
+            <p>&mdash;Malo suerte, &mdash;te dice una voz con fuerte acento
+            extranjero. &mdash;No <em>pedemos</em> llevarnos a ti de
+            <em>esclav</em>.</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
         "luchar-alqueria-18":{
             titulo:'Desafío Final',
             texto:'''
