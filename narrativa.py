@@ -2746,7 +2746,7 @@ secciones = {
         "p-borrachos-con-espadas-124":{
             prueba:True,
             r:8,
-            s:["borrachos-victoria-134","143"] #134- 143
+            s:["borrachos-victoria-134","143"] #134- 143-
             },
 
         "borrachos-victoria-134":{
@@ -2765,6 +2765,25 @@ secciones = {
             </p>
             ''',
             opciones:{"Sigue Adelante":"39"}, #Sigue adelante, /39/?
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "143":{
+            titulo:"Suerte Asquerosa",
+            texto:'''
+            <p>No has durado nada. Uno de los vikingos ha aprovechado el momento
+            en que te desprendías del niño para lanzarte su espada. De haber
+            fallado o, como suele suceder en estos casos, haber rebotado en tu
+            armadura, estaría condenado a morir, pero el filo de su arma mal
+            dirigido ha mordido tu rodilla.</p>
+            <p>Todavía así intentas luchar, pero pronto tu pierna cede bajo el
+            dolor. Desde entonces te hacen girar, esforzándote por ganar tu
+            espalda. Doce veces lo intentan y once veces los encaras, pero al
+            fin un filo tenebroso atraviesa tu lumbar.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
