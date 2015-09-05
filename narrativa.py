@@ -1923,8 +1923,38 @@ secciones = {
         "p-luchar-alqueria-18":{
             prueba:True,
             r:4,
-            s:["65","144"] #65 144-
+            s:["65","144"] #65- 144-
             },
+
+        "65":{
+            titulo:"Lucha Sangrienta",
+            texto:'''
+            <p>La lucha ha sido sangrienta y no quieres recordarla, pero de
+            algún modo tres de los vikingos yacen ahora muertos delante de lo
+            que fue la puerta de la alquería. Tu espada ha bebido sangre, aunque
+            también están manchadas tus ropas.</p>
+            <p>Ahora los tres restantes no tienen intención de seguir intentando
+            atravesar la entrada, sino que suben a sus caballos y se retiran.
+            Sabes que no es por miedo sino que tienen una misión urgente que
+            cumplir y no tienen tiempo de esperar el momento apropiado para
+            vencerte; pero tu puedes contarlo como una pequeña victoria porque
+            todavía estás vivo.</p>
+            <p>Lo que cuenta ahora es ver cuál es tu siguiente movimiento.</p>
+            <p>Lo más sencillo, piensas, es seguir por el camino, dejándoles una
+            saludable ventaja, para desviarte por el bosque cuando ya estés
+            cerca de casa, confiando en que ellos estén ocupados con su tarea de
+            exploración. Si eso no te convence, quizás lo más prudente sea
+            internarte en el monte ahora mismo, buscando la protección de la
+            naturaleza.</p>
+            ''',
+            opciones:{"Si pruebas a ir por el camino.":"camino-94", #/94/
+                      "Si te internas ya mismo en el bosque.":"internar-bosque-172", #/172/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
 
         "144":{
             titulo:"Sagas",
