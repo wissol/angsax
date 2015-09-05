@@ -569,8 +569,60 @@ secciones = {
             <p>Cerca, sobre los árboles, ves descollar la torre de la abadía de
             San Cuthbert. Solo lamentas la pérdida de tu caballo.</p>
             ''',
-            opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/
+            opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/?
                       "Vas a la Abadía de San Cuthbert.":"san-cuthbert-72", #/72/
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "san-cuthbert-72":{
+            titulo:"San Cuthbert",
+            texto:'''
+            <p>Eras niño la última vez que visitaste la abadía de San Cuthbert
+            pero sigue asombrándote. De sus doce construcciones, cinco son de
+            piedra: la hospedería, sus dos iglesias, la residencia de novicios
+            y el gran salón, inmenso con sus dos plantas. Por lo demás, salvo
+            por la ausencia de mujeres, que no de niños, el lugar se parece a
+            cualquier otro pueblo: los mismos campos de avena, los mismos c
+            ercados de ovejas y cerdos y la misma empalizada.</p>
+            <p>Uno de los siete guardias te conduce desde la puerta a la
+            hospedería. No quiere saber nada de tus asuntos, le basta con tener
+            tu espada y saber que no eres un bandido. &mdash;Los afanes que traigas
+            se los llevará un monje, a mí no me eches cuentas, que yo no
+            cuento.</p>
+            <p>Pronto te atiende un novicio y tu historia le hace traer a un
+            monje profeso y así entrevista tras entrevista, llegas ante el mismo
+            abad.</p>
+            <p>&mdash;¿Te han dicho los ángeles que debo confesarte y
+            ungirte?</p>
+            <p>&mdash;Sí. &mdash;La voz te tiembla, pensando que todo lo vivido
+            desde la batalla parece el resultado de un saludable golpe en la
+            cabeza.</p>
+            <p>&mdash;Nada me anima a ungirte todavía, pero la misericordia me
+            urge a que me entregues tus pecados. Después rezaremos juntos y
+            después ya se verá.</p>
+            <p>Tras la confesión, viene una misa y tras ella el oficio de la
+            Canción de la Tarde, que el ritmo lento del monasterio os lleva dos
+            horas. Ya terminando el cuarto de los salmos, el abad se levanta en
+            medio de todos los monjes y te señala.</p>
+            <p>&mdas;¡Es cierto! Traédme los santos óleos, he de ungir a un
+            Rey.</p>
+            <p>Las miradas de todos los monjes y de los novicios, hasta de los
+            niños que se han unido al monasterio se mueven del abad a ti y de ti
+            al abad. Solo eres un visitante, uno de tantos otros, no
+            especialmente fuerte, ni piadoso, ni dotado de una voz especialmente
+            clara. ¿Se habrá vuelto loco el abad?</p>
+            <p>Dudas si decir algo, si rechazar este honor y esta carga, rey,
+            ¿pero de qué? Si nunca ha tenido Angsax un rey, ¿por qué habría de
+            tenerlo ahora que todo parece perdido?</p>
+            <p>&mdash;Dever, &mdash;se dirige a ti el Abad, &mdash;¿Aceptas de
+            mis manos el encargo que Dios te hace de regir y proteger al pueblo
+            de Angsax? ¿Aceptar ser su rey en sus horas más oscuras?</p>
+            ''',
+            opciones:{"Sí.":"si-rey", #/53/
+                      "No.":"no-rey", #/83/
                       },
             prueba:False,
             imagen_arriba:False,
