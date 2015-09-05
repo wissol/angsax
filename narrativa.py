@@ -497,7 +497,7 @@ secciones = {
             imagen_abajo:False
             },
 
-        "refugio-noche-21":
+        "refugio-noche-21":{
             titulo:"El Carro",
             texto:'''
             <p>Apresuras los ojos, mirando a lo lejos, buscando cualquier cosa
@@ -537,8 +537,40 @@ secciones = {
             engañan a los viajeros para matarlos, comerlos y hervir sus huesos
             en caldos mágicos.</p>
             ''',
-            opciones:{"Te quedas con ellos en el carro.":"carro-41", #/41/
-                      "Aceptas la comida y la ropa, pero te vas.":"comida-ropa-adios-51", #/51/
+            opciones:{"Te quedas con ellos en el carro.":"carro-41", #/41/-
+                      "Aceptas la comida y la ropa, pero te vas.":"comida-ropa-adios-51", #/51/?
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False
+            },
+
+        "carro-41":{
+            titulo:"",
+            texto:'''
+            <p>De alguna manera has acabado bajo mantas de lana en medio del
+            carro, rodeado de los viajeros que apretujados junto a ti, han
+            quedado dormidos. De la misma manera el cansancio de las horas te
+            lleva al mundo de los sueños.</p>
+            <p>El carro se ha convertido en un barco volador, suspendido de una
+            bolsa gigante de tela gris, por encima de un extraño mar gris y
+            debajo del mismo cielo. Todos tus compañeros son elfos y, en verdad
+            tú también te has convertido en un elfo, y te sientes seguro y feliz
+            y…</p>
+            <p>Despiertas solo, tumbado sobre una estera multicolor de extraña
+            trama, con tu herida cubierta con una especie de tela de araña,
+            aunque más limpia, más tersa y más suave. Junto a ti tienes regalos:
+            botas recias, ropas de cuero y lana, una capa y una cota de malla
+            digna de un noble. Hay también una bolsa con un gran pan negro y una
+            tablilla de madera con algo escrito cuyo contenido descubrirías si
+            supieras leer. Por último y, quizás más importante, una extraña
+            espada, más bien corta, con forma de hoja de sauce, que primero
+            crees de oro, pero pronto concluyes que es de bronce.</p>
+            <p>Cerca, sobre los árboles, ves descollar la torre de la abadía de
+            San Cuthbert. Solo lamentas la pérdida de tu caballo.</p>
+            ''',
+            opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/
+                      "Vas a la Abadía de San Cuthbert.":"san-cuthbert-72", #/72/
                       },
             prueba:False,
             imagen_arriba:False,
