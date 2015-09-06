@@ -1478,6 +1478,14 @@ secciones = {
                 imagen_abajo: False,
                 },
 
+        "p-al-interior-del-bosque-i":{
+                prueba:True,
+                r:5,
+                s:["internas-bosque","pillado-ii"],
+                imagen_arriba: False,
+                imagen_abajo: False,
+                },
+
         "p-al-norte-42":{
             prueba:True,
             r:4,
