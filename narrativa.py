@@ -1486,6 +1486,20 @@ secciones = {
                 imagen_abajo: False,
                 },
 
+        "pillado-ii":{
+            titulo:"",
+            texto:'''
+            <p>La persecución salvaje terminó porque con la precipitación de la
+            huida no acertarte a encontrar los más profundo del bosque. Los
+            caballos pudieron seguirte, rodearte y batirte en velocidad para que
+            sus dueños te encontraran y descargaran sobre ti sus flechas sin
+            darte ni oportunidad ni gloria.</p>
+            ''',
+            opciones:False,
+            imagen_arriba: False,
+            imagen_abajo: False,
+            },
+
         "p-al-norte-42":{
             prueba:True,
             r:4,
