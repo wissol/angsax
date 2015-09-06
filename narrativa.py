@@ -1453,8 +1453,8 @@ secciones = {
             suspiro. Falta ya muy poco, Dever, en un segundo estar&aacute;n
             junto a ti, listos para degollar.
             ''',
-            opciones:{"Corres al interior del bosque":"al-interior-del-bosque-i",
-                      "Te mantienes en tu escondite":"sigues-escondido-i",
+            opciones:{"Corres al interior del bosque":"al-interior-del-bosque-i",#-
+                      "Te mantienes en tu escondite":"sigues-escondido-i",#-
                       },
             prueba:False,
             imagen_arriba: False,
