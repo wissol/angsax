@@ -1132,7 +1132,7 @@ secciones = {
             cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
             ''',
             opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
-                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/?
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1511,11 +1511,41 @@ secciones = {
             cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
             ''',
             opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
-                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/?
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "guerrilla-camino-norte":{#69
+            titulo:"Pequeñas guerras",
+            texto:'''
+            <p>Reunidos los mejores guerreros junto a ti, salís de la fortaleza
+            bajo el estandarte del santo. Los que quedan en el interior la
+            preparan para lo que tenga que venir; tendrás que confiar en ellos
+            si tu plan se tuerce.</p>
+            <p>Este plan es muy sencillo, avanzar todo lo al sur que se pueda en
+            la carretera, bloquearla en varios puntos y atacar desde los flancos
+            al ejército vikingo para luego retiraos al interior del bosque. Y
+            vuelta a empezar. Si sale bien quizás eso convenza a los invasores a
+            ir a saquear a otra parte o al menos retrasar su avance para dar
+            tiempo a que la fortaleza quede lista para todo.</p>
+            <p>
+            <p>Mientras preparas la primera emboscada te cruza la cabeza una
+            idea arriesgada. Podrías dejar que todo ocurriera como siempre se ha
+            hecho, pero unos cuantos hombres permanecerían escondidos en el
+            bosque, mientras los vikingos pasan junto a ellos persiguiendo a la
+            fuerza principal. Entonces, una vez pasara un buen grupo, estos
+            hombres escondidos comenzarían un incendio dividiendo a los vikingos
+            en un muro de fuego.</p>
+            ''',
+            opciones:{"Decides que es una idea desesperada":"idea-desesperada-iii",
+                      "Decides de el riesgo merece la pena":"riesgo-ok-iii",
+                      },
+            prueba: False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "al-interior-del-bosque-i":{
@@ -1857,7 +1887,7 @@ secciones = {
             cabeza no puede dejar de pensar en el monstruo que se acerca.</p>
             ''',
             opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
-                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/?
+                      "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/-
                       },
             prueba:False,
             imagen_arriba:False,
