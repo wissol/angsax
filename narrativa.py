@@ -1540,12 +1540,39 @@ secciones = {
             hombres escondidos comenzarían un incendio dividiendo a los vikingos
             en un muro de fuego.</p>
             ''',
-            opciones:{"Decides que es una idea desesperada":"idea-desesperada-iii",
-                      "Decides de el riesgo merece la pena":"riesgo-ok-iii",
+            opciones:{"Decides que es una idea desesperada":"idea-desesperada-iii", #-
+                      "Decides de el riesgo merece la pena":"riesgo-ok-iii", #
                       },
             prueba: False,
             imagen_arriba:False,
             imagen_abajo:False,
+            },
+
+        "idea-desesperada-iii":{
+            titulo: "Batalla en el bosque",
+            texto: '''
+            <p>Tras rechazar la idea del fuego de tu cabeza, te concentras en
+            poner el plan en marcha. Antes que nada destacas exploradores para
+            evitar ser cogido por sorpresa precisamente mientras preparas la
+            emboscada. Después, unos cuantos árboles caídos, estacas puntiagudas
+            y un destacamento de guerreros veteranos harán de tapón; a cada lado
+            despliegas los más rápidos y jóvenes escondidos entre los árboles.
+            Por último solo queda esperar.</p>
+            <p>Y esperáis con el silencio de vuestras armas y el sudor nervioso
+            por compañía hasta que tres cantos de lagópodo rojo cruzan el
+            silencio del bosque. Es la señal convenida con los exploradores y
+            significa que los vikingos están a punto de llegar.</p>
+            <p>Y llegan, en una columna larga y delgada, encabezada por el
+            estandarte del cuervo y hombres cubiertos con el gris del acero y el
+            rojo de las capas que os miran calculando que deberían hacer.</p>
+            <p>Y tú, ¿qué deberías hacer?</p>.
+            ''',
+            opciones:{"Incitas la batalla con un desafío aderezado con una generosa cantidad de insultos":"insultas-emboscada-iv",
+                      "Ordenas a uno de tus guerreros a que, a la vista de los vikingos, abandone las armas y pretneda huir":"huida-falsa-iv"
+                      }, #insultas-emboscada-iv huida-falsa-iv
+            prueba: False,
+            imagen_arriba: False,
+            imagen_abajo: False
             },
 
         "al-interior-del-bosque-i":{
