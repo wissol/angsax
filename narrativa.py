@@ -502,6 +502,22 @@ secciones = {
             r:5,
             s:["monasterio-iv","cadaver-bosque-iv"],
             },
+        "cadaver-bosque-iv":{
+            titulo:"Un cuerpo en el bosque",
+            texto:'''
+            <p>El frío se recrudece según van pasando las horas. Te pegas al
+            cuerpo de tu caballo buscando su calor mientras tratas de mantener
+            la dirección del norte. Pero pronto cae la oscuridad, la oscuridad
+            atroz del bosque nocturno que junto con el cansancio acumulado
+            conspiran contra ti hasta que acabas perdido.</p>
+            <p>Sin poderlo evitar, sin ni siquiera poder luchar contra ello,
+            acabas dormido bajo las lágrimas del cielo.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "refugio-noche-21":{
             titulo:"El Carro",
