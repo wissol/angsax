@@ -489,12 +489,18 @@ secciones = {
             milagro o, tal vez, un sueño. Quisieras seguir, abandonar estos
             parajes, pero desconfías de tu resistencia.</p>
             ''',
-            opciones:{"Sigues Adelante.":"sigues-adelante-31", #/31/
+            opciones:{"Sigues Adelante.":"p-sigues-adelante-31", #/31/-
                       "Buscas un refugio para la noche.":"refugio-noche-21", #/21/-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "p-sigues-adelante-31":{
+            prueba:True,
+            r:5,
+            s:["monasterio-iv","cadaver-bosque-iv"],
             },
 
         "refugio-noche-21":{
