@@ -1208,7 +1208,7 @@ secciones = {
             ''',
             opciones:{"Empiezas a racionar la comida":"racionar-comida-107", #/107/-
                       "Atacas inmediatamente":"atacar-inmediato-109", #/109/-
-                      "Esperas a la noche para intentar una salida":"salida-nocturna-113", #/113/
+                      "Esperas a la noche para intentar una salida":"salida-nocturna-113", #/113/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1566,6 +1566,24 @@ secciones = {
                       "Decides de el riesgo merece la pena":"riesgo-ok-iii", #
                       },
             prueba: False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "riesgo-ok-iii":{
+            titulo: "Batalla en el bosque",
+            texto:'''
+            <p>Decidido a emplear cualquier medio necesario, reúnes a un pequeño
+            grupo para hacer de incendiarios. Pero Dudda, el más viejo de ellos,
+            se frota la cabeza y dice: &mdash;No es tiempo de fuego, la hoja está
+            muy verde aún y no tenemos nafta ni nada con que alimentar el fuego.</p>
+            <p>&mdash; El fuego nacerá, &mdash;le responde Aeldrid, uno de los
+            jóvenes.</p>
+            <p>&mdash; Nacerá, pero le costará nacer, ¿y quién cuidará del fuego
+            recién nacido? ¿y qué harán los vikingos cuando lo vean nacer?
+            ''',
+            opciones:{"Abandonas la idea del fuego":"idea-desesperada-iii"},
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
