@@ -1563,7 +1563,7 @@ secciones = {
             en un muro de fuego.</p>
             ''',
             opciones:{"Decides que es una idea desesperada":"idea-desesperada-iii", #-
-                      "Decides de el riesgo merece la pena":"riesgo-ok-iii", #
+                      "Decides de el riesgo merece la pena":"riesgo-ok-iii", #-
                       },
             prueba: False,
             imagen_arriba:False,
@@ -1608,12 +1608,26 @@ secciones = {
             <p>Y tú, ¿qué deberías hacer?</p>.
             ''',
             opciones:{"Incitas la batalla con un desafío aderezado con una generosa cantidad de insultos":"insultas-emboscada-iv",
-                      "Ordenas a uno de tus guerreros a que, a la vista de los vikingos, abandone las armas y pretneda huir":"huida-falsa-iv"
+                      "Ordenas a uno de tus guerreros a que, a la vista de los vikingos, abandone las armas y pretenda huir":"huida-falsa-iv"
                       }, #insultas-emboscada-iv huida-falsa-iv
             prueba: False,
             imagen_arriba: False,
             imagen_abajo: False
             },
+        "insultas-emboscada-iv":{
+                titulo:"Sarta de jamelgos",
+                texto:'''
+                <p>Sarta de jamelgos es lo m&aacute;s bonito que les dices. A partir de ah&iacute; desciendes a las oscuridades
+                a las que solo tu antiguo lenguaje puede descender. Ciertamente los vikingos, siendo extranjeros, no pueden
+                extraer todo su significado, pero por su reaccia&oacute;n puedes estar seguro que saben que no los quieres mucho.
+                A cada instante se incrementa la agitaci&oacute;n en sus filas y probablemente no sea necesario que ninguno de sus jefes
+                d&eacute; la orden de atacar.</p>
+                ''',
+                opciones:{"Prep&aacute;rate para la furia de los vikingos":"p-insultas-emboscada-iv"},
+                prueba: False,
+                imagen_arriba: False,
+                imagen_abajo: False,
+                },
 
         "al-interior-del-bosque-i":{
                 titulo:"En el interior",
