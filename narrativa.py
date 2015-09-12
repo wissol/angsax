@@ -1629,6 +1629,12 @@ secciones = {
                 imagen_abajo: False,
                 },
 
+	"p-insultas-emboscada-iv":{
+		prueba: True,
+		r: 5,
+		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #las dos sin hacer
+		},
+
         "al-interior-del-bosque-i":{
                 titulo:"En el interior",
                 texto:'''
