@@ -1805,11 +1805,26 @@ secciones = {
             ''',
             opciones:{"El plan tradicional.":"plan-batalla-tradicional", #/68/?
                       "El plan radical.":"plan-batalla-radical", #/74/?
-                      "Si no sabes qué decisión tomar.":"no-decision", #/85/?
+                      "Si no sabes qué decisión tomar.":"no-decision", #/85/-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "no-decision":{#85
+            titulo:"¡Carga!",
+            texto:'''
+            <p>Al no tomar tú la decisión, el enemigo la toma por ti. Cargan
+            gritando y antes de que puedas reaccionar la vanguardia de tus tropas
+            se deshace sin luchar. A partir de ahí es una cacería. Cada uno
+            intenta sobrevivir como puede; pronto el suelo queda alfombrado de
+            armas y escudos.</p>
+            ''',
+            opciones:{"Corre tú también para salvar tu vida":"p-no-decision-v"}, #p
+            prueba: False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "ordenas-huida-inmediata":{#61
