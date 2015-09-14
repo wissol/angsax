@@ -560,11 +560,32 @@ secciones = {
             en caldos mágicos.</p>
             ''',
             opciones:{"Te quedas con ellos en el carro.":"carro-41", #/41/-
-                      "Aceptas la comida y la ropa, pero te vas.":"comida-ropa-adios-51", #/51/?
+                      "Aceptas la comida y la ropa, pero te vas.":"comida-ropa-adios-51", #/51/-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "comida-ropa-adios-51":{
+            titulo:"",
+            texto:'''
+            <p>&mdash;Ne...necesito la ropa, muchas gracias, pero sé cuidarme
+            solo.</p>
+            <p>Tus palabras decepcionan un poco a los extraños viajeros e insisten
+            en su ofrecimiento de ayuda mientras te pasan una túnica blanca de una
+            tela que no has visto nunca, pantalones de cuero, botas y una bolsa
+            llena de pan negro recién horneado.</p>
+            <p>¿Recién horneado? ¿Cómo podrían tener un honor dentro del carro?
+            No puedes rechazar la idea de que esto se deba a la magia y, si es
+            así, estás en la presencia de elfos, como en las leyendas antiguas.
+            Elfos, a los que quizás hayas ofendido...</p>
+            ''',
+            opciones:{"Te disculpas y te alejas lentamente":"alejarse-lento-14-9",
+                      "Sales corriendo":"sales-corriendo-14-9"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "carro-41":{
