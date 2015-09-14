@@ -1463,6 +1463,26 @@ secciones = {
             imagen_abajo:False
             },
 
+        "internas-bosque": {#99
+            titulo:"Lo profundo",
+            texto:'''
+            <p>Hace ya horas que te escondiste de los vikingos en esta
+            oscuridad húmeda. No podrías saber dónde estás sino decir que estás
+            rodeado por árboles que escalan hasta el cielo, que la tierra está
+            cubierta de una hierba corta y húmeda, que cede ante tus pies y que
+            brilla en los puntos donde el sol consigue abrirse camino entre las
+            ramas. Hay un rumor de aguas entre el píar de los pajarillos y el
+            susurro de la brisa que acaricia las copas de los árboles, y más allá
+            de todo esto, una sensación inefable, a la vez misteriosa y fascinante
+            que te inquieta y te atrae.</p>
+            ''',
+            opciones:{"Te quedas aquí para pasar esta noche":"te-quedas-14-sep",
+                      "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas  al-agua
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "escondes-camino":{#141
             titulo:"Escondido en el camino",
             texto:'''
