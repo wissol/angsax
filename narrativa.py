@@ -1015,7 +1015,7 @@ secciones = {
             decisión de la que penderá tu aventura.</p>
             ''',
             opciones:{"Puedes ir ahora mismo a avisar al Conde Ian.":"avisar-ian-62", #/62/-
-                      "Viajas a avisar a tu familia.":"avisar-familia-16", #/16/
+                      "Viajas a avisar a tu familia.":"avisar-familia-16", #/16/-
                         },
             prueba:False,
             imagen_arriba:"mousy.png",
@@ -1477,7 +1477,7 @@ secciones = {
             ''',
             opciones:{"Apresuras la marcha.":"huida-desesperada-121", #/121/-
                       "Te escondes en el margen del camino.":"escondes-camino", #/141/-
-                      "Te internas en el bosque.":"internas-bosque", #/99/?
+                      "Te internas en el bosque.":"internas-bosque", #/99/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1498,7 +1498,24 @@ secciones = {
             que te inquieta y te atrae.</p>
             ''',
             opciones:{"Te quedas aquí para pasar esta noche":"te-quedas-14-sep",
-                      "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas  al-agua
+                      "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas-  al-agua
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "te-quedas-14-sep":{
+            titulo:"El boque sagrado",
+            texto:'''
+            <p>La noche pasa tranquila en el bosque sagrado; la humedad apenas
+            te molesta mientras duermes encajado entre dos árboles hasta que
+            despiertas, arropado por la penumbra de la madrugada. El rumor del
+            agua sigue sonando como cuando llegaste aquí y nada indicaría que ha
+            pasado el tiempo sino fuera por la sombra grisácea que vuela entre
+            las ramas.</p>
+            ''',
+            opciones:{"Sigues esa sombra":"sigues-sombra-15-sep",
+                      "No le prestas importancia":"paso-de-sombra-15-sep"}, # sigues sombra  pasas de sombra
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
