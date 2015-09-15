@@ -784,8 +784,23 @@ secciones = {
 
         "p-disparas-arco":{
             prueba:True,
-            r:5,
+            r:7,
             s:["disparas-arco-victoria","disparas-arco-fallo"] # 60- 70?
+            },
+
+        "disparas-arco-fallo":{
+            titulo:"A cubierto",
+            texto:'''
+            <p>Tu flecha casi roza el cuello de uno de los vikingos y se pierde
+            entre los bosques. Tus enemigos reaccionan levantando sus escudos y
+            agrupándose mientras miran en todas direcciones. Dentro de muy poco
+            hasta ellos comprenderán que estas solo.</p>
+            ''',
+            opciones:{"Vuelves a disparar":"p-vuelves-disparar-15-sep",
+                      "Huyes":"huyes-15-sep"}, #vuelves disparar  |  huyes
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "disparas-arco-victoria":{
