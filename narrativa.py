@@ -803,6 +803,12 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "p-vuelves-disparar-15-sep":{
+            prueba:True,
+            r:7,
+            s:["ahora-aciertas-15-sep","nuevo-fallo-15-sep"], #ahora aciertas | nuevo fallo
+            },
+
         "disparas-arco-victoria":{
             titulo:"Huyen como conejos",
             texto:'''
