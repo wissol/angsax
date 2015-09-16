@@ -1462,7 +1462,31 @@ secciones = {
         "p-ataque-132":{
             prueba:True,
             r:3,
-            s:["victoria-bosques-16-sep","derrota-bosques-16-sep"], #victoria derrota
+            s:["batalla-bosques-16-sep","derrota-bosques-16-sep"], #victoria derrota-
+            },
+
+        "derrota-bosques-16-sep":{
+            titulo:"Derrota",
+            texto:'''
+            <p>Tu ejército golpea el centro de la línea enemiga que resiste su
+            presión desde los primeros momentos. Ambos ejércitos bregan sin que
+            ninguno sea capaz de hacer retroceder al otro, hasta que a la
+            derecha de tu ejército surge una gigantesca columna de vikingos.
+            Alarmado, reúnes a todos los que puedes encontrar en las últimas
+            filas, y rugiendo órdenes consigues formar un muro de escudos que
+            pare la nueva amenaza. Milagrosamente resistís, pagando con sangre
+            cada minuto que dáis a vuestra fuerza principal para que consiga la
+            victoria.</p>
+            <p>Pero no habrá de ser, porque otra ola vikinga surge por el flanco
+            izquierdo. Solo entonces te das cuenta de la fuerza de un enemigo
+            experto que no solo te triplica en número, sino que también te ha
+            superado en astucia. Tu última esperanza es morir con la espada en
+            la mano.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
 
