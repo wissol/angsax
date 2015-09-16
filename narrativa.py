@@ -805,9 +805,25 @@ secciones = {
 
         "p-vuelves-disparar-15-sep":{
             prueba:True,
-            r:7,
-            s:["ahora-aciertas-15-sep","nuevo-fallo-15-sep"], #ahora aciertas | nuevo fallo
+            r:5,
+            s:["ahora-aciertas-15-sep","nuevo-fallo-15-sep"], #ahora aciertas | nuevo fallo -
             },
+
+        "nuevo-fallo-15-sep":{
+            titulo:"Ataque",
+            texto:'''
+            <p>Tu seguda flecha se estrella ahora contra uno de sus escudos.
+            Gritan y se acercan a ti, tan rápido como pueden sin romper su muro
+            de protección. Calculas que todavía puedes disparar una flecha más
+            antes de que te alcancen.</p>
+            ''',
+            opciones:{"¿Un último intento?":"nueva-flecha-16-sep",
+                      "Huyes":"huyes-16-sep"}, #nueva fleca, #huyes
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "disparas-arco-victoria":{
             titulo:"Huyen como conejos",
