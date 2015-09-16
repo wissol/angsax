@@ -797,7 +797,7 @@ secciones = {
             hasta ellos comprenderán que estas solo.</p>
             ''',
             opciones:{"Vuelves a disparar":"p-vuelves-disparar-15-sep",
-                      "Huyes":"huyes-15-sep"}, #vuelves disparar  |  huyes
+                      "Huyes":"huyes-15-sep"}, #vuelves disparar - |  huyes
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -1450,13 +1450,19 @@ secciones = {
             bosque oculta gran parte de vuestras líneas.</p>
             <p>¿Cuáles son tus órdenes?</p>
             ''',
-            opciones:{"Ordenas un ataque inmediato":"ataque-132", #/132/?
+            opciones:{"Ordenas un ataque inmediato":"p-ataque-132", #/132/-
                       "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/?
                       "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "p-ataque-132":{
+            prueba:True,
+            r:3,
+            s:["victoria-bosques-16-sep","derrota-bosques-16-sep"], #victoria derrota
             },
 
         "a-la-carga-126":{
