@@ -1482,6 +1482,22 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "adelante-16-sep":{
+            titulo:"",
+            texto:'''
+            <p>Das la orden y tu ejército triunfante se interna en el bosque,
+            arrollando a los regazados entre los vikingos. Los árboles van
+            revolviendo tu ejércitos según pasáis entre ellos. Entonces os
+            envuelven los rugidos de los vikingos, que cargan desde tres
+            direcciones, llenando el bosque de confusión y muerte. Deben
+            triplicaros en número y os tienen completamente rodeados. Ha llegado
+            el...</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "derrota-bosques-16-sep":{
             titulo:"Derrota",
             texto:'''
