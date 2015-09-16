@@ -817,11 +817,17 @@ secciones = {
             de protección. Calculas que todavía puedes disparar una flecha más
             antes de que te alcancen.</p>
             ''',
-            opciones:{"¿Un último intento?":"nueva-flecha-16-sep",
-                      "Huyes":"huyes-16-sep"}, #nueva fleca, #huyes
+            opciones:{"¿Un último intento?":"p-nueva-flecha-16-sep", #-
+                      "Huyes":"huyes-16-sep"}, #nueva flecha-, #huyes
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
+            },
+
+        "p-nueva-flecha-16-sep":{
+            prueba:True,
+            r:4,
+            s:["acierto-muerte-16-sep","fallo-muerte-16-sep"],
             },
 
 
