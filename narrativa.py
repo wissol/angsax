@@ -827,7 +827,22 @@ secciones = {
         "p-nueva-flecha-16-sep":{
             prueba:True,
             r:4,
-            s:["acierto-muerte-16-sep","fallo-muerte-16-sep"],
+            s:["acierto-muerte-16-sep","fallo-muerte-16-sep"], # 1- 2-
+            },
+
+        "fallo-muerte-16-sep":{
+            titulo:"Última derrota",
+            texto:'''
+            <p>Maldices tu puntería cuando ves a tu última flecha estrellarse de
+            nuevo contra sus escudos. Están demasiado cerca y envalentonados por
+            tu puntería ya no huirán. Desesperado, tratas de cambiar tu arco por
+            espada y escudo, pero para cuando estás listo ya estás rodeado por
+            sus lanzas, que te atacan una y otra vez.<p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "acierto-muerte-16-sep":{
@@ -840,6 +855,7 @@ secciones = {
             arco por espada. Para entonces estás rodeados por sus lanzas...</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
