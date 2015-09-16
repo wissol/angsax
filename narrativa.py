@@ -830,6 +830,20 @@ secciones = {
             s:["acierto-muerte-16-sep","fallo-muerte-16-sep"],
             },
 
+        "acierto-muerte-16-sep":{
+            titulo:"Última victoria",
+            texto:'''
+            <p>No puedes evitar una sonrisa de triunfo cuando ves desplomarse a
+            uno de los vikingos; pero ya están demasiado cerca como para huir y
+            ofrecerte sus espaldas. En vez de eso arremeten con sus lanzas.</p>
+            <p>Intentas defenderte, pero apenas tienes tiempo para intercambiar
+            arco por espada. Para entonces estás rodeados por sus lanzas...</p>
+            ''',
+            opciones:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "disparas-arco-victoria":{
             titulo:"Huyen como conejos",
