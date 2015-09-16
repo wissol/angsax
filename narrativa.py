@@ -1465,6 +1465,23 @@ secciones = {
             s:["batalla-bosques-16-sep","derrota-bosques-16-sep"], #victoria derrota-
             },
 
+        "batalla-bosques-16-sept":{
+            titulo:"Últimas esperanzas",
+            texto:'''
+            <p>Tu grito de ataque se junta a un millar de vítores que impulsan al
+            ejército de Angsax hacia la hueste pagana. Corréis, la muerte y el
+            dolor acallada por los cuernos de guerra, hasta que arremetéis al
+            enemigo. Desde ese momento solo se escucha el silbido del acero y el
+            entrechocar de los escudos. Lucháis tan bien como los vikingos y
+            conseguís hacerles retroceder hacia el interior del bosque.</p>
+            ''',
+            opciones:{"Ordenas seguir adelante":"adelante-16-sep",
+                      "Detienes a tu ejército y reformas sus líneas":"parar-16-sep"}, #adelante, parar
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "derrota-bosques-16-sep":{
             titulo:"Derrota",
             texto:'''
