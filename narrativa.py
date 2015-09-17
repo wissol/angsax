@@ -581,8 +581,8 @@ secciones = {
             así, estás en la presencia de elfos, como en las leyendas antiguas.
             Elfos, a los que quizás hayas ofendido...</p>
             ''',
-            opciones:{"Te disculpas y te alejas lentamente":"alejarse-lento-14-9",
-                      "Sales corriendo":"sales-corriendo-14-9"},
+            opciones:{"Te disculpas y te alejas lentamente":"alejarse-lento-14-9", #
+                      "Sales corriendo":"sales-corriendo-14-9"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -612,12 +612,27 @@ secciones = {
             <p>Cerca, sobre los árboles, ves descollar la torre de la abadía de
             San Cuthbert. Solo lamentas la pérdida de tu caballo.</p>
             ''',
-            opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/?
+            opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/-
                       "Vas a la Abadía de San Cuthbert.":"san-cuthbert-72", #/72/
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "buscas-caballo-81":{
+            titulo:"",
+            texto:'''
+            <p>Desde luego que tu caballo era demasiado importante como para
+            perderlo sin lucha. ¿Se habrán cobrado los extraños viajeros tu
+            caballo en pago de su ayuda? ¿O sencillamente le han dejado
+            abandonado en medio del campo?</p>
+            ''',
+            opciones:{"Intentas buscar las huellas del carro":"carro-17-sep",
+                      "Buscas tu caballo por los alrededores":"caballo-17-sep"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "san-cuthbert-72":{
