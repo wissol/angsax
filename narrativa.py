@@ -851,7 +851,23 @@ secciones = {
         "p-huyes-16-sep":{
             prueba:True,
             r:7,
-            s:["escapas-vikingos-16-sep","te-pillan-vikingos-16-sep"],
+            s:["escapas-vikingos-17-sep","te-pillan-vikingos-17-sep"],
+            },
+
+        "escapas-vikingos-17-sep":{
+            titulo:"Escapas",
+            texto:'''
+            <p>Aprovechando la confusión de los vikingos y su poca inclinación al
+            heroísmo consigues enseguida poner tierra de por medio y desaparecer
+            de su vista. En este mismo momento tienes que tomar una decisión, o
+            avisas inmediatamente al Conde Ian del peligro o intentas investigar
+            más.</p>
+            ''',
+            opciones:{"Avisa al Conde Ian":"avisar-conde-40", #-
+                      "Da un rodeo y busca la fuerza principal":"fuerza-principal"}, #-
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
 
@@ -901,7 +917,7 @@ secciones = {
             la fuerza principal de los vikingos aunque tardes más?</p>
             ''',
             opciones:{"Te retiras a avisar al Conde Ian.":"avisar-conde-40", #/40/-
-                      "Buscas la fuerza principal.":"fuerza-principal", #/80/
+                      "Buscas la fuerza principal.":"fuerza-principal", #/80/-
                       },
             prueba:False,
             imagen_arriba:False,
