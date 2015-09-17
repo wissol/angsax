@@ -613,7 +613,7 @@ secciones = {
             San Cuthbert. Solo lamentas la pérdida de tu caballo.</p>
             ''',
             opciones:{"Buscas a tu caballo.":"buscas-caballo-81", #/81/-
-                      "Vas a la Abadía de San Cuthbert.":"san-cuthbert-72", #/72/
+                      "Vas a la Abadía de San Cuthbert.":"san-cuthbert-72", #/72/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -628,12 +628,36 @@ secciones = {
             caballo en pago de su ayuda? ¿O sencillamente le han dejado
             abandonado en medio del campo?</p>
             ''',
-            opciones:{"Intentas buscar las huellas del carro":"carro-17-sep",
-                      "Buscas tu caballo por los alrededores":"caballo-17-sep"},
+            opciones:{"Intentas buscar las huellas del carro":"carro-17-sep", #-
+                      "Buscas tu caballo por los alrededores":"caballo-17-sep"},#
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "carro-17-sep":{
+            titulo:"El interior de la tierra",
+            texto:'''
+            <p>Solo tienes dar cien pasos para descubrir las cicatrices que las
+            ruedas del carro han dejado en la tierra cubierta de hierba. Desde
+            entonces puedes avanzar a buen ritmo sin perder la pista. De hecho
+            hasta notas un detalle peculiar, casi insignificante: allí donde las
+            ruedas han tocado la hierba, han dejado un hilillo de polvo brillante
+            que muy bien podría ser bronce. Tanto tus ojos como tus dedos te
+            dicen que es real. ¿Serán estos los sembradores de bronce de los más
+            antiguos mitos? Y aún te resta una sorpresa mayor llegado a un punto
+            donde las huellas desaparecen, pero no como cabría esperarse, cada
+            vez más leves, sino como si todo el carro se hubiera zambullido en
+            el inframundo.</p>
+            ''',
+            opciones:{"Escarbas en la tierra en busca de pistas":"escarbas-17-sep", #
+                      "Abandonas la búsqueda y vas a la abadía":"san-cuthbert-72", #-
+                      "No pierdes la esperanza de enconrar tu caballo":"p-caballo-17-sep"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "san-cuthbert-72":{
             titulo:"San Cuthbert",
