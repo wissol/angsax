@@ -851,7 +851,7 @@ secciones = {
         "p-huyes-16-sep":{
             prueba:True,
             r:7,
-            s:["escapas-vikingos-17-sep","te-pillan-vikingos-17-sep"],
+            s:["escapas-vikingos-17-sep","te-pillan-vikingos-17-sep"], # ambos hechos
             },
 
         "escapas-vikingos-17-sep":{
@@ -870,7 +870,20 @@ secciones = {
             imagen_abajo:False,
             },
 
-
+        "te-pillan-vikingos-17-sep":{
+            titulo:"",
+            texto:'''
+            <p>Había un líder entre ellos, para tu mala suerte, un líder que
+            despertó justo cuando disparaste esa flecha. Él fue quien rehizo a
+            sus compañeros y les dio la audacia para perseguirte sin descanso y
+            quien, cuando te tuvo a tres metros, arrojó su lanza contra tu
+            espalda...</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "fallo-muerte-16-sep":{
             titulo:"Última derrota",
