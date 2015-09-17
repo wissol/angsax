@@ -1179,7 +1179,7 @@ secciones = {
             Sus pensamientos le atraviesan el cuerpo hasta hacer derribarle en
             su asiento, debatiéndose en una decisión fatal:</p>
             ''',
-            opciones:{"Descubre la decisión del Conde":"p-avisar-ian-62"},
+            opciones:{"Descubre la decisión del Conde":"p-avisar-ian-62"},#-
             prueba:False,
             imagen_arriba:"mousy.png",
             imagen_abajo:False
@@ -1304,7 +1304,7 @@ secciones = {
             ''',
             opciones:{"Preparas tu fortaleza para un asedio, reclutando todas las milicias que puedas":"preparar-fortaleza-conde-dever", #/27/-
                       "Convocas a tus mejores hombres para llevar una guerra de guerrillas en el camino; mientras la milicia se ocupa del fuerte.":"guerrilla-camino-norte", #/69/-
-                      },
+                      },#hechos los dos
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1378,7 +1378,7 @@ secciones = {
             salida y los paganos, como avispas, corren a formar en sus cuadros.
             Corréis, no les dejarás tiempo para ganar cohesión.</p>
             ''',
-            opciones:{"aquí comienza vuestra única y última oportunidad":"p-salida-nocturna-113"},
+            opciones:{"aquí comienza vuestra única y última oportunidad":"p-salida-nocturna-113"},#-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1416,7 +1416,7 @@ secciones = {
             avalancha de furia se estrella contra la línea vikinga. Solo tenéis
             una mínima oportunidad.</p>
             ''',
-            opciones:{"Descubre el resultado de la batalla":"p-atacar-inmediato-109"},
+            opciones:{"Descubre el resultado de la batalla":"p-atacar-inmediato-109"},#-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1506,12 +1506,31 @@ secciones = {
             <p>¿Cuáles son tus órdenes?</p>
             ''',
             opciones:{"Ordenas un ataque inmediato":"p-ataque-132", #/132/-
-                      "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/?
+                      "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/-
                       "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "esperas-ataque-137":{
+            titulo:"",
+            texto:'''
+            <p>Decides no arriesgarte a luchar en el interior del bosque y ordenas
+            esperar afuera, aprovechando el tiempo para organizar tus líneas. El
+            enemigo duda en salir y cuando al fin lo hace, está visiblemente falto
+            de entusiasmo. Avanzan como cobardes, escondiendo sus espadas y
+            mostrando sus escudos, concentrados como conejos, obedeciendo a
+            regañadientes las órdenes de sus jefes.</p>
+            <p>No les faltan razones, aunque veteranos son inferiores en número,
+            quizás la mitad de tus tropas.</p>
+            ''',
+            opciones:{"No dejas pasar esta oportunidad y atacas":"atacar-17-sep", #atacar
+                      "Decides mantener la distancia, no huyes pero tampoco permites que se acerquen":"retirada-combante-146"},#146
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "p-ataque-132":{
