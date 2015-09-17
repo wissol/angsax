@@ -1606,9 +1606,27 @@ secciones = {
             habiaís vencido antes, si no más, surge de los bosques en formación
             de cabeza de jabalí, listos para cargar y destrozar a tu ejército.</p>
             ''',
-            opciones:{"Ordenas un ataque, lo que nunca esperarían":"ataque-inesperado-17-sep", #
+            opciones:{"Ordenas un ataque, lo que nunca esperarían":"ataque-inesperado-17-sep", #-
                       "Ordenas aguantar":"aguantar-17-sep", #
                       "Ordenas huir":"huir-ejercito-carga-17-sep"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "ataque-ineperado-17-sep":{
+            titulo:"Ataque Inesperado",
+            texto:'''
+            <p>Das la orden y la alegría bulle en vuestro ejército que corre al
+            encuentro del acero enemigo. Las espadas y las lanzas cortan a los
+            guerreros de ambos bandos con la misma velocidad y durante unos
+            gloriosos cinco minutos se hace épica sobre el campo de la sangre.
+            Después se imponen los números en la confusa meleé y con rapidez cada
+            vez mayor son tus hombres los que más caen a la muerte. Y justo cuando
+            empiezas a preocuparte una traicionera lanza que llegó como del cielo
+            atraviesa tus pulmones.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
