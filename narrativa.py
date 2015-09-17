@@ -785,7 +785,7 @@ secciones = {
         "p-disparas-arco":{
             prueba:True,
             r:7,
-            s:["disparas-arco-victoria","disparas-arco-fallo"] # 60- 70?
+            s:["disparas-arco-victoria","disparas-arco-fallo"] # 60- 70-
             },
 
         "disparas-arco-fallo":{
@@ -836,7 +836,7 @@ secciones = {
             antes de que te alcancen.</p>
             ''',
             opciones:{"¿Un último intento?":"p-nueva-flecha-16-sep", #-
-                      "Huyes":"huyes-16-sep"}, #nueva flecha-, #huyes
+                      "Huyes":"p-huyes-16-sep"}, #nueva flecha-, #p-huyes
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -847,6 +847,14 @@ secciones = {
             r:4,
             s:["acierto-muerte-16-sep","fallo-muerte-16-sep"], # 1- 2-
             },
+
+        "p-huyes-16-sep":{
+            prueba:True,
+            r:7,
+            s:["escapas-vikingos-16-sep","te-pillan-vikingos-16-sep"],
+            },
+
+
 
         "fallo-muerte-16-sep":{
             titulo:"Última derrota",
