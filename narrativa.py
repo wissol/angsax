@@ -806,8 +806,26 @@ secciones = {
         "p-vuelves-disparar-15-sep":{
             prueba:True,
             r:5,
-            s:["ahora-aciertas-15-sep","nuevo-fallo-15-sep"], #ahora aciertas | nuevo fallo -
+            s:["ahora-aciertas-15-sep","nuevo-fallo-15-sep"], #ahora aciertas - | nuevo fallo -
             },
+
+        "ahora-aciertas-15-sep":{
+            titulo:"Un guerrero muerto",
+            texto:'''
+            <p>La flecha le entró desde arriba, burlando su escudo, hundiéndose
+            en su pecho de arriba abajo y ahora cae entre estertores y muere
+            rodeado de la zozobra de sus compañeros. Has ganado la oportunidad
+            que necesitabas para poder huir y, consciente de que no tendrás otra
+            asi, no pierdes un instante hasta desaparecer entre los árboles.</p>
+            ''',
+            opciones:{"Ve a avisar al conde de lo que has encontrado":"avisar-conde-40",
+                      "Intenta dar un rodeo y busca la fuerza principal":"fuerza-principal",
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "nuevo-fallo-15-sep":{
             titulo:"Ataque",
