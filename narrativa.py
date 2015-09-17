@@ -1978,6 +1978,7 @@ secciones = {
             darte ni oportunidad ni gloria.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba: False,
             imagen_abajo: False,
             },
@@ -2183,6 +2184,7 @@ secciones = {
             lanzas atraviesa tu cuello. Caes sobre el suelo inconsciente y
             comienzas a morir.</p>
             ''',
+            prueba:False,
             opciones:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -3192,6 +3194,7 @@ secciones = {
             opciones:{"Esperas a que se detenga y le disparas con tu arco a la primera oportunidad":"extrano-animal-arco", #/125/-
                       "Intentas seguirle para asegurarte a qué te enfrentas":"extrano-animal-seguir", #/178/
                       },
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
