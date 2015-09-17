@@ -1589,7 +1589,26 @@ secciones = {
             conseguís hacerles retroceder hacia el interior del bosque.</p>
             ''',
             opciones:{"Ordenas seguir adelante":"adelante-16-sep",
-                      "Detienes a tu ejército y reformas sus líneas":"parar-16-sep"}, #adelante, parar
+                      "Detienes a tu ejército y reformas sus líneas":"parar-16-sep"}, #adelante-, parar
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "parar-16-sep":{
+            titulo:"La Horda",
+            texto:'''
+            <p>Te cuesta controlar a tus hombres, y puedes ver algo más que
+            desconfianza en sus caras. Tenían a mano la victoria y tú y tu
+            prudencia se la habéis hurtado. Solo tu linaje y los juramentos les
+            impiden rebelarse.</p>
+            <p>Pero momentos más tarde, una horda vikinga, el doble de los que
+            habiaís vencido antes, si no más, surge de los bosques en formación
+            de cabeza de jabalí, listos para cargar y destrozar a tu ejército.</p>
+            ''',
+            opciones:{"Ordenas un ataque, lo que nunca esperarían":"ataque-inesperado-17-sep", #
+                      "Ordenas aguantar":"aguantar-17-sep", #
+                      "Ordenas huir":"huir-ejercito-carga-17-sep"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
