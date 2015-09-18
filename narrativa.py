@@ -3476,6 +3476,22 @@ secciones = {
             s:["muerto-huye-18-sep","fallo-combate"], #muerto | fallo
             },
 
+        "muerto-huye-18-sep":{
+            titulo:"El dios torcido",
+            texto:'''
+            <p>Creen que el mismo Loki, el dios de las trampas, les ha atacado
+            cuando salen corriendo, tan rápido como puede cada uno. Al que has
+            herido se queda atrás y cae varias veces, pero continua levantándose
+            obstinadamente hasta que al fin desaparece de tus ojos. El bosque
+            ha quedado tranquilo, ni siquiera el niño se atreve a hacer un
+            movimiento.</p>
+            ''',
+            opciones:{"Vas a socorrer al niño":"socorrer-nino-18-sep",
+                      "Sigues tu camino":"escapar-vikingos-"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
 
    }
