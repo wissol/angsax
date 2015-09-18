@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 titulo = "titulo"
 texto = "texto"
 opciones = "opciones"
@@ -837,6 +838,22 @@ secciones = {
             ''',
             opciones:{"Vuelves a disparar":"p-vuelves-disparar-15-sep",
                       "Huyes":"huyes-15-sep"}, #vuelves disparar - |  huyes
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "huyes-15-sep":{
+            titulo:"Huyes",
+            texto:'''
+            <p>Aprovechas tu oportunidad y antes de que los vikingos puedan
+            darse cuenta de lo que está pasando has puesto mucho terrerno por
+            delante. Aún corres durante tanto tiempo como te permiten tus piernas
+            hasta que te sientes seguro de que no te han seguido.</p>
+            <p>Mientras recuperas resuello decides que lo más prudente es ir a
+            dar la alarma.</p>
+            ''',
+            opciones:{"Ve a avisar al conde":"avisar-conde-40"}, #-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
