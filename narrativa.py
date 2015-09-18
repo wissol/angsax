@@ -837,7 +837,7 @@ secciones = {
             hasta ellos comprenderán que estas solo.</p>
             ''',
             opciones:{"Vuelves a disparar":"p-vuelves-disparar-15-sep",
-                      "Huyes":"huyes-15-sep"}, #vuelves disparar - |  huyes
+                      "Huyes":"huyes-15-sep"}, #vuelves disparar - |  huyes-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -1568,6 +1568,30 @@ secciones = {
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "retirada-combate-146":{
+            titulo:"Resentimiento",
+            texto:'''
+            <p>Los guerreros desconfían de ti. No entienden qué pretendes retirándote
+            sin combatir y su explicación es simple: eres un cobarde; pero obedecen.
+            La lenta retirada tampoco complace al enemigo que tiene la misma
+            opinión de ti. Esta no es forma de hacer la guerra. Con todo y de momento
+            no se atreven a acercarse, no sea que les conduzcas a alguna trampa, pero
+            al mismo tiempo tratan de abrirse camino hacia tu castillo.</p>
+            <p>Las horas van dando paso al primer día y durante las horas de la noche
+            calculas que, de seguir con esta táctica podrás ganar dos o tres días para
+            los defensores de la fortaleza, y durante todo este tiempo no puedes ver
+            sino caras de desilusión en tus hombres. Todos quieren combatir y tú
+            eres lo único que se lo impide.</p>
+            ''',
+            opciones:{"Mantienes la táctica":"mantienes-tactica-18-9", #
+                      "Atacas a la primera oportunidad":"atacas-oportunidad-18-9", #
+                      "Intentas negociar con los vikingos":"intentas-negociar-18-9", #
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "esperas-ataque-137":{
