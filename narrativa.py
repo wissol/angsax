@@ -3461,13 +3461,21 @@ secciones = {
             que sean vikingos— que se levantan para interceptarle. Sabes que no
             tiene ninguna oportunidad, a menos que intervengas.</p>
             ''',
-            opciones:{"Intentas un disparo entre las ramas":"disparo-ramas", #/186/?
+            opciones:{"Intentas un disparo entre las ramas":"p-disparo-ramas", #/186/?
                       "Llamas la atención de los vikingos a gritos":"gritar-vikingos", #/194/?
                       "Aprovechas para escapar":"escapar-vikingos-8" #/8/?
                       },
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "p-disparo-ramas":{
+            prueba:True,
+            r:2,
+            s:["muerto-huye-18-sep","fallo-combate"], #muerto | fallo
+            },
+
 
 
    }
