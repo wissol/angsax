@@ -1649,7 +1649,7 @@ secciones = {
             ''',
             opciones:{"Ordenas un ataque, lo que nunca esperarían":"ataque-inesperado-17-sep", #-
                       "Ordenas aguantar":"aguantar-17-sep", #-
-                      "Ordenas huir":"huir-ejercito-carga-17-sep"}, #
+                      "Ordenas huir":"huir-ejercito-carga-17-sep"}, #-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -1862,6 +1862,23 @@ secciones = {
             ''',
             opciones:{"Te quedas aquí para pasar esta noche":"te-quedas-14-sep",
                       "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas-  al-agua
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "al-agua-14-sep":{
+            titulo:"El rastro de luz",
+            texto:'''
+            <p>Las huellas que el rumor del agua deja en el aire te conduce a
+            una parte del bosque donde la luz nunca queda extinta. El tiempo ha
+            pasado lo suficiente como para que caiga la noche y ni la luna ni
+            las estrellas deberían ser capaces de atravesar este techo de ramas
+            y hojas. Sin embargo queda un rastro de luz que fluye sobre el suelo
+            como si fuera agua.</p>
+            ''',
+            opciones:{"Te acercas para tocarla":"agua-luz-tocar-19-9-15",
+                      "Te alejas de este lugar":"alejas-agua-luz-19-9-15"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
