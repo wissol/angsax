@@ -1648,8 +1648,26 @@ secciones = {
             de cabeza de jabalí, listos para cargar y destrozar a tu ejército.</p>
             ''',
             opciones:{"Ordenas un ataque, lo que nunca esperarían":"ataque-inesperado-17-sep", #-
-                      "Ordenas aguantar":"aguantar-17-sep", #
+                      "Ordenas aguantar":"aguantar-17-sep", #-
                       "Ordenas huir":"huir-ejercito-carga-17-sep"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "aguantar-17-sep":{
+            titulo:"Aguantaremos",
+            texto:'''
+            <p>¡Muro de escudos! Aguantaremos.</p>
+            <p>La orden tradicional de tu pueblo ha unido a tus guerreros y
+            ahora están listos para lo que venga. Y lo que viene es una máquina
+            traicionera y astuta que también sabe convertirse en un gigante cuando
+            le conviene, como ahora.</p>
+            <p>Y cargan contra vosotros los vikingos, bajo el sonido de los cuernos,
+            y los aullidos de quienes quieren imponeros el miedo. Ganar o morir,
+            ahora es cosa de segundos.</p>
+            ''',
+            opciones:{"Trata de resistir como sea":"p-resistir-19-sep"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -2988,7 +3006,7 @@ secciones = {
             cosecha. Con lo que tenemos no llegamos, habrá que conseguir más.</p>
             <p>¿Qué le respondes?</p>
             ''',
-            opciones:{"Saquearemos a los vikingos.":"14", #/14/?
+            opciones:{"Saquearemos a los vikingos.":"14", #/14/-
                       "Primero tenemos que reconstruir el fuerte.":"reconstruir-fuerte", #/114/?
                       "Tenemos que explorar esta tierra. Quién sabe, igual haya caza.":"explorar-caza", #/162/-
                       },
@@ -2996,6 +3014,13 @@ secciones = {
             imagen_arriba:"hut.png",
             imagen_abajo:False
             },
+
+       # "14":{
+        #    titulo:"Saquearemos a los vikingos",
+         #   texto:'''
+          #  <p>
+           # '''
+            #},
 
         "explorar-caza":{#162
             titulo:"Barro y Frío",
@@ -3473,10 +3498,10 @@ secciones = {
         "p-disparo-ramas":{
             prueba:True,
             r:2,
-            s:["muerto-huye-18-sep","fallo-combate"], #muerto | fallo
+            s:["herido-huye-18-sep","fallo-combate"], #muerto | fallo
             },
 
-        "muerto-huye-18-sep":{
+        "herido-huye-18-sep":{
             titulo:"El dios torcido",
             texto:'''
             <p>Creen que el mismo Loki, el dios de las trampas, les ha atacado
@@ -3487,7 +3512,7 @@ secciones = {
             movimiento.</p>
             ''',
             opciones:{"Vas a socorrer al niño":"socorrer-nino-18-sep",
-                      "Sigues tu camino":"escapar-vikingos-"}, #
+                      "Sigues tu camino":"escapar-vikingos-8"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
