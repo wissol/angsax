@@ -1655,6 +1655,23 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "huir-ejercito-carga-17-sep":{
+            titulo:"Cacería",
+            texto:'''
+            <p>Sí, cacería, la batalla se ha transformado en una sangrienta
+            cacería en la que vosotros sois los ciervo. Aún así la mayoría
+            sobreviviréis para ver otro día, pero quedaréis dispersos y rotos
+            entre los bosques, cada uno ocupado por salvar su propia vida. Peor
+            aún, tus guerreros ya no confían en ti y buscarán un mejor señor
+            entre los vikingos. Tu futuro está con los forajidos, los muertos o
+            los esclavos.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "aguantar-17-sep":{
             titulo:"Aguantaremos",
             texto:'''
