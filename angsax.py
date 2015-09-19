@@ -13,7 +13,8 @@ def annade_imagen_aleatoria(seccion):
                          "escudo", "hut", "kidsplay", "lira",
                          "molaise", "mousy",
                          "oak_leaf_illustration", "sceata",
-                         "viking_shield_style_brooch_by_eveyd-d38na6a"]
+                         "viking_shield_style_brooch_by_eveyd-d38na6a",
+                         "oldbooks1", "oldbook2", "wikimedia1", "wyvern"]
         lugar = ["imagen-abajo", "imagen-arriba"]
         z[choice(lugar)] = choice(ilustraciones) + ".png"
     return z
