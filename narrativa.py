@@ -2131,7 +2131,7 @@ secciones = {
 	    "p-insultas-emboscada-iv":{
     		prueba: True,
     		r: 5,
-    		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #atacan -  prudentes
+    		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #atacan -  prudentes-
     		},
 
     	"vikingos-prudentes-v":{
@@ -2143,13 +2143,19 @@ secciones = {
     	    todavía porque no pueden contar los guerreros que has escondido en los
     	    bosques.</p>
     	    ''',
-    	    opciones:{"Atacas":"atacar-ahora-20-9-15",
-    	              "Ordenas a los escondidos que hagan tanto ruido como puedas":"bulla-20-9-15",
-    	              "Mandas a los que hacen de tapón a que se dispersen y luchen también como guerrilla":"guerrilla-20-9-15",
-    	              "Te mantienes firme en este lugar":"Ferm-und-treu-20-9-15"},
+    	    opciones:{"Atacas":"p-atacar-ahora-20-9-15",#
+    	              "Ordenas a los escondidos que hagan tanto ruido como puedas":"p-bulla-20-9-15",#
+    	              "Mandas a los que hacen de tapón a que se dispersen y luchen también como guerrilla":"guerrilla-20-9-15",#
+    	              "Te mantienes firme en este lugar":"p-Ferm-und-treu-20-9-15"},#
     	    prueba:False,
     	    imagen_arriba:False,
     	    imagen_abajo:False,
+    	    },
+
+    	"p-atacar-ahora-20-9-15":{
+    	    prueba:True,
+    	    r:6,
+    	    s:["victoria-atacar-ahora-20", "derrota-batalla-generica"],
     	    },
 
 	    "vikingos-atacan-v":{
