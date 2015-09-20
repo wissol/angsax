@@ -1810,7 +1810,7 @@ secciones = {
             el enemigo se recomprondará y será el fin de está última y cara
             esperanza.</p>
             ''',
-            opciones:{"Nunca lo permitirás.":"p-a-la-carga-126"},
+            opciones:{"Nunca lo permitirás.":"p-a-la-carga-126"},#-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
@@ -1905,7 +1905,7 @@ secciones = {
             que te inquieta y te atrae.</p>
             ''',
             opciones:{"Te quedas aquí para pasar esta noche":"te-quedas-14-sep",
-                      "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas-  al-agua
+                      "Te diriges a dónde suena el agua":"al-agua-14-sep"}, #te-quedas-  al-agua-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -1923,6 +1923,23 @@ secciones = {
             ''',
             opciones:{"Te acercas para tocarla":"agua-luz-tocar-19-9-15",
                       "Te alejas de este lugar":"alejas-agua-luz-19-9-15"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "alejas-agua-luz-19-9-15":{
+            titulo:"",
+            texto:'''
+            Silenciosamente te alejas de la luz hasta quedarte sobrecogida por la
+            abisal oscuridad del bosque nocturno. Pronto debes renunciar a seguir
+            avanzando y tu propio cansancio y la imposibilidad de avanzar cinco
+            metros seguidos sin tropezar hace que caes dormido.</p>
+            <p>Cuando despiertas, antes incluso de que estés despejado, te
+            reconoces perdido en este bosque inmenso.</p>
+            ''',
+            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep",
+                      "Exploras los alrededores para buscar una pista":"exploras-bosque-20-sep"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
