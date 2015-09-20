@@ -2134,6 +2134,24 @@ secciones = {
     		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #atacan -  prudentes
     		},
 
+    	"vikingos-prudentes-v":{
+    	    titulo:"prudencia",
+    	    texto:'''
+    	    <p>El truco no ha funcionado y el ejército vikingo comienza a maniobrar,
+    	    pasado de su estirada formación de viaje a disponerse para la batalla.
+    	    Estás seguro de que os superan en número, aunque eso ellos no lo saben
+    	    todavía porque no pueden contar los guerreros que has escondido en los
+    	    bosques.</p>
+    	    ''',
+    	    opciones:{"Atacas":"atacar-ahora-20-9-15",
+    	              "Ordenas a los escondidos que hagan tanto ruido como puedas":"bulla-20-9-15",
+    	              "Mandas a los que hacen de tapón a que se dispersen y luchen también como guerrilla":"guerrilla-20-9-15",
+    	              "Te mantienes firme en este lugar":"Ferm-und-treu-20-9-15"},
+    	    prueba:False,
+    	    imagen_arriba:False,
+    	    imagen_abajo:False,
+    	    },
+
 	    "vikingos-atacan-v":{
 	        titulo:"Emboscada",
 	        texto:'''
