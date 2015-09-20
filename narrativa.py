@@ -1630,7 +1630,7 @@ secciones = {
             conseguís hacerles retroceder hacia el interior del bosque.</p>
             ''',
             opciones:{"Ordenas seguir adelante":"adelante-16-sep",
-                      "Detienes a tu ejército y reformas sus líneas":"parar-16-sep"}, #adelante-, parar
+                      "Detienes a tu ejército y reformas sus líneas":"parar-16-sep"}, #adelante-, parar-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -1688,6 +1688,12 @@ secciones = {
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
+            },
+
+        "p-resistir-19-sep":{
+            prueba:True,
+            r:6,
+            s:["victoria-resistir-20-sep","derrota-resistir-20-sep"],
             },
 
         "ataque-ineperado-17-sep":{
