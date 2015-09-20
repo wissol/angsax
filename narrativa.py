@@ -1938,8 +1938,8 @@ secciones = {
             <p>Cuando despiertas, antes incluso de que estés despejado, te
             reconoces perdido en este bosque inmenso.</p>
             ''',
-            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep",
-                      "Exploras los alrededores para buscar una pista":"exploras-bosque-20-sep"},
+            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep", #
+                      "Exploras los alrededores para buscar una pista":"exploras-bosque-20-sep"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -2081,7 +2081,7 @@ secciones = {
             <p>&mdash; Nacerá, pero le costará nacer, ¿y quién cuidará del fuego
             recién nacido? ¿y qué harán los vikingos cuando lo vean nacer?
             ''',
-            opciones:{"Abandonas la idea del fuego":"idea-desesperada-iii"},
+            opciones:{"Abandonas la idea del fuego":"idea-desesperada-iii"},#-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -2122,17 +2122,38 @@ secciones = {
                 A cada instante se incrementa la agitaci&oacute;n en sus filas y probablemente no sea necesario que ninguno de sus jefes
                 d&eacute; la orden de atacar.</p>
                 ''',
-                opciones:{"Prep&aacute;rate para la furia de los vikingos":"p-insultas-emboscada-iv"},
+                opciones:{"Prepárate para la furia de los vikingos":"p-insultas-emboscada-iv"},#-
                 prueba: False,
                 imagen_arriba: False,
                 imagen_abajo: False,
                 },
 
-	"p-insultas-emboscada-iv":{
-		prueba: True,
-		r: 5,
-		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #las dos sin hacer
-		},
+	    "p-insultas-emboscada-iv":{
+    		prueba: True,
+    		r: 5,
+    		s: ["vikingos-atacan-v", "vikingos-prudentes-v"], #atacan -  prudentes
+    		},
+
+	    "vikingos-atacan-v":{
+	        titulo:"Emboscada",
+	        texto:'''
+	        <p>La batalla, ¿puede llamarse así? comienza cuando los excitados
+	        vikingos, cargan hacia el destacamento que bloquea el bosque sin
+	        cambiar su formación, ni prepararse para la batalla. Su pasión les
+	        está llevando a la muerte. Los primeros caen ante las estacadas,
+	        atravesados por las jabalinas de tus hombres. Otros más caen al
+	        superar el obstáculo y, aún mejor, los que quedan llegan sin bríos,
+	        sin el ímpetu necesario para romper la formación anglosajona. Lo que
+	        iba a ser una carga ha degenerado en una lucha lenta en la que la
+	        formación vikinga, estirada como una flecha, empieza a agolparse en
+	        la cabeza. ¿Ha llegado el momento de atacar?
+	        ''',
+	        opciones:{"Ordenas atacar a los hombres escondidos a cada lado de la carretera":"flancos-20-9-15", #
+	                  "Esperas la ocasión perfecta":"p-ocasion-perfecta-20-9-15"}, #
+	        prueba:False,
+	        imagen_arriba:False,
+	        imagen_abajo:False,
+	        },
 
         "al-interior-del-bosque-i":{
                 titulo:"En el interior",
