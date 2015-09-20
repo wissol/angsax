@@ -1696,6 +1696,23 @@ secciones = {
             s:["victoria-resistir-20-sep","derrota-resistir-20-sep"],
             },
 
+        "derrota-resistir-20-sep":{
+            titulo:"Derrota",
+            texto:'''
+            <p>El ejército anglosajón puso toda su fuerzaen contener a la horda
+            vikinga y el muro de escudos resistió, pero poco a poco los vikingos,
+            superiores en números, lo envolvieron por sus flancos.</p>
+            <p>Trataste de contraatacar pero tus fuerzas fueron rechazadas dos
+            veces seguidas y, antes de que pudieras organizar un último ataque
+            el ejército principal se rompió en dos, y luego en tres para ser
+            masacrados hasta el amargo final.</p>,
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "ataque-ineperado-17-sep":{
             titulo:"Ataque Inesperado",
             texto:'''
