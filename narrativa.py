@@ -1693,13 +1693,34 @@ secciones = {
         "p-resistir-19-sep":{
             prueba:True,
             r:6,
-            s:["victoria-resistir-20-sep","derrota-resistir-20-sep"],
+            s:["victoria-resistir-20-sep","derrota-resistir-20-sep"], # victoria -, derrota -
+            },
+
+        "victoria-resistir-20-sep":{
+            titulo:"Seguimos aquí",
+            texto:'''
+            <p>Tras el primer choque entre los ejércitos el muro de escudos
+            resiste bien. Los vikingos no consiguen penetrar tu formación por
+            mucho que se esfuerzan y aunque tus flancos son débiles el general
+            enemigo no es capaz de aprovecharse de la situación. En vez de eso,
+            enrabietado por su fracaso, lanza más y más tropas contra tu centro,
+            pero el centro resiste.</p>
+            <p>A la caída de la tarde, los vikingos, ya extenuados, se retiran
+            dejando el campo sembrado de cadáveres. Tus tropas, cubiertas de sangre
+            y sudor, no tienen fuerzas ni para celebrar la victoria.</p>
+            <p>¿Cuáles serán tus órdenes?</p>
+            ''',
+            opciones:{"Un supremo esfuerzo, la carga final":"carga-final-20-sep", #
+                      "Os mantenéis aquí, clavados a la tierra de la victoria":"tierra-victoria-20-sep"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "derrota-resistir-20-sep":{
             titulo:"Derrota",
             texto:'''
-            <p>El ejército anglosajón puso toda su fuerzaen contener a la horda
+            <p>El ejército anglosajón puso toda su fuerza en contener a la horda
             vikinga y el muro de escudos resistió, pero poco a poco los vikingos,
             superiores en números, lo envolvieron por sus flancos.</p>
             <p>Trataste de contraatacar pero tus fuerzas fueron rechazadas dos
