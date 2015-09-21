@@ -1963,12 +1963,38 @@ secciones = {
             y hojas. Sin embargo queda un rastro de luz que fluye sobre el suelo
             como si fuera agua.</p>
             ''',
-            opciones:{"Te acercas para tocarla":"agua-luz-tocar-19-9-15",
-                      "Te alejas de este lugar":"alejas-agua-luz-19-9-15"},
+            opciones:{"Te acercas para tocarla":"agua-luz-tocar-19-9-15", #-
+                      "Te alejas de este lugar":"alejas-agua-luz-19-9-15"}, #-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "agua-luz-tocar-19-9-15":{
+            prueba:True,
+            r:8,
+            s:["tacto-infinito-21-9-15","iluminacion-21-9-15"], # tacto - ilumniación
+            },
+
+        "tacto-infinito-21-9-15":{
+            titulo:"El tacto infinito",
+            texto:'''
+            <p>El agua de luz entre tus dedos tiene el mismo tacto del agua y sin
+            embargo llama a tu corazón a un mundo infinito, mucho más allá de éste.
+            Siendo quien eres y viniendo de donde vienes, no puedes evitar hincar
+            la rodilla y rezar.</p>
+            <p>Al terminar un pensamiento te ha venido a la mente, no sabes si de
+            tu propia imaginación o de Dios, pero en cualquier caso dice lo siguiente
+            <em>"no te fies del mal, mientras mal sea"</em>, que no sabes cómo te
+            podrá servir de ayuda.</p>
+            ''',
+            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep", #
+                      "Exploras los alrededores":"exploras-bosque-20-sep"},#
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "alejas-agua-luz-19-9-15":{
             titulo:"",
@@ -2661,7 +2687,7 @@ secciones = {
             vista solo encuentras la ruinas de una alquería, que se yergue
             solitaria en medio del campo.</p>
             ''',
-            opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/?
+            opciones:{"Corres a la alquería con tus últimas fuerzas.":"ultimas-fuerzas-122", #/122/-
                       "Te escondes como puedes tras un arbusto cercano.":"escondes-arbusto", #/181/?
                       },
             prueba:False,
