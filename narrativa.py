@@ -1563,7 +1563,7 @@ secciones = {
             ''',
             opciones:{"Ordenas un ataque inmediato":"p-ataque-132", #/132/-
                       "Esperáis aquí a su ataque":"esperas-ataque-137", #/137/-
-                      "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/?
+                      "Te retiras en orden de combate, sin huir pero sin dejar que se acerquen":"retirada-combate-146", #/146/-
                       },
             prueba:False,
             imagen_arriba:False,
@@ -1587,7 +1587,24 @@ secciones = {
             ''',
             opciones:{"Mantienes la táctica":"mantienes-tactica-18-9", #
                       "Atacas a la primera oportunidad":"atacas-oportunidad-18-9", #
-                      "Intentas negociar con los vikingos":"intentas-negociar-18-9", #
+                      "Intentas negociar con los vikingos":"intentas-negociar-18-9", #-
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "intentas-negociar-18-9":{
+            titulo:"Largas negociaciones",
+            texto:'''
+            <p>Mandas a tu heraldo quien maneja las negociaciones mientras echas un
+            ojo al ejército enemigo que continua su despliegue pero sin avanzar.
+            Tras dos horas vuelves con las condiciones del enemigo: quieren que tú
+            negocies directamente con su jefe, en una cabaña de pastores a media
+            hora de camino.</p>
+            ''',
+            opciones:{"Aceptas sus condiciones":"aceptas-condiciones-21-9-15",
+                      "Mantienes al táctica dilatoria":"mantienes-tactica-18-9",
                       },
             prueba:False,
             imagen_arriba:False,
