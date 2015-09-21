@@ -1973,7 +1973,25 @@ secciones = {
         "agua-luz-tocar-19-9-15":{
             prueba:True,
             r:8,
-            s:["tacto-infinito-21-9-15","iluminacion-21-9-15"], # tacto - ilumniación
+            s:["tacto-infinito-21-9-15","iluminacion-21-9-15"], # tacto - ilumniación-
+            },
+
+        "iluminacion-21-9-15":{
+            titulo:"Iluminación",
+            texto:'''
+            <p>Lo primer que notas al acariciar el agua de luz con tus dedos es un fluir
+            natural que en nada se distingue del agua corriente. Sin embargo, al mismo
+            tiempo tienes una sensación de bienestar que no se parece a nada que hayas
+            sentido antes. Y entonces una fuerza te arrebata y cuando te das cuenta
+            has bebido del agua de luz.</p>
+            <p>Tu alma experimente un milagro, una conversión total y santidad. De pronto
+            ya no te interesa nada sino servir a Dios. Y tomando una dirección al azar
+            te pones en camino para unirte al primer monasterio que encuentres.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "tacto-infinito-21-9-15":{
