@@ -1601,11 +1601,36 @@ secciones = {
             ojo al ejército enemigo que continua su despliegue pero sin avanzar.
             Tras dos horas vuelves con las condiciones del enemigo: quieren que tú
             negocies directamente con su jefe, en una cabaña de pastores a media
-            hora de camino.</p>
+            hora de camino, tú y él solos.</p>
             ''',
             opciones:{"Aceptas sus condiciones":"aceptas-condiciones-21-9-15",
                       "Mantienes al táctica dilatoria":"mantienes-tactica-18-9",
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "aceptas-condiciones-21-9-15":{
+            titulo:"",
+            texto:'''
+            <p>Tras aceptar sus condiciones, te diriges a la cabaña a caballo sin
+            que nadie te moleste durante el camino. Cuando llegas a ella te encuentras
+            al vikingo ya esperándote a la entrada. Os saludáis y acordáis llevar
+            las conversaciones en el exterior.
+            </p>
+            <p>Las horas se alargan hasta llegar a la noche. El vikingo apenas habla
+            tu idioma y tampoco parece hablar el suyo demasiado bien. Todo lo tiene
+            que pensar tres y cuatro veces y cada palabra que da se pelea con la
+            anterior. Pero no te ha preocupado demasiado, después de todo, cada hora
+            negociado es una hora ganada para la fortaleza.</p>
+            <p>Sin embargo, justo a la caída de la noche te llega el rumor de una
+            batalla. Alarmado, cortas las negociaciones inmediatamente pero entonces
+            siete arqueros salen de la cabaña.</p>
+            <p>&mdash;Idiota, no soy ningún rey, mi rey está matando a tu ejército.
+            Yo soy asesino de reyes y ahora te mataré a ti.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
