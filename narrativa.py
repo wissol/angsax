@@ -3587,6 +3587,7 @@ secciones = {
             esperanza cómo la flecha se aleja de tu arco…</p>
             ''',
             opciones:{"Descubre el resultado":"p-extrano-animal-arco"},
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
@@ -3680,6 +3681,7 @@ secciones = {
             opciones:{"Intentas escabullirte entre las sombras, con el niño entre tus brazos.":"escabullirte-106", #106
                       "Te quedas aquí, con el arco preparado.":"arco-listo-115"
                       },
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
