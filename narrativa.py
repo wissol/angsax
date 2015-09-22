@@ -1586,13 +1586,20 @@ secciones = {
             eres lo único que se lo impide.</p>
             ''',
             opciones:{"Mantienes la táctica":"mantienes-tactica-18-9", #
-                      "Atacas a la primera oportunidad":"atacas-oportunidad-18-9", #
+                      "Atacas a la primera oportunidad":"p-atacas-oportunidad-18-9", #
                       "Intentas negociar con los vikingos":"intentas-negociar-18-9", #-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "p-atacas-oportunidad-18-9":{
+            prueba:True,
+            r:5,
+            s:["victoria-atacas-oportunidad-22-9-15", "derrota-batalla-generica"],
+            },
+
 
         "intentas-negociar-18-9":{
             titulo:"Largas negociaciones",
@@ -1603,8 +1610,8 @@ secciones = {
             negocies directamente con su jefe, en una cabaña de pastores a media
             hora de camino, tú y él solos.</p>
             ''',
-            opciones:{"Aceptas sus condiciones":"aceptas-condiciones-21-9-15",
-                      "Mantienes al táctica dilatoria":"mantienes-tactica-18-9",
+            opciones:{"Aceptas sus condiciones":"aceptas-condiciones-21-9-15", #-
+                      "Mantienes al táctica dilatoria":"mantienes-tactica-18-9", #
                       },
             prueba:False,
             imagen_arriba:False,
