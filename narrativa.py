@@ -2270,7 +2270,26 @@ secciones = {
     	"p-atacar-ahora-20-9-15":{
     	    prueba:True,
     	    r:6,
-    	    s:["victoria-atacar-ahora-20", "derrota-batalla-generica"],
+    	    s:["victoria-atacar-ahora-20-9-15", "derrota-batalla-generica"],
+    	    },
+
+    	"derrota-batalla-generica":{
+    	    titulo:"Derrota",
+    	    texto:'''<p>
+    	    Tus soldados han combatido con valor pero la postre el ejército enemigo
+    	    ha impuesto su voluntad sobre los tuyos. Casi la mitad de los hombres
+    	    se han perdido y de los que sobreviven todos están dispersos en el campo
+    	    y la mayoría completamente desmoralizados. Tu yaces ahora sobre la tierra
+    	    herido y haciendo todo lo que puedes por respirar. Tus dolores se han ido
+    	    apagando lentamente, quizás sea señal de que te estás muriendo. Pero aunque
+    	    vivas pasarán días para que puedas incluso levantarte y durante semanas
+    	    dependerás de la caridad de quien te encuentre.</p>
+    	    <p>Mira, alguien se acerca, ¿ángeles o saqueadores de cadáveres?
+    	    </p>''',
+    	    opciones:False,
+    	    prueba:False,
+    	    imagen_arriba:False,
+    	    imagen_abajo:False,
     	    },
 
 	    "vikingos-atacan-v":{
