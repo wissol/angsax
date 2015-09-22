@@ -1665,7 +1665,7 @@ secciones = {
         "p-ataque-132":{
             prueba:True,
             r:3,
-            s:["batalla-bosques-16-sep","derrota-bosques-16-sep"], #victoria derrota-
+            s:["batalla-bosques-16-sep","derrota-bosques-16-sep"], #victoria- derrota-
             },
 
         "batalla-bosques-16-sept":{
@@ -2049,7 +2049,22 @@ secciones = {
             las ramas.</p>
             ''',
             opciones:{"Sigues esa sombra":"sigues-sombra-15-sep",
-                      "No le prestas importancia":"paso-de-sombra-15-sep"}, # sigues sombra  pasas de sombra
+                      "No le prestas importancia":"paso-de-sombra-15-sep"}, # sigues sombra - pasas de sombra
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "sigues-sombra-15-sep":{
+            titulo:"Decepción",
+            texto:'''
+            <p>La sombra salta de una rama a otra como burlándose de ti. Cada vez
+            que te aproximas vuela y luego se queda quieta como esperándote. El
+            juego continúa durante quince minutos que parecen horas hasta que al
+            fin te das cuenta de que lo que has seguido durante todo ese tiempo
+            no era sino un pájaro.</p>
+            ''',
+            opciones:{"Olvídate de la sombra":"paso-de-sombra-15-sep"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
