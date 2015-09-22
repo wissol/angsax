@@ -2215,12 +2215,19 @@ secciones = {
             <p>Y tú, ¿qué deberías hacer?</p>.
             ''',
             opciones:{"Incitas la batalla con un desafío aderezado con una generosa cantidad de insultos":"insultas-emboscada-iv",
-                      "Ordenas a uno de tus guerreros a que, a la vista de los vikingos, abandone las armas y pretenda huir":"huida-falsa-iv"
-                      }, #insultas-emboscada-iv huida-falsa-iv
+                      "Ordenas a algunos de tus guerreros a que, a la vista de los vikingos, abandonen las armas y pretendan huir":"p-huida-falsa-iv"
+                      }, #insultas-emboscada-iv - huida-falsa-iv-
             prueba: False,
             imagen_arriba: False,
             imagen_abajo: False
             },
+
+        "p-huida-falsa-iv":{
+            prueba:True,
+            r:7,
+            s:["vikingos-atacan-v", "vikingos-prudentes-v"],
+            },
+
         "insultas-emboscada-iv":{
                 titulo:"Sarta de jamelgos",
                 texto:'''
