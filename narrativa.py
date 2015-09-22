@@ -2270,7 +2270,7 @@ secciones = {
     	"p-atacar-ahora-20-9-15":{
     	    prueba:True,
     	    r:6,
-    	    s:["victoria-atacar-ahora-20-9-15", "derrota-batalla-generica"],
+    	    s:["victoria-atacar-ahora-20-9-15", "derrota-batalla-generica"], #  victoria  derrota -
     	    },
 
     	"derrota-batalla-generica":{
@@ -3611,10 +3611,29 @@ secciones = {
             ayuda, precisamente…</p>
             ''',
             opciones:{"Si corres a atender al chico":"atender-nino-herido", #/98/-
-                      "Si prefieres escapar":"huir-nino-herido" #/43/?
+                      "Si prefieres escapar":"huir-nino-herido" #/43/-
                       },
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "huir-nino-herido":{
+            titulo:"Huída",
+            texto:'''
+            <p>Decides no arriesgarte a enfrentarte a la furia de los padres y
+            amigos del chico. Crees que si te encontraran nadie te creería y
+            podrías acabar como cualquier forajido, aunque te remuerde la conciencia
+            el que puedas dejar al chico así ya no hay vuelta atrás.</p>
+            <p>De hecho, ahora lo que te preocupa es otro grupo de gente que se
+            acerca entre los árboles.</p>
+            ''',
+            opciones:{"Te escondes":"te-escondes-22-9-15",
+                      "Les disparas":"p-disparas-otra-vez-22-9-15",
+                      "Huyes":"huyes-conejo-22-9-15"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "atender-nino-herido":{#98-
