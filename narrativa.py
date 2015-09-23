@@ -2922,13 +2922,33 @@ secciones = {
             que la que le están haciendo ahora los pájaros que se posan en
             ella.</p>
             ''',
-            opciones:{"Intentas buscar a su propietario.":"propietario-carreta", #/58/?
+            opciones:{"Intentas buscar a su propietario.":"propietario-carreta-58", #/58/-
                       "Te escondes.":"te-escondes-136", #/136/?
                       "Sigues adelante.":"sigues-adelante-164", #/164/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
+            },
+
+        "propietario-carreta-58":{
+            titulo:"Muerto",
+            texto:'''
+            <p>No tienes que caminar mucho tiempo hasta que, entre los árboles del
+            margen izquierdo de la carretera, tendido de forma trágica sobre los
+            arbustos, descubres un cuerpo. Te ahorraré los detalles, ha muerto a
+            espada y la sangre todavía gotea sobre la hojarasca. Un arbusto está
+            aplastado y en algunos lugares la hierba ha sido hollada hasta descubrir
+            la tierra desnuda. Todo el bosque parece haber enmudecido ante el crimen
+            que se ha cometido en su frontera.
+            </p>
+            ''',
+            opciones:{"Sales corriendo de aquí":"corres-de-muerto-carretera-23-9-15", #
+                      "Investigas en profundidad":"investigas-profundo-23-9-15", #
+                      },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "144":{
