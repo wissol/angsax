@@ -2943,7 +2943,7 @@ secciones = {
             que se ha cometido en su frontera.
             </p>
             ''',
-            opciones:{"Sales corriendo de aquí":"p-corres-de-muerto-carreta-23-9-15", #
+            opciones:{"Sales corriendo de aquí":"p-corres-de-muerto-carreta-23-9-15", #-
                       "Investigas en profundidad":"investigas-profundo-23-9-15", #-
                       },
             prueba:False,
@@ -2957,6 +2957,21 @@ secciones = {
             s:["escapas-muerto-carreta-23-9-15","te-pillan-muerto-23-9-15"],
         },
 
+        "te-pillan-muerto-23-9-15":{
+            texto:"Sin suerte",
+            texto:'''
+            <p>Deberías haber podido escapar. Saliste corriendo tan pronto como
+            pudiste porque sabías que había algo peligroso por aquí. Ninguno de
+            tus perseguidores era más rápido que tú y todos estaban agachados en
+            la espesura, entre zarzales. Seguramente ni lo hubieran intentado.
+            Pero es que corriste justo en su dirección, por un maldito azar del
+            destino.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "investigas-profundo-23-9-15":{
             titulo:"Nuevo asesinato",
