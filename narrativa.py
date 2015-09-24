@@ -2973,7 +2973,7 @@ secciones = {
         },
 
         "te-pillan-muerto-23-9-15":{
-            texto:"Sin suerte",
+            titulo:"Sin suerte",
             texto:'''
             <p>Deberías haber podido escapar. Saliste corriendo tan pronto como
             pudiste porque sabías que había algo peligroso por aquí. Ninguno de
