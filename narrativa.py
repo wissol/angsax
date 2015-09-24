@@ -274,9 +274,24 @@ secciones = {
             está contigo. Y ahora, que sabes eso, ¿necesitas saber algo más?</p>
             <p>¿Qué respondes al ángel?</p>
             ''',
-            opciones:{"Sí":"angel-saber-mas", #/47/?
-                      "No":"angel-no-saber-mas", #/133/?
+            opciones:{"Sí":"angel-saber-mas", #/47/-
+                      "No":"sigue-durmiendo", #199-
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "angel-saber-mas":{
+            titulo:"Saber más",
+            texto:'''
+            <p>El ángel sonríe: &mdash;Está bien, lo que Dios te pide es que guíes
+            a tu pueblo. Abandona la gente con la que estás ahora que yo la cuidaré
+            y ve al lugar que yo te mostraré. Toma tus armas pero deja el casco que
+            tu cabeza ha de quedar libre.</p>
+            ''',
+            opciones:{"Te disculpas y dices que no":"no-Dios-24-9-15",
+                      "Tiras tu casco al agua y dices que sí":"si-Dios-24-9-15"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
