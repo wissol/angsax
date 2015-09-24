@@ -17,8 +17,12 @@ def conpal_seccion(seccion):
     if y:
         x = 0
     else:
-        x = conpal(seccion['titulo'])
-        x += conpal(seccion['texto'])
+        try:
+            x = conpal(seccion['titulo'])
+            x += conpal(seccion['texto'])
+        except:
+            print("Error en ", seccion)
+            x=0
     return x
 
 def con_pal_secciones(secciones):

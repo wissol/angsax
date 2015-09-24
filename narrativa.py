@@ -290,7 +290,7 @@ secciones = {
             y ve al lugar que yo te mostraré. Toma tus armas pero deja el casco que
             tu cabeza ha de quedar libre.</p>
             ''',
-            opciones:{"Te disculpas y dices que no":"no-Dios-24-9-15",
+            opciones:{"Te disculpas y dices que no":"sigue-durmiendo",
                       "Tiras tu casco al agua y dices que sí":"si-Dios-24-9-15"},
             prueba:False,
             imagen_arriba:False,
