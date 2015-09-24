@@ -744,6 +744,7 @@ secciones = {
             imagen_abajo:False
             },
 
+
         "milicia":{ #180
             titulo:"Salvar la milicia",
             texto:'''
@@ -764,13 +765,58 @@ secciones = {
             pero sabes que no tienes tiempo para preocuparte. Así que, sonríes,
             ruges como un león y…</p>
             ''',
-            opciones:{"Te das la vuelta y atacas al enemigo, esperando servir de ejemplo.":"ejemplo-milicia",
+            opciones:{"Te das la vuelta y atacas al enemigo, esperando servir de ejemplo.":"ejemplo-milicia", #-
                         "Alineas las filas personalmente, tan rápido como puedes.":"milicia-filas", #-
                         "Arrebatas el estandarte del santo y lo lanzas contra el enemigo, esperando animar a tus tropas a recuperarlo":"milicia-estandarte"},
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "ejemplo-milicia":{
+            prueba:True,
+            r:3,
+            s:["carga-gloriosa-24-9-15","muerte-estupida-24-9-15"], # carga - muerte -
+            },
+
+        "muerte-estupida-24-9-15":{
+            titulo:"Solo",
+            texto:'''
+            <p>Solo cargas contra el enemigo. Corres con ferocidad pero nadie te
+            sigue y antes de que puedas cambiar de opinión una nube de lanzas descarga
+            su muete sobre tu pecho.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "carga-gloriosa-24-9-15":{
+            titulo:"Carga Gloriosa",
+            texto:'''
+            <p>¡Raaarghf! No sabes ni lo que gritas, pero, despreciando tu vida y la
+            inteligencia te lanzas tú solo al enemigo, como los dioses guerreros
+            paganos. Y por milagro quizás, toda la milicia te sigue embebida del
+            mismo espíritu salvaje que anima a usar el escudo como otra arma.</p>
+            <p>Y cuando chocáis contra el enemigo los guerreros vikingos no saben
+            cómo reaccionar y, maravillas de las maravillas, rompéis su muro de
+            escudos y se dispersan, huyendo como conejos.</p>
+            <p>Gritáis victoria, pero desde el bosque nuevas hordas vikingas se
+            unen a sus compañeros y desplazan a los cobardes. Detrás de ellos cada
+            árbol parece acoger un nuevo vikingo y te queda claro que con las fuerzas
+            locales del Conde es del todo imposible que los detengáis.</p>
+            <p>Además los <em>thengs</em> no han tenido tanta gloria como vosotros
+            y todavía están luchando contra sus propios vikingos.</p>
+            <p>Mientras, todos los milicianos miran a su nuevo héroe. ¿Qué ordenas?</p>
+            ''',
+            opciones:{"Unes tus tropas a las del Conde Ian":"milicia-y-thengs-24-9-15", #
+                      "Ordenas una retirada inmediata":"retirada-milicia-inmediata-24-9-15"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "huyes-batalla-conde-ian":{#190
             titulo:"Triste Juglar",
