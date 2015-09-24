@@ -2944,8 +2944,23 @@ secciones = {
             </p>
             ''',
             opciones:{"Sales corriendo de aquí":"corres-de-muerto-carretera-23-9-15", #
-                      "Investigas en profundidad":"investigas-profundo-23-9-15", #
+                      "Investigas en profundidad":"investigas-profundo-23-9-15", #-
                       },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "investigas-profundo-23-9-15":{
+            titulo:"Nuevo asesinato",
+            texto:'''
+            <p>Intranquilo por el desagradable encuentro empiezas a buscar por los
+            alrededores una pista que te pueda llevar a los asesinos. Pero entonces,
+            justo mientras examinas unas manchas de sangres, el filo de una espada
+            te atraviesa la espalda.</p>
+            <p>Caes muerto antes de poder sentir dolor.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
