@@ -2943,13 +2943,20 @@ secciones = {
             que se ha cometido en su frontera.
             </p>
             ''',
-            opciones:{"Sales corriendo de aquí":"corres-de-muerto-carretera-23-9-15", #
+            opciones:{"Sales corriendo de aquí":"p-corres-de-muerto-carreta-23-9-15", #
                       "Investigas en profundidad":"investigas-profundo-23-9-15", #-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "p-corres-de-muerto-carreta-23-9-15":{
+            prueba:True,
+            r:8,
+            s:["escapas-muerto-carreta-23-9-15","te-pillan-muerto-23-9-15"],
+        },
+
 
         "investigas-profundo-23-9-15":{
             titulo:"Nuevo asesinato",
