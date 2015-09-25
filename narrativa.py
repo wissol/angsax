@@ -1231,6 +1231,7 @@ secciones = {
             oriental y nunca volverás a ver tu tierra.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
