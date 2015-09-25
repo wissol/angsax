@@ -12,7 +12,7 @@ def annade_imagen_aleatoria(seccion):
         ilustraciones = ["adze", "ancient_nordic_borre_beasts", "bosque", "caravan", "dagger", "dance", "doll",
                          "escudo", "Girl_hut", "helmet", "hut", "kidsplay", "lira",
                          "molaise", "mousy",
-                         "oak_leaf_illustration", "sceata", "sword",
+                         "oak_leaf_illustration", "sceata", "Sword",
                          "viking_shield_style_brooch_by_eveyd-d38na6a",
                          "oldbooks1", "oldbooks2", "wikimedia1", "wiki-vikingos", "wyvern"]
         lugar = ["imagen-abajo", "imagen-arriba"]

@@ -72,7 +72,7 @@ secciones = {
                         },
 
             prueba:False,
-            imagen_arriba:False,
+            imagen_arriba:'Sword.png',
             imagen_abajo:False,
 
             },
@@ -811,12 +811,35 @@ secciones = {
             <p>Mientras, todos los milicianos miran a su nuevo héroe. ¿Qué ordenas?</p>
             ''',
             opciones:{"Unes tus tropas a las del Conde Ian":"milicia-y-thengs-24-9-15", #
-                      "Ordenas una retirada inmediata":"retirada-milicia-inmediata-24-9-15"}, #
+                      "Ordenas una retirada inmediata":"retirada-milicia-inmediata-24-9-15"}, #-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
 
+        "retirada-milicia-inmediata-24-9-15":{
+            titulo:"Retirada",
+            texto:'''
+            <p>Ante la disparidad de fuerzas decides volver a la razón y retirarte.
+            En cuanto a los <em>thengs</em>, deseas lo mejor para ellos pero no vas
+            a arriesgar a toda una hueste de campesinos a una guerra de verdad. En
+            vez de eso ordenas una rápida retirada mientras una docena de vikingos,
+            exploradores sin duda, os siguen a caballo sin acercarse demasiado.</p>
+            <p>El tiempo pasa con la rapidez del miedo hasta que vuestros pasos os
+            alejan de la batalla, pero no de los exploradores vikingos que os vienen siguiendo.
+            Sopesas tus opciones y solo se te ocurren tres maneras de conseguir que sobrevivan:
+            resguardaros bajo las empalizadas del fuerte, huir a la tierra de los
+            pantanos donde los caballos no podrán seguiros o intentar un ataque
+            contra el puñado de exploradores que están tras vuestra pista.</p>
+            ''',
+            opciones:{"Ordenas ir al fuerte del conde para defenderlo.":"al-fuerte", #/92-
+                        "Ordenas ir a por las mujeres y los niños para emprender luego la huida a la Tierra de los Pantanos.":"tierra-pantanos", #/187-
+                        "Atacar a los exploradores":"atacar-exploradores-25-9-15", #
+                        },
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "huyes-batalla-conde-ian":{#190
             titulo:"Triste Juglar",
@@ -1577,6 +1600,7 @@ secciones = {
             caso ya no te queda nada de lo que preocuparte.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
