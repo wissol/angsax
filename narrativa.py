@@ -2177,12 +2177,39 @@ secciones = {
             pasado el tiempo sino fuera por la sombra grisácea que vuela entre
             las ramas.</p>
             ''',
-            opciones:{"Sigues esa sombra":"sigues-sombra-15-sep",
-                      "No le prestas importancia":"paso-de-sombra-15-sep"}, # sigues sombra - pasas de sombra
+            opciones:{"Sigues esa sombra":"sigues-sombra-15-sep", #-
+                      "No le prestas importancia":"paso-de-sombra-15-sep"}, # sigues sombra - pasas de sombra-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "paso-de-sombra-15-sep":{
+            titulo:"Vuelta a casa",
+            texto:'''
+            <p>Olvidada la sombra, continuas con tu gran viaje de vuelta a casa.
+            Solo que ahora no sabes dónde estás y te sientes como un viejo perdido
+            e inútil.A cada paso que profundizas en el bosque sus sonidos familiares
+            desaparecen. Te han visto, te han oído, sobre todo te han olido y
+            callan esperando que te reveles como un cazador. La situación te
+            alegra, porque significa que los próximos que vulneren la santidad
+            de esta selva recibirán el mismo silencio delatador.</p>
+            <p>Comienza así una aventura de supervivencia campo a través,
+            caminando, buscando guía en el sol y en las estrellas, cazando
+            cuando es necesaria, durmiendo cuando es posible, en alerta siempre.</p>
+            <p>Un mes más tarde llegas ante tus tierras y lo que allí te recibe
+            es una estampa de desolación. La tristeza te hace caer de rodillas
+            atravesado de dolores. Porque la empalizada que protegía la
+            fortaleza de tu padre está quebrada en tres partes y sobre la altiva
+            torre de piedra vuela el cuervo de los vikingos, su bandera de
+            sangre y noche.</p>
+            ''',
+            opciones:{},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "sigues-sombra-15-sep":{
             titulo:"Decepción",
