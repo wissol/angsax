@@ -834,7 +834,7 @@ secciones = {
             ''',
             opciones:{"Ordenas ir al fuerte del conde para defenderlo.":"al-fuerte", #/92-
                         "Ordenas ir a por las mujeres y los niños para emprender luego la huida a la Tierra de los Pantanos.":"tierra-pantanos", #/187-
-                        "Atacar a los exploradores":"atacar-exploradores-25-9-15", #
+                        "Atacar a los exploradores":"atacar-exploradores-25-9-15", #-
                         },
             prueba:False,
             imagen_arriba:False,
@@ -1644,8 +1644,9 @@ secciones = {
             <p>Tu gente recordará tus esfuerzos durante generaciones.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
-            imagen_abajo:False
+            imagen_abajo:'dance.png'
             },
 
         "batalla-bosques-103":{
@@ -1690,14 +1691,37 @@ secciones = {
             sino caras de desilusión en tus hombres. Todos quieren combatir y tú
             eres lo único que se lo impide.</p>
             ''',
-            opciones:{"Mantienes la táctica":"mantienes-tactica-18-9", #
-                      "Atacas a la primera oportunidad":"p-atacas-oportunidad-18-9", #
+            opciones:{"Mantienes la táctica":"mantienes-tactica-18-9", #-
+                      "Atacas a la primera oportunidad":"p-atacas-oportunidad-18-9", #-
                       "Intentas negociar con los vikingos":"intentas-negociar-18-9", #-
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "mantienes-tactica-18-9":{
+            titulo:"Una decisión incómoda",
+            texto:'''
+            <p>Mantenerla táctica ha sido, desde luego la decisión más incómoda.
+            Nada hay de gloria para los guerreros que cada vez se sienten más
+            defraudados con tus decisiones. Con todo has tenido la recompensa de
+            retener a los vikingos una semana entera, siguiéndote de acá para allá,
+            siempre con el temor de que les tendieras una emboscada. Los enemigos
+            te han puesto un mote: <em>el mirlo</em> y escupen al pronunciarlo,
+            llenándote de maldiciones.</p>
+            <p>Ademsás, tu éxito te ha traído un problema más serio:, tu ejército improvisado
+            apenas salió con raciones y poco a poco van escaseando. Quizás sea
+            el momento de volver al fuerte</p>.
+            ''',
+            opciones:{"Vuelves al fuerte":"al-fuerte-26-9-15",
+                      "Ordenas una incursión nocturna para robar comida a los vikingos":"robar-comida-26-9-15",},
+                      # volver fuerte  | incursión nocturna
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "p-atacas-oportunidad-18-9":{
             prueba:True,
