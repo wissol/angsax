@@ -841,6 +841,25 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "atacar-exploradores-29-9-15":{
+            titulo:"Rodeados por diez mil enemigos",
+            texto:'''
+            <p>Los exploradores se retiran lentamente en cuanto cargáis contra
+            ellos y cuando estáis a punto de alcanzarlos, dan la vuelta a sus
+            monturas y aceleran hasta galopar. Uno de ellos reacciona demasiado
+            tarde y tu espada se cobra primero su montura y después al jinete sobre
+            el frío suelo del campo de batalla.</p>
+            <p>Pero va a dar igual: las hordas vikingas han avanzado hacia tu
+            unidad sin que os hubieráis percatado de ello, nublados por las ansias
+            de victoria y ahora estáis rodeados por diez mil enemigos y solo podéis
+            elegir entre esclavitud o muerte.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "huyes-batalla-conde-ian":{#190
             titulo:"Triste Juglar",
             texto:'''
