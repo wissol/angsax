@@ -2204,7 +2204,41 @@ secciones = {
             torre de piedra vuela el cuervo de los vikingos, su bandera de
             sangre y noche.</p>
             ''',
-            opciones:{},
+            opciones:{"Buscas un lugar seguro para esconderte":"seguro-esconderte-26-9-15",
+                      "Buscas a tu familia, si es que alguien ha sobrevivido.":"buscas-familia-superviviente-26-9-15"},
+                      # lugar seguro | buscar familia
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "seguro-esconderte-26-9-15":{
+            titulo:"Las tres brujas",
+            texto:'''
+            <p>Desde niño sabes agazaparte entre el matorral que brota por todo
+            lo que no son campos de avena. Tu tierra te conoce y te guarda hasta
+            que desapareces de la vista de todos. Ahora te sería muy fácil
+            escapar y no volver a ser encontrado nunca, pero eso no te basta;
+            necesitas saber qué ha pasado y sabes muy bien dónde dirigirte: la
+            cabaña de las tres brujas. Son tres árboles que crecieron tan juntos que sus ramas
+            entretejieron un techo y sus troncos forjaron paredes retorcidas,
+            compitiendo unos contra otros por el espacio hasta solo dejar
+            rendijas de aire entre ellos. Ya en los tiempos de tus abuelos los
+            niños se desafiaban a pasar allí la noche de vísperas de los
+            espíritus y casi ninguno acepta. Sin embargo, para otras ocasiones
+            era muy buen escondite.</p>
+            <p>Llegas y enseguidas recuerdas el truco: hay que subir a la bruja
+            pálida, el árbol de corteza casi blanca, y desde su copa sorteas las
+            ramas hasta descender a su interior. Hoy subir se te hace más fácil
+            pero cuando llegas al centro un chillido te derriba al suelo.</p>
+            <p>Es Aedelwina tu sobrina de rostro demacrado y cubierto de polvo,
+            el pelo revuelto y un zapato perdido, que todavía abraza su muñeca
+            de madera labrada cuando caes junto a ella.</p>
+            ''',
+            opciones:{"Le preguntas qué ha pasado.":"preguntas-Aedelwina-26-9-15",
+                      "Escapas inmediatamente con ella.":"escapas-Aedelwina-26-9-15",
+                      },
+                      #preguntas | escapas
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
