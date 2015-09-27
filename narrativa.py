@@ -1941,6 +1941,7 @@ secciones = {
             triplicaros en número y os tienen completamente rodeados. Ha llegado
             el...</p>
             ''',
+            prueba:False,
             opciones:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -3037,6 +3038,7 @@ secciones = {
             <em>esclav</em>.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
@@ -3252,7 +3254,8 @@ secciones = {
                       "Si fuerzas la marcha con una sola formación.":"guerreros-forzar-marcha", #/44/?
                       },
             imagen_arriba:False,
-            imagen_abajo:"escudo.png"
+            imagen_abajo:"escudo.png",
+            prueba:False,
             },
 
         "milicia-filas":{
@@ -3770,6 +3773,7 @@ secciones = {
             al llegar el confín del día pierdes toda esperanza.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
@@ -3795,6 +3799,7 @@ secciones = {
             antes, completamente perdido.</p>
             ''',
             opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
@@ -3876,9 +3881,46 @@ secciones = {
             <p>De hecho, ahora lo que te preocupa es otro grupo de gente que se
             acerca entre los árboles.</p>
             ''',
-            opciones:{"Te escondes":"te-escondes-22-9-15",
-                      "Les disparas":"p-disparas-otra-vez-22-9-15",
-                      "Huyes":"huyes-conejo-22-9-15"},
+            opciones:{"Te escondes":"te-escondes-22-9-15", #
+                      "Les disparas":"p-disparas-otra-vez-22-9-15", #
+                      "Huyes":"huyes-conejo-22-9-15"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "te-escondes-22-9-15":{
+            prueba:True,
+            r:3,
+            s:["descubierto-26-9-15","vuelves-a-casa-27-9-15"], #  | casa-
+            },
+
+        "vuelves-a-casa-27-9-15":{
+            titulo:"Vuelves a casa",
+            texto:'''
+            <p>Has conseguido librarte de los que te acechaban y, tras dejar un
+            tiempoprudencial, no sea que te pase nada, te alejas hacia los más
+            profundo del bosque. Aquí no tienes nada que temer, salvo las incomodidades
+            porque estás acostumbrado a vivir en la naturaleza. Solo que ahora
+            no sabes dónde estás y te sientes como un viejo perdido
+            e inútil.A cada paso que profundizas en el bosque sus sonidos familiares
+            desaparecen. Te han visto, te han oído, sobre todo te han olido y
+            callan esperando que te reveles como un cazador. La situación te
+            alegra, porque significa que los próximos que vulneren la santidad
+            de esta selva recibirán el mismo silencio delatador.</p>
+            <p>Comienza así una aventura de supervivencia campo a través,
+            caminando, buscando guía en el sol y en las estrellas, cazando
+            cuando es necesaria, durmiendo cuando es posible, en alerta siempre.</p>
+            <p>Un mes más tarde llegas ante tus tierras y lo que allí te recibe
+            es una estampa de desolación. La tristeza te hace caer de rodillas
+            atravesado de dolores. Porque la empalizada que protegía la
+            fortaleza de tu padre está quebrada en tres partes y sobre la altiva
+            torre de piedra vuela el cuervo de los vikingos, su bandera de
+            sangre y noche.</p>
+            ''',
+            opciones:{"Buscas un lugar seguro para esconderte":"seguro-esconderte-26-9-15",
+                      "Buscas a tu familia, si es que alguien ha sobrevivido.":"buscas-familia-superviviente-26-9-15"},
+                      # lugar seguro | buscar familia
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
