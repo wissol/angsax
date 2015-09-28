@@ -3990,10 +3990,31 @@ secciones = {
             imagen_abajo:False
             },
 
+
         "p-escabullirte-106":{
             prueba:True,
             r:5,
             s:["116","borrachos-con-espadas-124"] #116? 124-
+            },
+
+        "116":{
+            titulo:"Nueva decisión",
+            texto:'''
+            <p>Habéis escapado. Este bosque desconocido os ha protegido, llevandóos
+            a sus más profundas sombras. En este momento no sabes exactamente dónde
+            estás, pero eso no te preocupa demasiado. Sabes que eres perfectamente
+            capaz de sobrevivir en este entorno y que, con el tiemo, serás capaz de
+            regresar a casa.</p>
+            <p>El dilema se te presenta con el niño. Está mejor pero seguro que te
+            va a retrasar; lo mejor sería dejarlo con su familia, pero dudas por lo
+            que pasó antes con tu flecha. Además, tampoco estás seguro de que sea
+            fácil encontrarla.</p>
+            ''',
+            opciones:{"Llevas al niño contigo":"nino-contigo-28-9-15", #
+                      "Buscas a su familia":"buscas-familia-28-9-15",}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "borrachos-con-espadas-124":{
