@@ -4053,12 +4053,20 @@ secciones = {
             basca con una carga y una corta carrera para acabar también con su
             vida. La cerveza que antes robaran te ha ayudado en esta victoria.
             </p>
+            <p>Vencidos los vikingos, sin embargo, te espera otra decisión. ¿Qué
+            vas a hacer con el niño? Si lo llevas contigo seguro que te retrasaría.
+            Por otro lado tampoco sabes lo que tardarías en buscar a su familia
+            para dejarlo a su cuidado.</p>
             ''',
-            opciones:{"Sigue Adelante":"39"}, #Sigue adelante, /39/?
+            opciones:{"Llevas al niño a su familia":"buscas-familia-28-9-15", #
+                      "Vas a buscar a tu familia con el niño":"nino-contigo-28-9-15" #
+                      },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+
 
         "143":{
             titulo:"Suerte Asquerosa",
