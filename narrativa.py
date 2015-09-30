@@ -3115,13 +3115,40 @@ secciones = {
             ella.</p>
             ''',
             opciones:{"Intentas buscar a su propietario.":"propietario-carreta-58", #/58/-
-                      "Te escondes.":"te-escondes-136", #/136/?
+                      "Te escondes.":"te-escondes-136", #/136/-
                       "Sigues adelante.":"sigues-adelante-164", #/164/?
                       },
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False
             },
+
+        "te-escondes-136":{
+            prueba:True,
+            r:3,
+            s:["te-descubren-30-9-15","tu-descubres-ellos-30-9-15"]
+            },
+
+        "te-descubren-30-9-15":{
+            titulo:"Te han descubierto",
+            texto:'''
+            <p>La carreta vacía te parece lo suficientemente sospechosa para
+            esconderte. ¿A dónde a ido el carretero? ¿A mear? ¿Acaso tiene alguien
+            que guardar la intimidad en un camino poco transitado? Además en la
+            carreta hay carga para un molino, ¿quién dejaría todo eso sin vigilancia?</p>
+            <p>Así que te escondes entre arbustos y esperas y pasas así la mejor parte de una hora
+            hasta que pierdes la paciencia y te levantas...</p>
+            <p>Justo en el momento que tres vikingos con las ropas manchadas de sangre
+            aparecen por el camino a unos veinte metros de ti, descubriéndote al instante.</p>
+            ''',
+            opciones:{"Huyes":"huyes-30-9-15",
+                      "Te enfrentas a ellos con tu arco":"arco-30-9-15"}, #  huyes | arco
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+
 
         "propietario-carreta-58":{
             titulo:"Muerto",
@@ -3285,7 +3312,7 @@ secciones = {
         "p-milicia-filas":{
             prueba:True,
             r:7,
-            s:["giro-espadas","muerte-milicia"]
+            s:["giro-espadas","muerte-milicia"] # - -
             },
 
         "giro-espadas":{ #67
