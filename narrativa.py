@@ -291,7 +291,33 @@ secciones = {
             tu cabeza ha de quedar libre.</p>
             ''',
             opciones:{"Te disculpas y dices que no":"sigue-durmiendo",
-                      "Tiras tu casco al agua y dices que sí":"si-Dios-24-9-15"},
+                      "Tiras tu casco al agua y dices que sí":"si-Dios-24-9-15"}, # - | -
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "si-Dios-24-9-15":{
+            titulo:"Offawick",
+            texto:'''
+            <p>Aunque te parece extraña la petición del ángel, no vas a discutir con
+            un mensajero de Dios y despojándose de tu casco lo arrojas al agua. Inmediatamente
+            se abre un túnel en las aguas que continúa bajo la superficie de la tierra.
+            En su interior brota la luz y antes incluso de que el ángel diga nada ya sabes
+            lo que tienes que hacer.</p>
+            <p>&mdash;Ve.</p>
+            <p>Y vas, solo pues el ángel ha desaparecido de tu lado, por el túnel
+            que atraviesa las aguas y el interior de la tierra y extrañamente sin
+            miedo. Dos días después, o eso crees, emerges en el interior de una
+            gruta en el otro extremo de Angsax, junto a la ciudad de Offawick,
+            antaño colonia romana y hoy un abigarrado bulto de casas y chozas, enclaustradas
+            por un cercado de viejos muros y toscas empalizadas, donde se esconde una
+            temblorosa muchedumbre sin rey ni jefe.</p>
+            <p>Cuando llegas ante la puerta de Adriano Imperator, el guardia te grita: &mdash;¿Quién vive?
+            Y tú respondes...</p>
+            ''',
+            opciones:{"El Rey que Dios nuestro Señor os manda":"rey-Señor-1-10-15",
+                      "Dever, un guerrero del norte":"Dever-guerrero-norte-1-10-15"},#
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
