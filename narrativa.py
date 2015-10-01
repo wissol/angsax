@@ -3126,7 +3126,25 @@ secciones = {
         "te-escondes-136":{
             prueba:True,
             r:3,
-            s:["te-descubren-30-9-15","tu-descubres-ellos-30-9-15"]
+            s:["te-descubren-30-9-15","tu-descubres-ellos-30-9-15"] # - | -
+            },
+
+        "tu-descubres-ellos-30-9-15":{
+            titulo:"Los descubres",
+            texto:'''
+            <p>La carreta vacía te ha hecho sospechar que algo malo ha pasado.
+            ¿A dónde ha podido ir el carretero? No se te ocurre ninguna razón lógica
+            para dejar todo este cargamento de grano a merced de las bestias y los
+            transeúntes salvo que haya tenido que huir para salvar la vida. Así que
+            te escondes entre arbustos y esperas y pasas así la mejor parte de una
+            hora hasta que los descubres: son tres vikingos acercándose por el camino,
+            a unos veinte metros de distancia, con las ropas manchadas de sangre.</p>
+            ''',
+            opciones:{"Permaneces en tu escondite":"permaneces-escondido-1-10-15", #
+                      "Les atacas con tu arco":"atacas-arco-1-10-15"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "te-descubren-30-9-15":{
