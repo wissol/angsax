@@ -3610,12 +3610,29 @@ secciones = {
             imagen_abajo:False
             },
 
-       # "14":{
-        #    titulo:"Saquearemos a los vikingos",
-         #   texto:'''
-          #  <p>
-           # '''
-            #},
+        "14":{
+            titulo:"Saquearemos a los vikingos",
+            texto:'''
+            <p>En cuanto las palabras salen de tu boca la gente te mira como se
+            mira a un loco. Se supone que son los vikingos quienes saquean angsax
+            y no al revés. Pero tú no pierdes tu aplomo.</p>
+            <p>&mdash;No es tan difícil y ya nada podemos perder. No tenemos casas
+            ni fincas y ya somos forajidos. Hagamos lo que hagamos nos van a perseguir
+            igual. Si no nos hacen más daño es que no pueden. Así que busquemos
+            una noche o una trampa, entremos en sus campamentos y robemos. Así
+            por una parte les hacemos la guerra, por otra les damos preocupación y
+            por última engordamos.</p>
+            <p>Poco a poco la gente se va convenciendo hasta que en la mente de
+            todos se instala la idea de que la única forma de sobrevivir es robar
+            a los vikingos. Una vez que eso pasa ya no hay miedo y sus preguntas
+            se sustituyen por una sola: <em>¿cuál es tu plan?</em></p>
+            ''',
+            opciones:{"Salimos al alba, a encontrar su campamento":"al-alba-3-10-15", #
+                      "Saldremos en cuanto caiga el sol, a saquearlos":"a-la-noche-3-10-15"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "explorar-caza":{#162
             titulo:"Barro y Frío",
