@@ -3634,6 +3634,30 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "al-alba-3-10-15":{
+            titulo:"El campamento",
+            texto:'''
+            <p>Decides que os será más difícil encontrar el campamento vikingo
+            en la oscuridad y mandas todo el mundo a dormir salvo a un retén de
+            vigías. A la salida del sol tomas dos docentas de hombres y los
+            divides en seis grupos, cada uno buscará el campamento vikingo por
+            su cuenta.</p>
+            <p>Al atardecer del segundo día, tu propio grupo, arrastrándose entre
+            la hierba alta, descubre a los vikingos acampados junto a las marismas
+            donde el caudaloso río Uhtceare se hunde en el barro. Su recinto es
+            una bien ordenada trama de tiendas de campaña a la izquierda y toscos
+            refugios de madera a la derecha, donde han dejado a sus caballos.</p>
+            <p>Rápidamente das la orden a uno de los tuyos a que traiga a los demás
+            grupos aquí para la noche. Hecho esto te pones a pensar en tu plan nocturno.
+            </p>
+            ''',
+            opciones:{"Intentarás infiltrarte en la oscuridad, sencillo y limpio":"infiltrarse-3-10-15", #
+                      "La mitad de tus hombres creará una distracción, mientras te infiltras con la otra mitad":"distraccion-3-10-15"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
         "explorar-caza":{#162
             titulo:"Barro y Frío",
             texto:'''
