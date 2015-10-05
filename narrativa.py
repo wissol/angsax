@@ -2717,8 +2717,42 @@ secciones = {
             intenta sobrevivir como puede; pronto el suelo queda alfombrado de
             armas y escudos.</p>
             ''',
-            opciones:{"Corre tú también para salvar tu vida":"p-no-decision-v"}, #p
+            opciones:{"Corre tú también para salvar tu vida":"p-no-decision-v"}, #p-
             prueba: False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "p-no-decision-v":{
+            prueba:True,
+            r:5,
+            s:["escapa-5-10-15","pillado-5-10-15"],
+            },
+
+        "escapa-5-10-15":{
+            titulo:"Escapas",
+            texto:'''
+            <p>En la confusión de la huida has conseguido escapar con tu vida, tu
+            espada y las ropas que llevas puesta. Todo lo demás ha quedado en el
+            campo de batalla. Ni siquiera resta la esperanza en una victoria ahora
+            que todos han perdido la moral. Te toca luchar por sobrevivir entre los
+            campos dominados por el enemigo.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "pillado-5-10-5":{
+            titulo:"Muerte",
+            texto:'''
+            <p>No sabes muy bien como vino, solo que una lanza, de repente te atravesó
+            las costillas desde la espalda y acabaste en el suelo, entre cadáveres,
+            esperando sin esperanza una muerte que ponga fin al dolor.</p>
+            ''',
+            opciones:False,
+            prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
