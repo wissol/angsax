@@ -323,6 +323,27 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "Dever-guerrero-norte-1-10-15":{
+            titulo:"Guerrero entre guerreros",
+            texto:'''
+            <p>El guardia te da la bienvenida &mdash;Adelante, bien sabe Dios que
+            necesitamos brazos fuertes.</p>
+            <p>Antes que te quieras dar cuenta te has unido a la <em>Fyrd</em> de
+            Offawick. Las noticias que te llegan a través de tus compañeros son
+            peores de lo que pudieras imaginar. No es solo que el ejército vikingo
+            se acerque, es que las peleas entre los housecarles son constantes para
+            ver quién es el jefe. <em>Sólo un rey podría salvarnos.</em></p>
+            <p>No te atreviste a proclamar la obra que Dios había hecho en ti y
+            ahora te toca esperar entre las lanzas la hora fatal de los fuertes
+            invasores.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+
         "sigue-durmiendo":{#199
             titulo:"Paz y Naturaleza",
             texto:'''
