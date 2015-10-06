@@ -37,6 +37,14 @@ secciones = {
 
             <p>Si te atreves es posible que te conviertas en el primer rey de Angsax o en un
             montón de huesos en el fondo de un pantano.</p>
+
+            <h3>Nota</h3>
+            <p>Esta obra no está terminada. A 6 de octubre de 2015 tengo hechas
+            203 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
+            los días una o más secciones pero tendrás que tener paciencia porque
+            soy solo una persona, con alguna ayuda de mis amigos de <a href="http://www.librojuegos.org">Librojuegos</a>,
+            no una editorial.</p>
+            <p>El autor, Miguel de Luis Espinosa</p>
             ''',
         opciones:{"Comienza tu aventura":"1"},
         prueba:False,
