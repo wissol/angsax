@@ -2198,13 +2198,38 @@ secciones = {
             <em>"no te fies del mal, mientras mal sea"</em>, que no sabes cómo te
             podrá servir de ayuda.</p>
             ''',
-            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep", #
+            opciones:{"Buscas el norte, la dirección aproximada de tu familia":"norte-familia-20-sep", #-
                       "Exploras los alrededores":"exploras-bosque-20-sep"},#
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
 
+        "norte-familia-20-sep":{
+            titulo:"Buscando el norte",
+            texto:'''
+            <p>A cada paso que profundizas en el bosque sus sonidos familiares
+            desaparecen. Te han visto, te han oído, sobre todo te han olido y
+            callan esperando que te reveles como un cazador. La situación te
+            alegra, porque significa que los próximos que vulneren la santidad
+            de esta selva recibirán el mismo silencio delatador.</p>
+            <p>Comienza así una aventura de supervivencia campo a través,
+            caminando, buscando guía en el sol y en las estrellas, cazando
+            cuando es necesaria, durmiendo cuando es posible, en alerta siempre.</p>
+            <p>Un mes más tarde llegas ante tus tierras y lo que allí te recibe
+            es una estampa de desolación. La tristeza te hace caer de rodillas
+            atravesado de dolores. Porque la empalizada que protegía la
+            fortaleza de tu padre está quebrada en tres partes y sobre la altiva
+            torre de piedra vuela el cuervo de los vikingos, su bandera de
+            sangre y noche.</p>
+            ''',
+            opciones:{"Buscas un lugar seguro para esconderte":"seguro-esconderte-26-9-15",
+                      "Buscas a tu familia, si es que alguien ha sobrevivido.":"buscas-familia-superviviente-26-9-15"},
+                      # lugar seguro | buscar familia
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "alejas-agua-luz-19-9-15":{
             titulo:"",
