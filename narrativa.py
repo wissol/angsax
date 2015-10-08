@@ -1406,7 +1406,6 @@ secciones = {
             s:["conde-lucha","conde-huye"] # hechos los dos
             },
 
-
         "avisar-familia":{ #16
             titulo:"El Camino del Norte",
             texto:'''
@@ -1765,7 +1764,7 @@ secciones = {
             siempre con el temor de que les tendieras una emboscada. Los enemigos
             te han puesto un mote: <em>el mirlo</em> y escupen al pronunciarlo,
             llenándote de maldiciones.</p>
-            <p>Ademsás, tu éxito te ha traído un problema más serio:, tu ejército improvisado
+            <p>Además, tu éxito te ha traído un problema más serio:, tu ejército improvisado
             apenas salió con raciones y poco a poco van escaseando. Quizás sea
             el momento de volver al fuerte</p>.
             ''',
@@ -1776,6 +1775,27 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "al-fuerte-26-9-15":{
+            titulo:"En el fuerte",
+            texto:'''
+            <p>Cansados, hambrientos y aburridos de la guerra, los guerreros de
+            Angsax entran en el fuerte a la tibia luz de las antorchas. El olor de
+            la avena que ha sido acumulada durante estos días les alegra el corazón;
+            el rumor del ejército vikingo os lo constriñe a todos.</p>
+            <p>Y después de esta noche comienza un largo asedio, de semana tras
+            semana, hasta alcanzar el invierno. Ni que decir tiene que vuestras
+            provisiones están casi agotadas. Es ahora cuando tienes que tomar
+            una decisión crítica: o atacas ahora o esperas confiando que a ellos
+            se les acabe antes las provisiones.
+            ''',
+            opciones:{"Atacas":"atacas-08-10-15",
+                      "Esperas":"esperas-08-10-15"},
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
 
         "p-atacas-oportunidad-18-9":{
