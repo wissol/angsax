@@ -156,7 +156,7 @@ secciones = {
             también, cada uno para salvar su propia vida. La cuestión es qué harás tú.</p>
             ''',
             opciones: {"Terminas tu comida tranquilamente y luego emprendes camino al lejano norte, a avisar a tu familia":"comida-familia", #193-
-                         "Huyes también, de momento, para salvar tu vida":"huyes-tambien"}, #9-
+                       "Huyes también, de momento, para salvar tu vida":"huyes-tambien"}, #9-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:"hen.png",
@@ -324,14 +324,44 @@ secciones = {
             <p>Cuando llegas ante la puerta de Adriano Imperator, el guardia te grita: &mdash;¿Quién vive?
             Y tú respondes...</p>
             ''',
-            opciones:{"El Rey que Dios nuestro Señor os manda":"rey-Señor-1-10-15",
-                      "Dever, un guerrero del norte":"Dever-guerrero-norte-1-10-15"},#
+            opciones:{"El Rey que Dios nuestro Señor os manda":"rey-senor-1-10-15",
+                      "Dever, un guerrero del norte":"dever-guerrero-norte-1-10-15"},#-
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
 
-        "Dever-guerrero-norte-1-10-15":{
+        "rey-senor-1-10-15":{
+            titulo:"Rey y Señor",
+            texto:'''
+            <p>Esperas una gran carcajada cuando te proclamas como el enviado de
+            Dios, pero lo que el guardia te devuelve es un gran escupitajo que clava
+            en medio de tu barba.</p>
+            <p>&mdash;¡Ja! &mash;Se burla, &mdash;Si de verdad eres el Rey que
+            Dios nos manda...</p>
+            <p>Y antes que de termine su frase, sin saber cómo ni por qué, tu brazo
+            ha alcanzado el pomo de tu espada, la desenvainado y lanzado hasta cortar
+            la punta de su bigote pero sin ni siquiera rozarle la cara.</p>
+            <p>...córtame la punta del bigote.</p>
+            <p>Desde entonces los acontencimientos se desencadenan uno tras otro
+            y sin saber muy bien cómo acabas dentro de la ciudad, en los restos
+            de lo que un día fuera un teatro romano con la mita de la gente físicamente
+            a un lado y la otra mitad del otro, unos apoyándote y otros repudiándote.
+            Entre estos últimos el que vocifera más en un buen guerrero de anchos
+            hombres y viejas cicatrices que, quizás llevado por el lugar y las
+            circunstancias, te desafía de guisa poética:</p>
+            <p>&mdash;Si de Dios vienes que Dios te prueba. Arroja tu cuerpo al
+            fuego, que si de Dios vienes no te quemará, o enfrentaté a mis armas,
+            que aunque de Dios vengas no tengo miedo a la muerte.</p>
+            ''',
+            opciones:{"Te enfrentas a un juicio por las armas":"juicio-por-armas-8-10-15",
+                      "Te enfrentas al juicio del fuego":"juicio-del-fuego-8-10-15",}, # armas fuego
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "dever-guerrero-norte-1-10-15":{
             titulo:"Guerrero entre guerreros",
             texto:'''
             <p>El guardia te da la bienvenida &mdash;Adelante, bien sabe Dios que
@@ -350,7 +380,6 @@ secciones = {
             imagen_arriba:False,
             imagen_abajo:False,
             },
-
 
         "sigue-durmiendo":{#199
             titulo:"Paz y Naturaleza",
@@ -573,6 +602,7 @@ secciones = {
             r:5,
             s:["monasterio-iv","cadaver-bosque-iv"],
             },
+
         "cadaver-bosque-iv":{
             titulo:"Un cuerpo en el bosque",
             texto:'''
