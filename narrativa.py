@@ -361,6 +361,7 @@ secciones = {
             imagen_abajo:False,
             },
 
+
         "dever-guerrero-norte-1-10-15":{
             titulo:"Guerrero entre guerreros",
             texto:'''
@@ -442,7 +443,26 @@ secciones = {
         "p-emboscar-vikingos":{
             prueba:True,
             r:3,
-            s:["victoria-emboscada","espadas-flechas"] # 2?    3-
+            s:["victoria-emboscada","espadas-flechas"] # 2-   3-
+            },
+
+        "victoria-emboscada":{
+            titulo:"Victoria",
+            texto:'''
+            <p>Aciertas el cuello de un gigantón barbudo que se derrumba en silencio.
+            Una segunda flecha se hunde en la rodilla de un joven lancero y la
+            tercera atraviesa la espalda de un cobarde.</p>
+            <p>El sobresalto se extiende por la columna vikinga y antes de que se
+            den cuenta ha cundido el pánico. Sudando, sonríes, sorprendido de tu
+            buena estrella, pero te preguntas cuánto podrá durar la confusión a
+            los enemigos de tu patria.</p>
+            ''',
+            opciones:{"Aprovechas para liderar a los rezagados en su huida":"lideras-rezagados-9-10-15",
+                      "Decides que ya has conseguido a los rezagados el tiempo suficiente y te diriges a las tierras de tu familia":"tierras-familia-9-10-15"},
+                      # lideras-rezagados | tierras-familia
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
             },
 
         "espadas-flechas":{
