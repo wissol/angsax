@@ -1863,11 +1863,34 @@ secciones = {
             ''',
             opciones:{"Vuelves al fuerte":"al-fuerte-26-9-15",
                       "Ordenas una incursión nocturna para robar comida a los vikingos":"robar-comida-26-9-15",},
-                      # volver fuerte  | incursión nocturna
+                      # volver fuerte - | incursión nocturna -
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
+
+        "robar-comida-26-9-15":{
+                titulo:"Planeando la incursión nocturna",
+                texto:'''
+                <p>Necesitas un pequeño grupo que lleve la incursión. Querrías ir
+                con ellos, estar en medio de la acción, pero te preocupa la reacción
+                de tus guerreros, a los que les has negado el honor de la batalla
+                durante tanto tiempo. No obstante conseguir la comida es un asunto 
+                capital del que depende toda la campaña, la guerra y la supervivencia
+                de Angsax quizás.</p>
+                <p>Aparte de esto el resto del plan es bien simple; aparentar que 
+                alejas a tu ejército una vez más, para separar a los vikingos de su
+                campamento y, mientras, tus escaramuceadores se hacen con la comida y
+                queman el resto.</p>
+                <p>La cuestión es, ¿cuál es tu puesto en esta ocasión?</p>
+                ''',
+                opciones:{"Vas con los escaramuceadores":"escaramuceadores-10-10-15",
+                    "Te quedas al mando del ejército":"al-mando-ejercito-10-10-15"},
+                # escaramuceadores | ejercito
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
 
         "al-fuerte-26-9-15":{
             titulo:"En el fuerte",
