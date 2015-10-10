@@ -367,7 +367,7 @@ secciones = {
             s:["victoria-juicio-armas-10-10-15","derrota-juicio-armas-10-10-15"],
             },
 
-        "vicoria-juicio-armas-10-10-15":{
+        "victoria-juicio-armas-10-10-15":{
             titulo:"Rey y Señor",
             texto:'''
             <p>Aceptas su desafío con confianza que a todos parece real. &mdash;
@@ -389,6 +389,21 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "derrota-juicio-armas-10-10-15":{
+            titulo:"Muerto",
+            texto:'''
+            <p>Aceptastesu desafía con la confianza de creer que Dios lo haría todo
+            por ti. Pero ya antes de que empezara el combate rugía el cielo, y la
+            lluvia os inundaba desde que desnudastéis las espadas. Después, ¿tiene
+            importancia ahora lo que pasara? Él alargó demasiado la mano de la espada
+            al atacarte, tú intentaste cortársela pero fallaste y caíste empujado
+            por su escudo.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "dever-guerrero-norte-1-10-15":{
             titulo:"Guerrero entre guerreros",
