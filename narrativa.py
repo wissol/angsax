@@ -361,6 +361,34 @@ secciones = {
             imagen_abajo:False,
             },
 
+        "juicio-por-armas-8-10-15":{
+            prueba:True,
+            r:5,
+            s:["victoria-juicio-armas-10-10-15","derrota-juicio-armas-10-10-15"],
+            },
+
+        "vicoria-juicio-armas-10-10-15":{
+            titulo:"Rey y Señor",
+            texto:'''
+            <p>Aceptas su desafío con confianza que a todos parece real. &mdash;
+            Que la espada proclame la corona.</p>
+            <p>Tu orgullo no se apaga cuando tu contrincante desenvaina y levanta
+            su escudo del caballo blanco sobre su cabeza. Tampoco te achantas cuando
+            el mundo calla y se aparta de vosotros mientras bullen las
+            nubes. Vuestra batalla comienza sumergidos en la lluvia y el rugido del
+            cielo. Pero como casi todos los combates es más bien corta: tu contrincante
+            alargó demasiado la mano de la espada y tú la rajaste. Sin pensar, trató
+            de empujarte con su escudo, pero entonces te apartaste girando y tuviste
+            su espalda a tu merced: muerto.</p>
+            <p>Ahora eres Rey, rey de una pequeña ciudad asustada. Quiera Dios que
+            sepas como salvarla de los vikingos.</p>
+            ''',
+            opciones:False,
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
 
         "dever-guerrero-norte-1-10-15":{
             titulo:"Guerrero entre guerreros",
