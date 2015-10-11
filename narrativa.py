@@ -1932,9 +1932,15 @@ secciones = {
                 imagen_abajo:False,
                 },
 
+        "atacas-valor-11-10-15":{
+                prueba:True,
+                r:4,
+                s:["victoria-final-11-10-15", "derrota-final-11-10-15"],
+                },
+
         "fiesta-guerrera-11-10-15":{
                 prueba:True,
-                r:3,
+                r:3,5
                 s:["victoria-fiesta-guerrera-11-10-15", "derrota-fiesta-guerrera-11-10-15"],
                 # victoria - | derrota -
                 },
