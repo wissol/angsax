@@ -1927,6 +1927,7 @@ secciones = {
                 ''',
                 opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
                     "Te mantienes estricto en tu plan de no presentar batalla":"flaviano-11-10-15"},
+                # atacas - | flaviano ?
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
@@ -1934,14 +1935,33 @@ secciones = {
 
         "atacas-valor-11-10-15":{
                 prueba:True,
-                r:4,
-                s:["victoria-final-11-10-15", "derrota-final-11-10-15"],
+                r:6,
+                s:["victoria-final-11-10-15", "derrota-batalla-generica"],
+                # victoria - | derrota -
                 },
+
+        "victoria-final-11-10-15":{
+                titulo:"Victoria Final",
+                texto:'''
+                <p>Lo que debió haber sido imposible resultó muy fácil porque los vikingos, convencidos
+                de que esta vez tampoco ibáis a combatir descuidaron su formación y acabaron atacando
+                en pequeños grupos, que fuistéis derrotando según venían. Para cuando se dieron cuenta
+                de lo que estaba pasando ya era demasiado tarde y se vieron rodeados por las filas de
+                tu ejército. Ahora huyen, y ya son solo una masa informe sin campamento a dónde huir, 
+                ni provisiones. Pronto volverán a ti y te pedirán la paz. Angsax se ha salvado bajo su
+                nuevo rey.</p>
+                ''',
+                opciones:False,
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
 
         "fiesta-guerrera-11-10-15":{
                 prueba:True,
-                r:3,5
-                s:["victoria-fiesta-guerrera-11-10-15", "derrota-fiesta-guerrera-11-10-15"],
+                r:3,
+                s:["victoria-fiesta-guerrera-11-10-15","derrota-fiesta-guerrera-11-10-15"],
                 # victoria - | derrota -
                 },
 
