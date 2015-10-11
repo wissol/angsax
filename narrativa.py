@@ -1899,6 +1899,39 @@ secciones = {
                 # disciplinados | fiesta-guerrera -
                 },
 
+        "disciplinados-11-10-15":{
+                prueba:True,
+                r:7,
+                s:["infilrados-11-10-15", "pillados-11-10-15"],
+                },
+
+        "inflitrados-11-10-15":{
+                titulo:"Infitrados",
+                texto:'''
+                <p>Reunes a tu grupo de escaramucedadores, tres docenas de hombres que te
+                acompañarán en tu arriesgada aventura. Dejas designado a un comandante al
+                jefe de tu ejército con instrucciones claras: alejarse lentamente del
+                enemigo, sin dejarse sorprender ni trabar batalla, pero tratando de maniobrar
+                para que tenga que alejarse de su campamento. Eso será suficiente para que
+                solo tengáis que enfrentaros a un puñado de viejos guardias.</p>
+                <p>Y allá váis, ocultos entre las sombras de la tarde, silenciosos como
+                hurones, hasta que, divividos en grupos os apostáis junto al campamento
+                enemigo. Los de vanguardia te confirman que el plan ha dado resultado:
+                en el campamento solo quedan mujeres, niños y un puñado de guardias.</p>
+                <p>Antes de media hora los guardias han muerto, la mayoría apuñalados en
+                silencio, mujeres y niños han huído en todas direcciones y os alejáis del
+                campamento vikingo incendiado con un buen botín.</p>
+                <p>De vuelta a tu ejército, tu pequeña victoria ha restablecido parte del
+                entusiasmo y de la confianza que tienen contigo. Aunque todos están cansados
+                y hartos de esta eterna campaña y de nuevo tienes que tomar una decisión.</p>
+                ''',
+                opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
+                    "Te mantienes estricto en tu plan de no presentar batalla":"flaviano-11-10-15"}
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
         "fiesta-guerrera-11-10-15":{
                 prueba:True,
                 r:3,
