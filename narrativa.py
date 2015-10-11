@@ -1926,7 +1926,7 @@ secciones = {
                 y hartos de esta eterna campaña y de nuevo tienes que tomar una decisión.</p>
                 ''',
                 opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
-                    "Te mantienes estricto en tu plan de no presentar batalla":"flaviano-11-10-15"}
+                    "Te mantienes estricto en tu plan de no presentar batalla":"flaviano-11-10-15"},
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
