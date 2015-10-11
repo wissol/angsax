@@ -1875,10 +1875,10 @@ secciones = {
                 <p>Necesitas un pequeño grupo que lleve la incursión. Querrías ir
                 con ellos, estar en medio de la acción, pero te preocupa la reacción
                 de tus guerreros, a los que les has negado el honor de la batalla
-                durante tanto tiempo. No obstante conseguir la comida es un asunto 
+                durante tanto tiempo. No obstante conseguir la comida es un asunto
                 capital del que depende toda la campaña, la guerra y la supervivencia
                 de Angsax quizás.</p>
-                <p>Aparte de esto el resto del plan es bien simple; aparentar que 
+                <p>Aparte de esto el resto del plan es bien simple; aparentar que
                 alejas a tu ejército una vez más, para separar a los vikingos de su
                 campamento y, mientras, tus escaramuceadores se hacen con la comida y
                 queman el resto.</p>
@@ -1887,6 +1887,79 @@ secciones = {
                 opciones:{"Vas con los escaramuceadores":"escaramuceadores-10-10-15",
                     "Te quedas al mando del ejército":"al-mando-ejercito-10-10-15"},
                 # escaramuceadores | ejercito
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
+        "escaramuceadores-10-10-15":{
+                prueba:True,
+                r:4,
+                s:["disciplinados-11-10-15","fiesta-guerrera-11-10-15"],
+                # disciplinados | fiesta-guerrera -
+                },
+
+        "fiesta-guerrera-11-10-15":{
+                prueba:True,
+                r:3,
+                s:["victoria-fiesta-guerrera-11-10-15", "derrota-fiesta-guerrera-11-10-15"],
+                # victoria - | derrota -
+                },
+
+        "derrota-fiesta-guerrera-11-10-15":{
+                titulo:"Traición y Derrota",
+                texto:'''
+                <p>Reunes a tu grupo de escaramucedadores, tres docenas de hombres que te
+                acompañarán en tu arriesgada aventura. Dejas designado a un comandante al
+                jefe de tu ejército con instrucciones claras: alejarse lentamente del
+                enemigo, sin dejarse sorprender ni trabar batalla, pero tratando de maniobrar
+                para que tenga que alejarse de su campamento. Eso será suficiente para que
+                solo tengáis que enfrentaros a un puñado de viejos guardias.</p>
+                <p>Y allá váis, ocultos entre las sombras de la tarde, silenciosos como
+                hurones, hasta que, divividos en grupos os apostáis junto al campamento
+                enemigo. Los de vanguardia te confirman que el plan ha dado resultado:
+                en el campamento solo quedan mujeres, niños y un puñado de guardias.</p>
+                <p>Antes de media hora los guardias han muerto, la mayoría apuñalados en
+                silencio, mujeres y niños han huído en todas direcciones y os alejáis del
+                campamento vikingo incendiado con un buen botín.</p>
+                <p>Pero corta es vuestra alegría cuando descubrís al ejército vikingo regresando
+                acompañados por decenas de prisioneros y vuestro estandarte. Tu ejército ha
+                atacado, contraviniendo tus órdenes y jugándoselo todo a una tirada de dado
+                difícil, ha perdido. Ya no hay esperanza para Angsax, y para ti y tus escaramuceadores
+                os esperan años de guerrilla, en el mejor de los casos.</p>
+                ''',
+                opciones:False,
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
+        "victoria-fiesta-guerrera-11-10-15":{
+                titulo:"Victoria y Exilio",
+                texto:'''
+                <p>Reunes a tu grupo de escaramucedadores, tres docenas de hombres que te
+                acompañarán en tu arriesgada aventura. Dejas designado a un comandante al
+                jefe de tu ejército con instrucciones claras: alejarse lentamente del
+                enemigo, sin dejarse sorprender ni trabar batalla, pero tratando de maniobrar
+                para que tenga que alejarse de su campamento. Eso será suficiente para que
+                solo tengáis que enfrentaros a un puñado de viejos guardias.</p>
+                <p>Y allá váis, ocultos entre las sombras de la tarde, silenciosos como
+                hurones, hasta que, divividos en grupos os apostáis junto al campamento
+                enemigo. Los de vanguardia te confirman que el plan ha dado resultado:
+                en el campamento solo quedan mujeres, niños y un puñado de guardias y ya os
+                disponéis a atacar</p>
+                <p>Pero entonces un riero de vikingos desesperados corre en vuestra dirección,
+                no cargan, sino huyen, la mayoría sin escudos, algunos sin espada. Detrás
+                viene tu ejército victorioso matando a los rezagados. Enseguida se confirma
+                que Angsax ha obtenido una gran victoria, quizás por un error de los vikingos,
+                quizás por el azar desesperado de la batalla.</p>
+                <p>Todo son buenas noticias, excepto para ti. Los guerreros han vencido
+                desobedeciendo tus órdenes, &mdash;que desde un principio creyeron estúpidas&mdash;,
+                y has perdido todo autoridad sobre ellos. Y todo Angsax te deja solo, abandonado,
+                olvidando incluso que alguna vez perteneciste a tu pueblo. Final cruel y quizás
+                inmerecido, pero los hombres a menudo son injustos. Tendrás que afrontarlo.</p>
+                ''',
+                opciones:False,
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
