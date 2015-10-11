@@ -1886,7 +1886,7 @@ secciones = {
                 ''',
                 opciones:{"Vas con los escaramuceadores":"escaramuceadores-10-10-15",
                     "Te quedas al mando del ejército":"al-mando-ejercito-10-10-15"},
-                # escaramuceadores | ejercito
+                # escaramuceadores - | ejercito 
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
@@ -1896,13 +1896,14 @@ secciones = {
                 prueba:True,
                 r:4,
                 s:["disciplinados-11-10-15","fiesta-guerrera-11-10-15"],
-                # disciplinados | fiesta-guerrera -
+                # disciplinados - | fiesta-guerrera -
                 },
 
         "disciplinados-11-10-15":{
                 prueba:True,
                 r:7,
-                s:["infilrados-11-10-15", "pillados-11-10-15"],
+                s:["infiltrados-11-10-15", "pillados-11-10-15"],
+                # infiltrados - | pillados ?
                 },
 
         "inflitrados-11-10-15":{
@@ -1926,8 +1927,26 @@ secciones = {
                 y hartos de esta eterna campaña y de nuevo tienes que tomar una decisión.</p>
                 ''',
                 opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
-                    "Te mantienes estricto en tu plan de no presentar batalla":"flaviano-11-10-15"},
-                # atacas - | flaviano ?
+                    "Te mantienes estricto en tu plan de no presentar batalla":"fabiano-11-10-15"},
+                # atacas - | fabiano -
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
+        "fabiano-11-10-15":{
+                titulo:"La estatua en el pedestal",
+                texto:'''
+                <p>Esta vez no es sino un mes la que tus guerreros deben esperar. Durante todo
+                ese tiempo más y más vikingos, acuciados por el hambre y el cansancio abandonan
+                las filas de su horda hasta que llega al punto de que no pueden presentar batalla.
+                Finalmente, en lo que no puede llamarse una batalla, tu ejército vapulea al enemigo
+                que queda derrotado hasta el desaliento final.</p>
+                <p>Y en el campo de batalla, entre unas ruinas romanas donde contáis a los prisioneros
+                una vieja estatua en un pedestal te parece mirar con aprobación paternal. Es un general
+                romano, su nombre: Quintus Fabius Maximus Verrucosus Cunctator.</p>
+                ''',
+                opciones:False,
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
@@ -1956,7 +1975,6 @@ secciones = {
                 imagen_arriba:False,
                 imagen_abajo:False,
                 },
-
 
         "fiesta-guerrera-11-10-15":{
                 prueba:True,
