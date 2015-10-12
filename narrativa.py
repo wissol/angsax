@@ -1902,8 +1902,26 @@ secciones = {
         "disciplinados-11-10-15":{
                 prueba:True,
                 r:7,
-                s:["infiltrados-11-10-15", "pillados-11-10-15"],
-                # infiltrados - | pillados ?
+                s:["infiltrados-11-10-15", "muertos-11-10-15"],
+                # infiltrados - | muertos -
+                },
+
+        "muertos-11-10-15":{
+                titulo:"Muertos",
+                texto:'''
+                <p>Tras reunir a tu grupo de saqueadores y despedirte de tu ejército os
+                acercáis entre las sombras,divididos en pequeños grupos. Mientras, vuestro
+                ejército maniobra para hacer salir a los vikingos de su campamento y dejaróslo
+                libre. Todo debería haber ido bien.</p>
+                <p>Pero uno de tus grupos, excitados por las ganas de batalla, decidió acabar
+                con un noble vikingo y su acompañante que se había separado del grupo principal.
+                Resultó que su escolta no estaba tan lejos y lo que iba a ser un rápido asesinato
+                se tornó en una pequeña batalla que tú y tu grupo no podían ganar.</p>
+                ''',
+                opciones:False,
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
                 },
 
         "inflitrados-11-10-15":{
