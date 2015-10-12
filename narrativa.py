@@ -39,8 +39,8 @@ secciones = {
             montón de huesos en el fondo de un pantano.</p>
 
             <h3>Nota</h3>
-            <p>Esta obra no está terminada. A 6 de octubre de 2015 tengo hechas
-            203 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
+            <p>Esta obra no está terminada. A 12 de octubre de 2015 tengo hechas
+            223 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
             los días una o más secciones pero tendrás que tener paciencia porque
             soy solo una persona, con alguna ayuda de mis amigos de <a href="http://www.librojuegos.org">Librojuegos</a>,
             no una editorial.</p>
@@ -1886,7 +1886,34 @@ secciones = {
                 ''',
                 opciones:{"Vas con los escaramuceadores":"escaramuceadores-10-10-15",
                     "Te quedas al mando del ejército":"al-mando-ejercito-10-10-15"},
-                # escaramuceadores - | ejercito 
+                # escaramuceadores - | ejercito -
+                prueba:False,
+                imagen_arriba:False,
+                imagen_abajo:False,
+                },
+
+        "al-mando-ejercito-10-10-15":{
+                prueba:True,
+                r:7,
+                s:["exito-saquear-vikingos-12-10-15","fracaso-saquear-vikingos-12-10-15"],
+                # exito - | fracaso
+                },
+
+        "exito-saquear-vikingos-10-10-15":{
+                titulo:"Una gran oportunidad",
+                texto:'''
+                <p>Tras despedir a tu grupo de saqueadores, das a tu ejército las viejas
+                órdenes: acercarse al enemigo, pero no dejarse llevar a una batalla. Acatan
+                tus órdenes, con hastío, y hasta sientes que la única razón que lo hacen es
+                para dar una oportunidad a sus compañeros en el campamento vikingo.</p>
+                <p>Tras dos horas los escaramuceadores han vuelto cargados de botín y el humo
+                que surge tras el bosque te informa lo que ha pasado a su cargamento enemigo.
+                De pronto el entusiasmo ha vuelto a vuestras filas y sientes que justo lo contrario
+                debe estar ocurriendo en el campamento vikingo. Quizás sea ésta una oprtunidad 
+                de presentar batalla, si es que puedes confiar en el entusiasmo de tus hombres.</p>
+                ''',
+                opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
+                    "Te mantienes estricto en tu plan de no presentar batalla":"fabiano-11-10-15"},
                 prueba:False,
                 imagen_arriba:False,
                 imagen_abajo:False,
