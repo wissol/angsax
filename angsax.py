@@ -10,7 +10,7 @@ def annade_imagen_aleatoria(seccion):
     z = seccion
     if (not z['imagen-arriba'] ) and (not z['imagen-abajo']):
         ilustraciones = ["adze", "ancient_nordic_borre_beasts", "bosque", "caravan", "dagger", "dance", "doll",
-                         "escudo", "Girl_hut", "helmet", "hut", "kidsplay", "lira",
+                         "escudo", "Girl_hut", "helmet", "hut", "kidsplay", "iglesia", "lira",
                          "molaise", "mousy",
                          "oak_leaf_illustration", "sceata", "Sword",
                          "viking_shield_style_brooch_by_eveyd-d38na6a",
