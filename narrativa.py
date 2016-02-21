@@ -39,8 +39,8 @@ secciones = {
             montón de huesos en el fondo de un pantano.</p>
 
             <h3>Nota</h3>
-            <p>Esta obra no está terminada. A 12 de octubre de 2015 tengo hechas
-            223 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
+            <p>Esta obra no está terminada. A 21 de octubre de 2016 tengo hechas
+            224 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
             los días una o más secciones pero tendrás que tener paciencia porque
             soy solo una persona, con alguna ayuda de mis amigos de <a href="http://www.librojuegos.org">Librojuegos</a>,
             no una editorial.</p>
@@ -814,14 +814,29 @@ secciones = {
             vez más leves, sino como si todo el carro se hubiera zambullido en
             el inframundo.</p>
             ''',
-            opciones:{"Escarbas en la tierra en busca de pistas":"escarbas-17-sep", #
+            opciones:{"Escarbas en la tierra en busca de pistas":"escarbas-17-sep", #-
                       "Abandonas la búsqueda y vas a la abadía":"san-cuthbert-72", #-
-                      "No pierdes la esperanza de enconrar tu caballo":"p-caballo-17-sep"}, #
+                      "No pierdes la esperanza de encontrar tu caballo":"p-caballo-17-sep"}, #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
             },
 
+        "escarbas-17-sep":{
+            titulo:"Oro",
+            texto:'''
+            <p>Escarbas en la tierra tan profundamente como te es posible con tus ínfimos medios,
+            y encuentras una recompensa extraordinaria, porque entre la tierra,
+            húmeda y negra, brilla un fínisimo polvo de oro. En conjunto, su valor
+            es tan pírrico como su peso, pero te confirma que por aquí ha pasado
+            la magia de los duendes.</p>
+            ''',
+            opciones:{"Abandonas la búsqueda y vas a la abadía":"san-cuthbert-72", #-
+                      "No pierdes la esperanza de encontrar tu caballo":"p-caballo-17-sep"}, #
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
 
         "san-cuthbert-72":{
             titulo:"San Cuthbert",
@@ -1909,7 +1924,7 @@ secciones = {
                 <p>Tras dos horas los escaramuceadores han vuelto cargados de botín y el humo
                 que surge tras el bosque te informa lo que ha pasado a su cargamento enemigo.
                 De pronto el entusiasmo ha vuelto a vuestras filas y sientes que justo lo contrario
-                debe estar ocurriendo en el campamento vikingo. Quizás sea ésta una oprtunidad 
+                debe estar ocurriendo en el campamento vikingo. Quizás sea ésta una oprtunidad
                 de presentar batalla, si es que puedes confiar en el entusiasmo de tus hombres.</p>
                 ''',
                 opciones:{"Atacas confiando en el valor de tus hombres":"atacas-valor-11-10-15",
@@ -2011,7 +2026,7 @@ secciones = {
                 de que esta vez tampoco ibáis a combatir descuidaron su formación y acabaron atacando
                 en pequeños grupos, que fuistéis derrotando según venían. Para cuando se dieron cuenta
                 de lo que estaba pasando ya era demasiado tarde y se vieron rodeados por las filas de
-                tu ejército. Ahora huyen, y ya son solo una masa informe sin campamento a dónde huir, 
+                tu ejército. Ahora huyen, y ya son solo una masa informe sin campamento a dónde huir,
                 ni provisiones. Pronto volverán a ti y te pedirán la paz. Angsax se ha salvado bajo su
                 nuevo rey.</p>
                 ''',
@@ -2556,7 +2571,7 @@ secciones = {
             ''',
             opciones:{"Buscas un lugar seguro para esconderte":"seguro-esconderte-26-9-15",
                       "Buscas a tu familia, si es que alguien ha sobrevivido.":"buscas-familia-superviviente-26-9-15"},
-                      # lugar seguro | buscar familia
+                      # lugar seguro - | buscar familia
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
