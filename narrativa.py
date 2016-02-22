@@ -39,8 +39,8 @@ secciones = {
             montón de huesos en el fondo de un pantano.</p>
 
             <h3>Nota</h3>
-            <p>Esta obra no está terminada. A 21 de octubre de 2016 tengo hechas
-            224 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
+            <p>Esta obra no está terminada. A 22 de octubre de 2016 tengo hechas
+            225 secciones, que son ya unas cuantas. Pretendo ir añadiendo todos
             los días una o más secciones pero tendrás que tener paciencia porque
             soy solo una persona, con alguna ayuda de mis amigos de <a href="http://www.librojuegos.org">Librojuegos</a>,
             no una editorial.</p>
@@ -350,12 +350,35 @@ secciones = {
             Entre estos últimos el que vocifera más en un buen guerrero de anchos
             hombres y viejas cicatrices que, quizás llevado por el lugar y las
             circunstancias, te desafía de guisa poética:</p>
-            <p>&mdash;Si de Dios vienes que Dios te prueba. Arroja tu cuerpo al
+            <p>&mdash;Si de Dios vienes que Dios te pruebe. Arroja tu cuerpo al
             fuego, que si de Dios vienes no te quemará, o enfrentaté a mis armas,
             que aunque de Dios vengas no tengo miedo a la muerte.</p>
             ''',
             opciones:{"Te enfrentas a un juicio por las armas":"juicio-por-armas-8-10-15",
                       "Te enfrentas al juicio del fuego":"juicio-del-fuego-8-10-15",}, # armas fuego
+            prueba:False,
+            imagen_arriba:False,
+            imagen_abajo:False,
+            },
+
+        "juicio-del-fuego-8-10-15":{
+            titulo:"Espada de Fuego",
+            texto:'''
+            <p>&mdash;No tentarás al Señor, tu Dios. &mdash;Respondes con un
+            versículo de las Escrituras, el mismo con el que Jesucristo respondió
+            al diablo, pero el ignorante al que te enfrentas lo toma como una
+            confesión de cobardía.</p>
+            <p>Pronto, todos los congregados, acopian carbón y troncos en el
+            centro de la plaza, y crean un inmenso fuego, entre plegarias de
+            unos y burlas de otros, que pronto se yergue ante ti, como un demonio.</p>
+            <p>Sin arredrarte, aunque temblando de miedo, caminas hacia la hoguera,
+            con la espada desenvainada, que, al punto de llegar a las llamas, su
+            filo absorbe las llamas, apagando al instante la terrible hoguera. Al
+            instante todos quedan mudos de asombro hasta que, segundos más tarde,
+            rompen en vítores y te proclaman rey. Comienza así la leyenda del primer
+            rey de Angsax.</p>
+            ''',
+            opciones:False,
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
@@ -392,7 +415,7 @@ secciones = {
         "derrota-juicio-armas-10-10-15":{
             titulo:"Muerto",
             texto:'''
-            <p>Aceptastesu desafía con la confianza de creer que Dios lo haría todo
+            <p>Aceptaste su desafía con la confianza de creer que Dios lo haría todo
             por ti. Pero ya antes de que empezara el combate rugía el cielo, y la
             lluvia os inundaba desde que desnudastéis las espadas. Después, ¿tiene
             importancia ahora lo que pasara? Él alargó demasiado la mano de la espada
