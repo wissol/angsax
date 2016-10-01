@@ -42,7 +42,7 @@ secciones = {
             <dt>Estado: </dt><dd>Incompleta.</dd>
             </dl>
             <dl>
-            <dt>Última Actulización: </dt> <dd>22 de febrero de 2016</dd>
+            <dt>Última Actualización: </dt> <dd>22 de febrero de 2016</dd>
             </dl>
             <dl>
             <dt>Secciones Hechas: </dt> <dd>225 de 300 (previstas)</dd>
