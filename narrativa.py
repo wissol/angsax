@@ -770,11 +770,29 @@ secciones = {
             así, estás en la presencia de elfos, como en las leyendas antiguas.
             Elfos, a los que quizás hayas ofendido...</p>
             ''',
-            opciones:{"Te disculpas y te alejas lentamente":"alejarse-lento-14-9", #
-                      "Sales corriendo":"sales-corriendo-14-9"}, #
+            opciones:{"Te disculpas y te alejas lentamente":"alejarse-lento-14-9",  # -
+                      "Sales corriendo":"sales-corriendo-14-9"},  #
             prueba:False,
             imagen_arriba:False,
             imagen_abajo:False,
+            },
+
+        "alejarse-lento-14-9": {
+            titulo: "",
+            texto: '''
+            <p>Buscas cabizbajo las palabras adecuadas para disculparte, pero no hacen falta.</p>
+            <p>&mdash;Templa tu ánimo, sabemos que somos raros. &mdash;Te dice la más anciana de todos.</p>
+            <p>&mdash;Pero nos gusta.&mdash;Añade una niña.</p>
+            <p>&mdash;Nos gusta mucho.&mdash;Esto lo dice el niño del traje de plumas de pájaro justo antes de dar un
+            salto de tres metros hasta posarse con sus pies descalzos sobre una rama que solo por magia podría sostener
+            su peso</p>
+            <p>&mdash;Bueno,...&mdash;dices finalmente,&mdash;Adiós.</p>
+            <p>&mdash;Hasta que volvamos a encontrarnos.</p>
+            ''',
+            opciones: {"Sigue tu camino":"volvamos-a-encontrarnos-2-oct-16"},
+            prueba: False,
+            imagen_arriba: False,
+            imagen_abajo: False,
             },
 
         "carro-41":{

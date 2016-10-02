@@ -5,8 +5,9 @@ from narrativa import secciones
 app = Flask(__name__)
 
 def annade_imagen_aleatoria(seccion):
-    ''' elige una imagen aleatoria de una lista si no se ha establecido ninguna
-    '''
+    """
+    elige una imagen aleatoria de una lista si no se ha establecido ninguna
+    """
     z = seccion
     if (not z['imagen-arriba'] ) and (not z['imagen-abajo']):
         ilustraciones = ["adze", "ancient_nordic_borre_beasts", "bosque", "caravan", "dagger", "dance", "doll",
@@ -19,15 +20,22 @@ def annade_imagen_aleatoria(seccion):
         z[choice(lugar)] = choice(ilustraciones) + ".png"
     return z
 
+
 def prueba(y):
-    ''' devuelve la sección que debe ir a continuación de acuerdo a la
-    probabilidad que tiene asignada'''
+    """
+    devuelve la sección que debe ir a continuación de acuerdo a la
+    probabilidad que tiene asignada
+    :param y:
+    :return:
+
+    """
     m = 1
     if randint(1,10) <= y["r"]:
         m = 0
     return y["s"][m]
 
-def siguiente_seccion(x,z):
+
+def siguiente_seccion(x, z):
     try:
         y = x[z]
         try:
@@ -46,9 +54,11 @@ def siguiente_seccion(x,z):
         y['KeyError']= z
     return y
 
+
 @app.route('/', methods=['GET'])
 def inicio():
     return render_template('index.html', y = secciones['0'])
+
 
 @app.route('/', methods=['POST'])
 def section():
